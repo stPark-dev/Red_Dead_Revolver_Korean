@@ -441,7 +441,7 @@
 {"id": "swat.strtbl/Done", "src": "Done", "same_as": "swat.strtbl/D", "state": "needs_review"}
 {"id": "swat.strtbl/Double Gun", "src": "Double Gun", "same_as": "swat.strtbl/Dblgun", "state": "needs_review"}
 {"id": "swat.strtbl/Draw_And_Holster", "src": "If you go to the circle by the river I'll teach you how to shoot.", "ko": "강가에 표시된 원으로 가거라. 거기서 사격을 가르쳐 주마.", "state": "needs_review"}
-{"id": "swat.strtbl/Draw_And_Holster2", "src": "Pressing {BTN_BD} will draw your gun and put you in battle mode.", "ko": "{BTN_BD} 버튼을 눌러 총을 뽑으면 전투 태세가 된다.", "state": "needs_review"}
+{"id": "swat.strtbl/Draw_And_Holster2", "src": "Pressing {BTN_BD} will draw your gun and put you in battle mode.", "ko": "{BTN_BD} 버튼으로 총을 뽑으면 전투 태세다.", "state": "needs_review"}
 {"id": "swat.strtbl/Draw_And_Holster3", "src": "If you press {BTN_BD} again you will holster your guns.", "ko": "{BTN_BD} 버튼을 다시 누르면 총을 집어넣는다.", "state": "needs_review"}
 {"id": "swat.strtbl/Draw_And_Holster4", "src": "Or you can use L1. As long as you hold L1 your guns will stay drawn.", "ko": "L1 버튼을 써도 된다. L1을 누르고 있는 동안은 총을 뽑은 채로 있지.", "state": "needs_review"}
 {"id": "swat.strtbl/Draw_And_Holster5", "src": "Draw your gun!", "ko": "총을 뽑아라!", "state": "needs_review"}
@@ -626,8 +626,8 @@
 {"id": "swat.strtbl/Perfnew_Dad_BottleResult2", "src": "Not bad, but you could've done better.", "ko": "나쁘지 않지만 더 잘할 수 있었어.", "state": "needs_review"}
 {"id": "swat.strtbl/Perfnew_Dad_BottleResult3", "src": "You'll need to do better than that.", "ko": "그것보단 잘해야 한다.", "state": "needs_review"}
 {"id": "swat.strtbl/Perfnew_Dad_BottleResult4", "src": "You didn't shoot a single one. ", "ko": "하나도 못 맞혔구나. ", "state": "needs_review"}
-{"id": "swat.strtbl/Perfnew_Dummy_1", "src": "Now, let's use this targeting dummy as an enemy", "ko": "이제 저 허수아비를 적이라 생각하고 쏴 봐라.", "state": "needs_review"}
-{"id": "swat.strtbl/Perfnew_Dummy_2", "src": "You can manually target and hit an enemy in any body part", "ko": "직접 조준하면 원하는 부위를 맞힐 수 있다.", "state": "needs_review"}
+{"id": "swat.strtbl/Perfnew_Dummy_1", "src": "Now, let's use this targeting dummy as an enemy", "ko": "이제 저 허수아비를 적이라 치고 쏴 봐라.", "state": "needs_review"}
+{"id": "swat.strtbl/Perfnew_Dummy_2", "src": "You can manually target and hit an enemy in any body part", "ko": "직접 조준하면 원하는 곳을 맞힐 수 있다.", "state": "needs_review"}
 {"id": "swat.strtbl/Perfnew_Dummy_3", "src": "including: ", "ko": "이를테면: ", "state": "needs_review"}
 {"id": "swat.strtbl/Perfnew_Dummy_4", "src": "Legs", "ko": "다리", "state": "needs_review"}
 {"id": "swat.strtbl/Perfnew_Dummy_5", "src": "Arms", "ko": "팔", "state": "needs_review"}
@@ -838,10 +838,10 @@
 {"id": "swat.strtbl/Super Armor", "src": "Super Armor", "ko": "슈퍼 아머", "state": "needs_review"}
 {"id": "swat.strtbl/Super Tackle", "src": "Super Tackle", "ko": "슈퍼 태클", "state": "needs_review"}
 {"id": "swat.strtbl/TIP_CanShootPowerups", "src": "TIP: You can shoot most powerups in order to collect them.", "ko": "팁: 대부분의 파워업은 쏴서 얻을 수 있습니다.", "state": "needs_review"}
-{"id": "swat.strtbl/TIP_PigJosh_A", "src": "This is Pig Josh, he likes to use dynamite.", "ko": "‘돼지’ 조시는 다이너마이트를 즐겨 씁니다.", "state": "needs_review"}
+{"id": "swat.strtbl/TIP_PigJosh_A", "src": "This is Pig Josh, he likes to use dynamite.", "ko": "‘돼지’ 조시는 다이너마이트가 특기입니다.", "state": "needs_review"}
 {"id": "swat.strtbl/TIP_PigJosh_B", "src": "He uses iron plates on his arms to block bullets so he's really tough.", "ko": "팔에 두른 철판으로 총알을 막아서 아주 질깁니다.", "state": "needs_review"}
 {"id": "swat.strtbl/TIP_PigJosh_C", "src": "Blocking slows him down; but he can call his pet vultures on you.", "ko": "막는 동안은 느려지지만, 애완 독수리들을 불러 당신을 공격합니다.", "state": "needs_review"}
-{"id": "swat.strtbl/TIP_PigJosh_D", "src": "Try using your ricochet shot (press R2 with gun drawn) to hit him...", "ko": "도탄 사격(총을 뽑고 R2)으로 들키지 않고...", "state": "needs_review"}
+{"id": "swat.strtbl/TIP_PigJosh_D", "src": "Try using your ricochet shot (press R2 with gun drawn) to hit him...", "ko": "도탄 사격(총 뽑고 R2)으로 들키지 않고...", "state": "needs_review"}
 {"id": "swat.strtbl/TIP_PigJosh_E", "src": "without beeing seen.  Good Luck!", "ko": "그를 맞혀 보세요. 행운을 빕니다!", "state": "needs_review"}
 {"id": "swat.strtbl/TIP_ShootHealth", "src": "TIP: Shoot health bottles to regain your health!", "ko": "팁: 체력 병을 쏘면 체력을 회복합니다!", "state": "needs_review"}
 {"id": "swat.strtbl/TIP_ThisIncludesHealth", "src": "TIP: This includes health powerups.", "ko": "팁: 체력 파워업도 마찬가지입니다.", "state": "needs_review"}
@@ -898,7 +898,7 @@
 {"id": "swat.strtbl/Total", "src": "Total", "ko": "합계", "state": "needs_review"}
 {"id": "swat.strtbl/Train", "src": "Train", "ko": "기차", "state": "needs_review"}
 {"id": "swat.strtbl/Traingood_GotIt", "src": "Got it!", "ko": "알았어!", "state": "needs_review"}
-{"id": "swat.strtbl/Traingood_More_Bandits", "src": "There are more bandits! What do they want with my train?", "ko": "산적이 또 있잖아! 내 기차를 어쩌려는 거야?", "state": "needs_review"}
+{"id": "swat.strtbl/Traingood_More_Bandits", "src": "There are more bandits! What do they want with my train?", "ko": "산적이 또 있잖아! 내 기차를 어쩌려고?", "state": "needs_review"}
 {"id": "swat.strtbl/Traingood_Next_Stop", "src": "Next stop, Brimstone.", "ko": "다음 역은 브림스톤.", "state": "needs_review"}
 {"id": "swat.strtbl/Traingood_SomethingMust", "src": "Something must have happened to the engineer!", "ko": "기관사한테 무슨 일이 생긴 게 틀림없어!", "state": "needs_review"}
 {"id": "swat.strtbl/Traingood_ThanksForSaving", "src": "Thanks for saving me! Let me patch you up a bit.", "ko": "살려 줘서 고맙소! 상처를 좀 봐 드리지.", "state": "needs_review"}

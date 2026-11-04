@@ -175,3 +175,6 @@
 - 한계: 문자열별 표시 상자가 매핑되지 않아 빌드 검사로 강제하지 않음. 점검 스크립트는 QA 보조 수단.
 - 2차 점검(하단 상자 567/571 포함, 4개 폭 모두): 한국어에서만 홀로 남는 문장 18개 + 연속 문장 `Sher70_DuelTutorial_29b1`(29a1과 앞부분을 맞춤)을 고쳐 씀. 기준은 464 이하로 한 줄, 또는 두 상자 모두에서 고르게 두 줄.
 - 남은 항목: 사용자 문안 6개(Draw_And_Holster2, Perfnew_Dummy_1/2, TIP_PigJosh_A/D, Traingood_More_Bandits)는 하단 상자에서는 문제없고 상단 상자에 나올 때만 끝 단어가 떨어짐. 음성 대사(Dummy·Draw·Bandits)는 하단 상자일 가능성이 높으나 TIP_*의 표시 상자는 미확인.
+- 표시 상자 확인(1장 훈련장, 세이브스테이트 6·7): 아버지 음성 대사("훈련장에 온 걸 환영한다", "제법 잘 쏘는구나", `Perfnew_Dummy_1`)도 **상단 상자**에 표시됨. 음성 대사는 하단 상자라는 가정은 틀림. 하단 상자는 레벨 도입부 레터박스 구간 대사에서만 확인.
+- 이에 따라 사용자 문안 6개(Perfnew_Dummy_1/2, Draw_And_Holster2, TIP_PigJosh_A/D, Traingood_More_Bandits)를 표현을 최소로 바꿔 464 이하로 줄임. `Perfnew_Dummy_1`은 상태 7에서 RAM의 문자열을 새 문안으로 바꾼 뒤 과녁을 맞혀 한 줄 표시를 확인.
+- 남은 점검 대상(4개 폭 기준): `Sher70_DuelTutorial_26_combined`, `HOWTOGATGUN_10` 2개뿐.

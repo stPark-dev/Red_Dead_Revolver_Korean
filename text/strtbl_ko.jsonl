@@ -509,7 +509,7 @@
 {"id": "swat.strtbl/HowToReload", "src": "Press {BTN_BC} to reload.", "ko": "{BTN_BC} 버튼으로 재장전합니다.", "state": "needs_review"}
 {"id": "swat.strtbl/HowToSneak01", "src": "How to use cover:", "ko": "엄폐하는 법:", "state": "needs_review"}
 {"id": "swat.strtbl/HowToSneak02", "src": "Run up to an object that will provide cover, press toward the object and press {BTN_BD}", "ko": "엄폐할 물체로 달려가 그쪽으로 방향을 누른 채 {BTN_BD} 버튼을 누르세요", "state": "needs_review"}
-{"id": "swat.strtbl/HowToSneak03", "src": "While attached to cover you can walk right…", "ko": "엄폐한 상태에서 오른쪽으로 걸을 수도 있고...", "state": "needs_review"}
+{"id": "swat.strtbl/HowToSneak03", "src": "While attached to cover you can walk right…", "ko": "엄폐한 채 오른쪽으로 걸을 수도 있고...", "state": "needs_review"}
 {"id": "swat.strtbl/HowToSneak04", "src": "… or you can walk to the left.", "ko": "... 왼쪽으로 걸을 수도 있습니다.", "state": "needs_review"}
 {"id": "swat.strtbl/HowToSneak05", "src": "When you reach an open edge, continue to press in the direction of the edge …", "ko": "트인 모서리에 닿으면 계속 그 방향으로 누르세요...", "state": "needs_review"}
 {"id": "swat.strtbl/HowToSneak05_B", "src": "and you'll peep around the corner.", "ko": "그러면 모퉁이 너머를 엿볼 수 있습니다.", "state": "needs_review"}

@@ -1,0 +1,1402 @@
+{
+ "_doc": "Korean redraw of text baked into IPU images (tools/gfxtext.py, build_patch --gfx-tr). Boxes are x0,y0,x1,y1 in source pixels; every copy of an image and its aliases must match src_sha1. state: needs_review | distribution_eligible.",
+ "scope": "2026-11-04 user decision A: 8 mpload images reachable by mpscreens.txt + coolscreen LOADING + gameover + lvl_core_map labels.",
+ "fonts": {
+  "title": "../fonts/NotoSerifKR-Black.otf",
+  "body": "../fonts/NotoSerifKR-Bold.otf"
+ },
+ "colors": {
+  "red": [
+   55,
+   12,
+   8
+  ],
+  "ink": [
+   37,
+   30,
+   21
+  ],
+  "head": [
+   24,
+   12,
+   8
+  ],
+  "gameover": [
+   80,
+   4,
+   8
+  ],
+  "loading": [
+   100,
+   95,
+   84
+  ],
+  "pencil": [
+   70,
+   58,
+   40
+  ]
+ },
+ "images": {
+  "mpload_gen_01.ipu": {
+   "aliases": [],
+   "state": "needs_review",
+   "src_sha1": "fd49247a7fa4fde497c72aca5bc01062e451e986",
+   "q": 2,
+   "items": [
+    {
+     "en": "CONTROLLER",
+     "box": [
+      140,
+      42,
+      394,
+      84
+     ],
+     "mask": "dark",
+     "lines": [
+      "조작법"
+     ],
+     "x": 267,
+     "align": "c",
+     "y": 44,
+     "size": 36,
+     "font": "title",
+     "color": "red"
+    },
+    {
+     "en": "QUICK CHANGE WEAPON",
+     "box": [
+      68,
+      96,
+      153,
+      158
+     ],
+     "mask": "dark_gray",
+     "lines": [
+      "빠른",
+      "무기 교체"
+     ],
+     "x": 150,
+     "align": "r",
+     "y": 104,
+     "size": 17,
+     "font": "title",
+     "color": "ink"
+    },
+    {
+     "en": "DRAW",
+     "box": [
+      205,
+      96,
+      266,
+      117
+     ],
+     "mask": "dark_gray",
+     "lines": [
+      "뽑기"
+     ],
+     "x": 236,
+     "align": "c",
+     "y": 97,
+     "size": 17,
+     "font": "title",
+     "color": "ink"
+    },
+    {
+     "en": "SNEAK",
+     "box": [
+      301,
+      96,
+      371,
+      117
+     ],
+     "mask": "dark_gray",
+     "lines": [
+      "잠입"
+     ],
+     "x": 336,
+     "align": "c",
+     "y": 97,
+     "size": 17,
+     "font": "title",
+     "color": "ink"
+    },
+    {
+     "en": "ACTION",
+     "box": [
+      380,
+      115,
+      456,
+      139
+     ],
+     "mask": "dark_gray",
+     "lines": [
+      "행동"
+     ],
+     "x": 383,
+     "align": "l",
+     "y": 117,
+     "size": 17,
+     "font": "title",
+     "color": "ink"
+    },
+    {
+     "en": "FIRE",
+     "box": [
+      380,
+      150,
+      432,
+      172
+     ],
+     "mask": "dark_gray",
+     "lines": [
+      "사격"
+     ],
+     "x": 383,
+     "align": "l",
+     "y": 152,
+     "size": 17,
+     "font": "title",
+     "color": "ink"
+    },
+    {
+     "en": "RELOAD",
+     "box": [
+      380,
+      192,
+      458,
+      214
+     ],
+     "mask": "dark_gray",
+     "lines": [
+      "재장전"
+     ],
+     "x": 383,
+     "align": "l",
+     "y": 194,
+     "size": 17,
+     "font": "title",
+     "color": "ink"
+    },
+    {
+     "en": "MELEE ATTACK",
+     "box": [
+      380,
+      225,
+      464,
+      270
+     ],
+     "mask": "dark_gray",
+     "lines": [
+      "근접",
+      "공격"
+     ],
+     "x": 383,
+     "align": "l",
+     "y": 227,
+     "size": 17,
+     "font": "title",
+     "color": "ink"
+    },
+    {
+     "en": "CHANGE WEAPON",
+     "box": [
+      68,
+      196,
+      151,
+      240
+     ],
+     "mask": "dark_gray",
+     "lines": [
+      "무기",
+      "교체"
+     ],
+     "x": 148,
+     "align": "r",
+     "y": 198,
+     "size": 17,
+     "font": "title",
+     "color": "ink"
+    },
+    {
+     "en": "MOVE",
+     "box": [
+      91,
+      253,
+      149,
+      274
+     ],
+     "mask": "dark_gray",
+     "lines": [
+      "이동"
+     ],
+     "x": 146,
+     "align": "r",
+     "y": 255,
+     "size": 17,
+     "font": "title",
+     "color": "ink"
+    },
+    {
+     "en": "AIM",
+     "box": [
+      242,
+      294,
+      286,
+      317
+     ],
+     "mask": "dark_gray",
+     "lines": [
+      "조준"
+     ],
+     "x": 264,
+     "align": "c",
+     "y": 296,
+     "size": 17,
+     "font": "title",
+     "color": "ink"
+    },
+    {
+     "en": "JUMP",
+     "box": [
+      311,
+      294,
+      372,
+      317
+     ],
+     "mask": "dark_gray",
+     "lines": [
+      "점프"
+     ],
+     "x": 341,
+     "align": "c",
+     "y": 296,
+     "size": 17,
+     "font": "title",
+     "color": "ink"
+    },
+    {
+     "en": "PRESS L3 BUTTON TO CROUCH",
+     "box": [
+      70,
+      331,
+      228,
+      370
+     ],
+     "mask": "dark_gray",
+     "lines": [
+      "L3 버튼:",
+      "웅크리기"
+     ],
+     "x": 74,
+     "align": "l",
+     "y": 333,
+     "size": 15,
+     "font": "title",
+     "color": "ink"
+    },
+    {
+     "en": "PRESS R3 BUTTON FOR RIFLE ZOOM",
+     "box": [
+      254,
+      331,
+      414,
+      370
+     ],
+     "mask": "dark_gray",
+     "lines": [
+      "R3 버튼:",
+      "소총 확대"
+     ],
+     "x": 258,
+     "align": "l",
+     "y": 333,
+     "size": 15,
+     "font": "title",
+     "color": "ink"
+    }
+   ]
+  },
+  "mpload_gen_02.ipu": {
+   "aliases": [],
+   "state": "needs_review",
+   "src_sha1": "7709bb05aff59d1f847fb77e13fb415bdc1514c6",
+   "q": 2,
+   "items": [
+    {
+     "en": "PROFILES & OPTIONS",
+     "box": [
+      78,
+      50,
+      452,
+      94
+     ],
+     "mask": "dark",
+     "lines": [
+      "프로필과 설정"
+     ],
+     "x": 265,
+     "align": "c",
+     "y": 54,
+     "size": 36,
+     "font": "title",
+     "color": "red"
+    },
+    {
+     "en": "Remember to assign your Profile to your character / whenever you play Showdown mode:",
+     "box": [
+      78,
+      130,
+      434,
+      172
+     ],
+     "mask": "dark",
+     "lines": [
+      "쇼다운 모드를 할 때는 잊지 말고",
+      "캐릭터에 프로필을 지정하세요:"
+     ],
+     "x": 80,
+     "align": "l",
+     "y": 134,
+     "size": 15,
+     "font": "body",
+     "color": "ink",
+     "pitch": 20
+    },
+    {
+     "en": "•All your settings… •Your statistics… •The more you play…",
+     "box": [
+      86,
+      194,
+      464,
+      254
+     ],
+     "mask": "dark",
+     "lines": [
+      "• 모든 설정이 이 캐릭터로 옮겨집니다.",
+      "• 전적이 일지에 계속 기록됩니다.",
+      "• 많이 할수록 더 많이 열립니다!"
+     ],
+     "x": 88,
+     "align": "l",
+     "y": 197,
+     "size": 15,
+     "font": "body",
+     "color": "ink",
+     "pitch": 20
+    },
+    {
+     "en": "Just press",
+     "box": [
+      78,
+      272,
+      147,
+      296
+     ],
+     "mask": "dark",
+     "lines": [
+      "간단히"
+     ],
+     "x": 144,
+     "align": "r",
+     "y": 278,
+     "size": 15,
+     "font": "body",
+     "color": "ink"
+    },
+    {
+     "en": "to open the Options Panel on the",
+     "box": [
+      164,
+      272,
+      402,
+      296
+     ],
+     "mask": "dark",
+     "lines": [
+      "버튼을 눌러 캐릭터 선택 화면의"
+     ],
+     "x": 168,
+     "align": "l",
+     "y": 278,
+     "size": 15,
+     "font": "body",
+     "color": "ink"
+    },
+    {
+     "en": "Character Select screen and select Player.",
+     "box": [
+      78,
+      296,
+      372,
+      318
+     ],
+     "mask": "dark",
+     "lines": [
+      "설정 창을 열고 플레이어를 고르세요."
+     ],
+     "x": 80,
+     "align": "l",
+     "y": 298,
+     "size": 15,
+     "font": "body",
+     "color": "ink"
+    }
+   ]
+  },
+  "mpload_gen_03.ipu": {
+   "aliases": [],
+   "state": "needs_review",
+   "src_sha1": "511867bd3fd50654fe50b9f14ca9d80c5b26804a",
+   "q": 2,
+   "items": [
+    {
+     "en": "MULTIPLAYER GAME MODES",
+     "box": [
+      140,
+      40,
+      390,
+      122
+     ],
+     "mask": "dark",
+     "lines": [
+      "멀티플레이",
+      "게임 모드"
+     ],
+     "x": 264,
+     "align": "c",
+     "y": 44,
+     "size": 32,
+     "font": "title",
+     "color": "red",
+     "pitch": 40
+    },
+    {
+     "en": "Bounty Hunter",
+     "box": [
+      116,
+      144,
+      268,
+      164
+     ],
+     "mask": "dark",
+     "lines": [
+      "현상금 사냥꾼"
+     ],
+     "x": 119,
+     "align": "l",
+     "y": 146,
+     "size": 16,
+     "font": "title",
+     "color": "head"
+    },
+    {
+     "en": "Be the first to collect the Bounty Limit.",
+     "box": [
+      116,
+      164,
+      400,
+      186
+     ],
+     "mask": "dark",
+     "lines": [
+      "현상금 한도를 가장 먼저 모으세요."
+     ],
+     "x": 119,
+     "align": "l",
+     "y": 167,
+     "size": 15,
+     "font": "body",
+     "color": "ink"
+    },
+    {
+     "en": "Sundown",
+     "box": [
+      116,
+      204,
+      202,
+      224
+     ],
+     "mask": "dark",
+     "lines": [
+      "해 질 녘"
+     ],
+     "x": 119,
+     "align": "l",
+     "y": 206,
+     "size": 16,
+     "font": "title",
+     "color": "head"
+    },
+    {
+     "en": "Have the most money when the timer runs out.",
+     "box": [
+      116,
+      224,
+      342,
+      266
+     ],
+     "mask": "dark",
+     "lines": [
+      "타이머가 끝날 때 가장 많은 돈을",
+      "가진 사람이 이깁니다."
+     ],
+     "x": 119,
+     "align": "l",
+     "y": 227,
+     "size": 15,
+     "font": "body",
+     "color": "ink",
+     "pitch": 19
+    },
+    {
+     "en": "High Noon",
+     "box": [
+      116,
+      276,
+      216,
+      298
+     ],
+     "mask": "dark",
+     "lines": [
+      "한낮"
+     ],
+     "x": 119,
+     "align": "l",
+     "y": 279,
+     "size": 16,
+     "font": "title",
+     "color": "head"
+    },
+    {
+     "en": "See who the best duelist is over a series of rounds.",
+     "box": [
+      116,
+      296,
+      342,
+      338
+     ],
+     "mask": "dark",
+     "lines": [
+      "여러 라운드에 걸쳐 최고의",
+      "결투가를 가립니다."
+     ],
+     "x": 119,
+     "align": "l",
+     "y": 299,
+     "size": 15,
+     "font": "body",
+     "color": "ink",
+     "pitch": 19
+    }
+   ]
+  },
+  "mpload_hold_01.ipu": {
+   "aliases": [
+    "mpload_hunt_01.ipu",
+    "mpload_stud_01.ipu",
+    "mpload_sun_01.ipu"
+   ],
+   "state": "needs_review",
+   "src_sha1": "d43e385e9ca07897ab5cc42b4aec20d68b2acba7",
+   "q": 2,
+   "items": [
+    {
+     "en": "STUD VS HOLD'EM",
+     "box": [
+      96,
+      40,
+      404,
+      80
+     ],
+     "mask": "dark",
+     "lines": [
+      "스터드 vs 홀덤"
+     ],
+     "x": 250,
+     "align": "c",
+     "y": 44,
+     "size": 32,
+     "font": "title",
+     "color": "red"
+    },
+    {
+     "en": "Stud:",
+     "box": [
+      94,
+      98,
+      156,
+      120
+     ],
+     "mask": "dark",
+     "lines": [
+      "스터드:"
+     ],
+     "x": 97,
+     "align": "l",
+     "y": 101,
+     "size": 16,
+     "font": "title",
+     "color": "head"
+    },
+    {
+     "en": "Stud bullets",
+     "box": [
+      96,
+      124,
+      443,
+      200
+     ],
+     "mask": "dark",
+     "lines": [
+      "• 다섯 번째 카드를 차지하려는 숨 가쁜 경주.",
+      "• 다섯 번째 카드를 모은 플레이어가 판을 이깁니다.",
+      "• 판마다 특별한 파워업이 걸려 있습니다.",
+      "• 현상금은 “차지한” 사람의 몫입니다."
+     ],
+     "x": 98,
+     "align": "l",
+     "y": 127,
+     "size": 13,
+     "font": "body",
+     "color": "ink",
+     "pitch": 19
+    },
+    {
+     "en": "Hold 'Em:",
+     "box": [
+      94,
+      204,
+      202,
+      226
+     ],
+     "mask": "dark",
+     "lines": [
+      "홀덤:"
+     ],
+     "x": 97,
+     "align": "l",
+     "y": 207,
+     "size": 16,
+     "font": "title",
+     "color": "head"
+    },
+    {
+     "en": "Poker with bullets. / Each player is dealt two “Hole cards”",
+     "box": [
+      96,
+      228,
+      443,
+      266
+     ],
+     "mask": "dark",
+     "lines": [
+      "• 총알로 하는 포커.",
+      "• 플레이어마다 “홀 카드” 두 장을 받습니다"
+     ],
+     "x": 98,
+     "align": "l",
+     "y": 231,
+     "size": 13,
+     "font": "body",
+     "color": "ink",
+     "pitch": 19
+    },
+    {
+     "en": "(Press SELECT button to view cards).",
+     "box": [
+      96,
+      266,
+      443,
+      284
+     ],
+     "mask": "dark",
+     "lines": [
+      "(SELECT 버튼으로 카드 확인)."
+     ],
+     "x": 108,
+     "align": "l",
+     "y": 269,
+     "size": 13,
+     "font": "body",
+     "color": "ink"
+    },
+    {
+     "en": "All bounties go in the pot. / The pot goes to the Player with the best hand,",
+     "box": [
+      96,
+      284,
+      443,
+      322
+     ],
+     "mask": "dark",
+     "lines": [
+      "• 모든 현상금은 판돈으로 들어갑니다.",
+      "• 다섯 번째 카드가 모이면 가장 좋은 패를 가진"
+     ],
+     "x": 98,
+     "align": "l",
+     "y": 288,
+     "size": 13,
+     "font": "body",
+     "color": "ink",
+     "pitch": 19
+    },
+    {
+     "en": "once the fifth card has been collected.",
+     "box": [
+      96,
+      322,
+      443,
+      344
+     ],
+     "mask": "dark",
+     "lines": [
+      "플레이어가 판돈을 가져갑니다."
+     ],
+     "x": 108,
+     "align": "l",
+     "y": 326,
+     "size": 13,
+     "font": "body",
+     "color": "ink"
+    },
+    {
+     "en": "Shooting cards will cause them to explode.",
+     "box": [
+      96,
+      340,
+      443,
+      362
+     ],
+     "mask": "dark",
+     "lines": [
+      "• 카드를 쏘면 폭발합니다."
+     ],
+     "x": 98,
+     "align": "l",
+     "y": 345,
+     "size": 13,
+     "font": "body",
+     "color": "ink"
+    }
+   ]
+  },
+  "mpload_hold_02.ipu": {
+   "aliases": [
+    "mpload_hunt_02.ipu",
+    "mpload_stud_02.ipu",
+    "mpload_sun_02.ipu"
+   ],
+   "state": "needs_review",
+   "src_sha1": "558328dcc109ee3abb67fd61a4e9b786d8783b38",
+   "q": 2,
+   "items": [
+    {
+     "en": "CARD COLORS",
+     "box": [
+      160,
+      46,
+      396,
+      88
+     ],
+     "mask": "dark",
+     "lines": [
+      "카드 색깔"
+     ],
+     "x": 278,
+     "align": "c",
+     "y": 50,
+     "size": 32,
+     "font": "title",
+     "color": "red"
+    },
+    {
+     "en": "AWARD WEAPON",
+     "box": [
+      256,
+      132,
+      404,
+      156
+     ],
+     "mask": "dark",
+     "lines": [
+      "무기 지급"
+     ],
+     "x": 260,
+     "align": "l",
+     "y": 136,
+     "size": 17,
+     "font": "title",
+     "color": "ink"
+    },
+    {
+     "en": "RESTORE HEALTH",
+     "box": [
+      256,
+      180,
+      414,
+      204
+     ],
+     "mask": "dark",
+     "lines": [
+      "체력 회복"
+     ],
+     "x": 260,
+     "align": "l",
+     "y": 184,
+     "size": 17,
+     "font": "title",
+     "color": "ink"
+    },
+    {
+     "en": "BOOST DEADEYE",
+     "box": [
+      256,
+      236,
+      398,
+      260
+     ],
+     "mask": "dark",
+     "lines": [
+      "데드아이 증가"
+     ],
+     "x": 260,
+     "align": "l",
+     "y": 240,
+     "size": 17,
+     "font": "title",
+     "color": "ink"
+    },
+    {
+     "en": "WEAPON POWER UP",
+     "box": [
+      256,
+      294,
+      432,
+      318
+     ],
+     "mask": "dark",
+     "lines": [
+      "무기 파워업"
+     ],
+     "x": 260,
+     "align": "l",
+     "y": 298,
+     "size": 17,
+     "font": "title",
+     "color": "ink"
+    }
+   ]
+  },
+  "mpload_duel_01.ipu": {
+   "aliases": [
+    "mpload_noon_01.ipu"
+   ],
+   "state": "needs_review",
+   "src_sha1": "22fbbbf0f255332173b7c2cc66d8a0a3deefcb02",
+   "q": 2,
+   "items": [
+    {
+     "en": "DUELING CONTROLS",
+     "box": [
+      88,
+      44,
+      432,
+      86
+     ],
+     "mask": "dark",
+     "lines": [
+      "결투 조작"
+     ],
+     "x": 260,
+     "align": "c",
+     "y": 48,
+     "size": 34,
+     "font": "title",
+     "color": "red"
+    },
+    {
+     "en": "•Acquire Locks •Fires when arm is raised",
+     "box": [
+      78,
+      102,
+      300,
+      146
+     ],
+     "mask": "dark_gray",
+     "lines": [
+      "• 목표 고정",
+      "• 팔을 들면 발사"
+     ],
+     "x": 82,
+     "align": "l",
+     "y": 106,
+     "size": 15,
+     "font": "title",
+     "color": "ink",
+     "pitch": 20
+    },
+    {
+     "en": "•Cancel",
+     "box": [
+      332,
+      102,
+      444,
+      124
+     ],
+     "mask": "dark_gray",
+     "lines": [
+      "• 슬로 모션"
+     ],
+     "x": 334,
+     "align": "l",
+     "y": 106,
+     "size": 15,
+     "font": "title",
+     "color": "ink"
+    },
+    {
+     "en": "Slow Motion",
+     "box": [
+      332,
+      124,
+      444,
+      146
+     ],
+     "mask": "dark_gray",
+     "lines": [
+      "취소"
+     ],
+     "x": 342,
+     "align": "l",
+     "y": 126,
+     "size": 15,
+     "font": "title",
+     "color": "ink"
+    },
+    {
+     "en": "•Select",
+     "box": [
+      62,
+      258,
+      126,
+      280
+     ],
+     "mask": "dark_gray",
+     "lines": [
+      "• 상대"
+     ],
+     "x": 64,
+     "align": "l",
+     "y": 262,
+     "size": 15,
+     "font": "title",
+     "color": "ink"
+    },
+    {
+     "en": "Different Opponent (Multi-duels only)",
+     "box": [
+      66,
+      280,
+      172,
+      354
+     ],
+     "mask": "dark_gray",
+     "lines": [
+      "변경",
+      "(멀티 결투",
+      "전용)"
+     ],
+     "x": 70,
+     "align": "l",
+     "y": 283,
+     "size": 15,
+     "font": "title",
+     "color": "ink",
+     "pitch": 20
+    },
+    {
+     "en": "•Pull back… •Push forward… •Aim",
+     "box": [
+      204,
+      296,
+      436,
+      358
+     ],
+     "mask": "dark_gray",
+     "lines": [
+      "• 뒤로 당기면 총을 잡음",
+      "• 앞으로 밀면 총을 뽑음",
+      "• 조준"
+     ],
+     "x": 206,
+     "align": "l",
+     "y": 299,
+     "size": 15,
+     "font": "title",
+     "color": "ink",
+     "pitch": 20
+    }
+   ]
+  },
+  "mpload_duel_02.ipu": {
+   "aliases": [
+    "mpload_noon_02.ipu"
+   ],
+   "state": "needs_review",
+   "src_sha1": "64b1b030ad2c275efc4b43793d367cce40ea87f7",
+   "q": 2,
+   "items": [
+    {
+     "en": "DUELING PHASES",
+     "box": [
+      110,
+      28,
+      414,
+      70
+     ],
+     "mask": "dark",
+     "lines": [
+      "결투 단계"
+     ],
+     "x": 262,
+     "align": "c",
+     "y": 34,
+     "size": 30,
+     "font": "title",
+     "color": "red"
+    },
+    {
+     "en": "Grab your gun!",
+     "box": [
+      76,
+      90,
+      190,
+      112
+     ],
+     "mask": "dark",
+     "lines": [
+      "총을 잡아라!"
+     ],
+     "x": 126,
+     "align": "c",
+     "y": 94,
+     "size": 15,
+     "font": "body",
+     "color": "ink"
+    },
+    {
+     "en": "Acquire target locks!",
+     "box": [
+      188,
+      90,
+      318,
+      112
+     ],
+     "mask": "dark",
+     "lines": [
+      "목표를 고정하라!"
+     ],
+     "x": 252,
+     "align": "c",
+     "y": 94,
+     "size": 15,
+     "font": "body",
+     "color": "ink"
+    },
+    {
+     "en": "FIRE!",
+     "box": [
+      340,
+      90,
+      446,
+      112
+     ],
+     "mask": "dark",
+     "lines": [
+      "쏴라!"
+     ],
+     "x": 388,
+     "align": "c",
+     "y": 94,
+     "size": 15,
+     "font": "body",
+     "color": "ink"
+    },
+    {
+     "en": "Tip: You get a better draw the closer your hand is to the gun.",
+     "box": [
+      66,
+      282,
+      192,
+      334
+     ],
+     "mask": "dark",
+     "lines": [
+      "팁: 손이 총에",
+      "가까울수록",
+      "빨리 뽑습니다."
+     ],
+     "x": 70,
+     "align": "l",
+     "y": 286,
+     "size": 12,
+     "font": "body",
+     "color": "ink",
+     "pitch": 15
+    },
+    {
+     "en": "Tip: The more solid your cursor, the more likely you will hit the target.",
+     "box": [
+      196,
+      282,
+      318,
+      340
+     ],
+     "mask": "dark",
+     "lines": [
+      "팁: 커서가",
+      "단단할수록",
+      "명중률이 높아집니다."
+     ],
+     "x": 198,
+     "align": "l",
+     "y": 286,
+     "size": 12,
+     "font": "body",
+     "color": "ink",
+     "pitch": 15
+    },
+    {
+     "en": "Tip: Don't spend too long acquiring locks, buy yourself more time by shooting limbs.",
+     "box": [
+      328,
+      282,
+      446,
+      352
+     ],
+     "mask": "dark",
+     "lines": [
+      "팁: 고정에 시간을",
+      "끌지 마세요.",
+      "팔다리를 쏘면",
+      "시간을 법니다."
+     ],
+     "x": 330,
+     "align": "l",
+     "y": 286,
+     "size": 12,
+     "font": "body",
+     "color": "ink",
+     "pitch": 15
+    }
+   ]
+  },
+  "mpload_none_01.ipu": {
+   "aliases": [],
+   "state": "needs_review",
+   "src_sha1": "c3604acd1ce8d5a5b963c571fe4017a423637a22",
+   "q": 2,
+   "items": [
+    {
+     "en": "NO RULES",
+     "box": [
+      184,
+      34,
+      358,
+      72
+     ],
+     "mask": "dark",
+     "lines": [
+      "규칙 없음"
+     ],
+     "x": 270,
+     "align": "c",
+     "y": 38,
+     "size": 32,
+     "font": "title",
+     "color": "red"
+    },
+    {
+     "en": "•Nothing is shared.",
+     "box": [
+      82,
+      92,
+      284,
+      118
+     ],
+     "mask": "dark",
+     "lines": [
+      "• 공유하는 것은 없습니다."
+     ],
+     "x": 86,
+     "align": "l",
+     "y": 96,
+     "size": 15,
+     "font": "title",
+     "color": "ink"
+    },
+    {
+     "en": "•All bounties go to those that collect 'em.",
+     "box": [
+      82,
+      130,
+      386,
+      174
+     ],
+     "mask": "dark",
+     "lines": [
+      "• 현상금은 모은 사람이 모두 가져갑니다."
+     ],
+     "x": 86,
+     "align": "l",
+     "y": 136,
+     "size": 15,
+     "font": "title",
+     "color": "ink"
+    }
+   ]
+  },
+  "coolscreen.ipu": {
+   "aliases": [],
+   "state": "needs_review",
+   "src_sha1": "5c6abb0ea28c6d7dadfd1d81cc63b02fc6e04109",
+   "q": 2,
+   "items": [
+    {
+     "en": "LOADING",
+     "box": [
+      200,
+      264,
+      312,
+      296
+     ],
+     "mask": "all",
+     "lines": [
+      "불러오는 중"
+     ],
+     "x": 256,
+     "align": "c",
+     "y": 270,
+     "size": 18,
+     "font": "body",
+     "color": "loading"
+    }
+   ]
+  },
+  "gameover.ipu": {
+   "aliases": [],
+   "state": "needs_review",
+   "src_sha1": "dd04f8b2047393b776d64a71c5eeee0a9941a7a3",
+   "q": 2,
+   "items": [
+    {
+     "en": "GAME OVER",
+     "box": [
+      108,
+      130,
+      394,
+      278
+     ],
+     "mask": "all",
+     "lines": [
+      "게임",
+      "오버"
+     ],
+     "x": 251,
+     "align": "c",
+     "y": 136,
+     "size": 60,
+     "font": "title",
+     "color": "gameover",
+     "pitch": 76
+    }
+   ]
+  },
+  "lvl_core_map.ipu": {
+   "aliases": [],
+   "state": "needs_review",
+   "src_sha1": "4d3f02ea98b61f77ddc5ef549a0cd5cc4026b7f8",
+   "q": 2,
+   "items": [
+    {
+     "en": "Jail Cell",
+     "box": [
+      32,
+      144,
+      80,
+      196
+     ],
+     "mask": "dark",
+     "lines": [
+      "감방"
+     ],
+     "x": 56,
+     "align": "c",
+     "y": 160,
+     "size": 18,
+     "font": "body",
+     "color": "pencil"
+    },
+    {
+     "en": "Core",
+     "box": [
+      234,
+      200,
+      286,
+      222
+     ],
+     "mask": "dark",
+     "lines": [
+      "중앙홀"
+     ],
+     "x": 260,
+     "align": "c",
+     "y": 203,
+     "size": 15,
+     "font": "body",
+     "color": "pencil"
+    },
+    {
+     "en": "Supply Room",
+     "box": [
+      378,
+      186,
+      456,
+      246
+     ],
+     "mask": "dark",
+     "lines": [
+      "보급실"
+     ],
+     "x": 410,
+     "align": "c",
+     "y": 200,
+     "size": 18,
+     "font": "body",
+     "color": "pencil"
+    },
+    {
+     "en": "Lounge",
+     "box": [
+      216,
+      390,
+      300,
+      416
+     ],
+     "mask": "dark",
+     "lines": [
+      "휴게실"
+     ],
+     "x": 258,
+     "align": "c",
+     "y": 394,
+     "size": 18,
+     "font": "body",
+     "color": "pencil"
+    }
+   ]
+  }
+ }
+}

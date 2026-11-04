@@ -1,0 +1,578 @@
+{
+ "_doc": "Display literals in layout scripts (text/layout_refs.json 'literals'). Each is added as a new key of 'table' so the layout's literal resolves to Korean. Literals not listed stay as-is: internal element names (CharName, InputName, PlayerName, mode, profile_message, xbox*, BUTTON*/PROMPT*, cursor/join/charname labels), the NTSC/PAL test and video-mode screens (arial14, not reached on NTSC USA), and dev text 'Title!!!'. Wave/duel names (Barfight_Wave3_*, Bridge_Lost_SecondWave_*, Tomb_Duel_*) are element names whose text is set at runtime. 'Chapter N' book headings are literals: the SWAT-only lvl_frontend table holding such keys is not loaded. Also not translated: numbers, 'P-1'..'P-4'/'CPU'/'N/A' (woodcut_small poster tags), 'Xbox Live', 'LITERAL'. Code-referenced literals (text/code_literals.json) are translated here too.",
+ "table": "swat.strtbl",
+ "entries": {
+  "Accept": {
+   "ko": "확인",
+   "state": "needs_review"
+  },
+  "Back": {
+   "ko": "뒤로",
+   "state": "needs_review"
+  },
+  "Begin": {
+   "ko": "시작",
+   "state": "needs_review"
+  },
+  "Brightness": {
+   "ko": "밝기",
+   "state": "needs_review"
+  },
+  "Cancel": {
+   "ko": "취소",
+   "state": "needs_review"
+  },
+  "Cheats": {
+   "ko": "치트",
+   "state": "needs_review"
+  },
+  "Contents": {
+   "ko": "목차",
+   "state": "needs_review"
+  },
+  "Controls": {
+   "ko": "조작",
+   "state": "needs_review"
+  },
+  "Enter": {
+   "ko": "선택",
+   "state": "needs_review"
+  },
+  "Favorite": {
+   "ko": "주 캐릭터",
+   "state": "needs_review"
+  },
+  "Horizontal Position": {
+   "ko": "가로 위치",
+   "state": "needs_review"
+  },
+  "Leave": {
+   "ko": "나가기",
+   "state": "needs_review"
+  },
+  "OK": {
+   "ko": "확인",
+   "state": "needs_review"
+  },
+  "Picture Options": {
+   "ko": "화면 설정",
+   "state": "needs_review"
+  },
+  "Player Options": {
+   "ko": "플레이어 설정",
+   "state": "needs_review"
+  },
+  "RETRY": {
+   "ko": "재도전",
+   "state": "needs_review"
+  },
+  "Random": {
+   "ko": "무작위",
+   "state": "needs_review"
+  },
+  "Select": {
+   "ko": "선택",
+   "state": "needs_review"
+  },
+  "Sensitivity": {
+   "ko": "감도",
+   "state": "needs_review"
+  },
+  "Showdown": {
+   "ko": "쇼다운",
+   "state": "needs_review"
+  },
+  "Sound Options": {
+   "ko": "소리 설정",
+   "state": "needs_review"
+  },
+  "Teams": {
+   "ko": "팀",
+   "state": "needs_review"
+  },
+  "Vertical Position": {
+   "ko": "세로 위치",
+   "state": "needs_review"
+  },
+  "X-Axis": {
+   "ko": "X축",
+   "state": "needs_review"
+  },
+  "Y-Axis": {
+   "ko": "Y축",
+   "state": "needs_review"
+  },
+  "right analog stick to zoom": {
+   "ko": "오른쪽 아날로그 스틱으로 확대",
+   "state": "needs_review"
+  },
+  "Chapter 1": {
+   "ko": "제1장",
+   "state": "needs_review"
+  },
+  "Chapter 10": {
+   "ko": "제10장",
+   "state": "needs_review"
+  },
+  "Chapter 11": {
+   "ko": "제11장",
+   "state": "needs_review"
+  },
+  "Chapter 12": {
+   "ko": "제12장",
+   "state": "needs_review"
+  },
+  "Chapter 13": {
+   "ko": "제13장",
+   "state": "needs_review"
+  },
+  "Chapter 14": {
+   "ko": "제14장",
+   "state": "needs_review"
+  },
+  "Chapter 15": {
+   "ko": "제15장",
+   "state": "needs_review"
+  },
+  "Chapter 16": {
+   "ko": "제16장",
+   "state": "needs_review"
+  },
+  "Chapter 17": {
+   "ko": "제17장",
+   "state": "needs_review"
+  },
+  "Chapter 18": {
+   "ko": "제18장",
+   "state": "needs_review"
+  },
+  "Chapter 19": {
+   "ko": "제19장",
+   "state": "needs_review"
+  },
+  "Chapter 2": {
+   "ko": "제2장",
+   "state": "needs_review"
+  },
+  "Chapter 20": {
+   "ko": "제20장",
+   "state": "needs_review"
+  },
+  "Chapter 21": {
+   "ko": "제21장",
+   "state": "needs_review"
+  },
+  "Chapter 22": {
+   "ko": "제22장",
+   "state": "needs_review"
+  },
+  "Chapter 23": {
+   "ko": "제23장",
+   "state": "needs_review"
+  },
+  "Chapter 24": {
+   "ko": "제24장",
+   "state": "needs_review"
+  },
+  "Chapter 25": {
+   "ko": "제25장",
+   "state": "needs_review"
+  },
+  "Chapter 26": {
+   "ko": "제26장",
+   "state": "needs_review"
+  },
+  "Chapter 27": {
+   "ko": "제27장",
+   "state": "needs_review"
+  },
+  "Chapter 3": {
+   "ko": "제3장",
+   "state": "needs_review"
+  },
+  "Chapter 4": {
+   "ko": "제4장",
+   "state": "needs_review"
+  },
+  "Chapter 5": {
+   "ko": "제5장",
+   "state": "needs_review"
+  },
+  "Chapter 6": {
+   "ko": "제6장",
+   "state": "needs_review"
+  },
+  "Chapter 7": {
+   "ko": "제7장",
+   "state": "needs_review"
+  },
+  "Chapter 8": {
+   "ko": "제8장",
+   "state": "needs_review"
+  },
+  "Chapter 9": {
+   "ko": "제9장",
+   "state": "needs_review"
+  },
+  "1 minute": {
+   "ko": "1분",
+   "state": "needs_review"
+  },
+  "10 minutes": {
+   "ko": "10분",
+   "state": "needs_review"
+  },
+  "15 minutes": {
+   "ko": "15분",
+   "state": "needs_review"
+  },
+  "3 minutes": {
+   "ko": "3분",
+   "state": "needs_review"
+  },
+  "5 minutes": {
+   "ko": "5분",
+   "state": "needs_review"
+  },
+  "Audio Mode": {
+   "ko": "오디오 모드",
+   "state": "needs_review"
+  },
+  "Big Money": {
+   "ko": "큰돈",
+   "state": "needs_review"
+  },
+  "Bounty Hunter": {
+   "ko": "현상금 사냥꾼",
+   "state": "needs_review"
+  },
+  "Bounty Limit": {
+   "ko": "현상금 한도",
+   "state": "needs_review"
+  },
+  "Broken Creek": {
+   "ko": "브로큰 크리크",
+   "state": "needs_review"
+  },
+  "Coffin Gun": {
+   "ko": "관짝 총",
+   "state": "needs_review"
+  },
+  "Desert Fortress": {
+   "ko": "사막 요새",
+   "state": "needs_review"
+  },
+  "Duel Rules": {
+   "ko": "결투 규칙",
+   "state": "needs_review"
+  },
+  "Dueling": {
+   "ko": "결투",
+   "state": "needs_review"
+  },
+  "Fairground": {
+   "ko": "축제 마당",
+   "state": "needs_review"
+  },
+  "Fallen Creek": {
+   "ko": "폴른 크리크",
+   "state": "needs_review"
+  },
+  "Fight Time": {
+   "ko": "대결 시간",
+   "state": "needs_review"
+  },
+  "First Hit": {
+   "ko": "첫 명중",
+   "state": "needs_review"
+  },
+  "Game Modes": {
+   "ko": "게임 모드",
+   "state": "needs_review"
+  },
+  "Ghost Town": {
+   "ko": "유령 마을",
+   "state": "needs_review"
+  },
+  "High Noon": {
+   "ko": "한낮",
+   "state": "needs_review"
+  },
+  "Hold": {
+   "ko": "누르기",
+   "state": "needs_review"
+  },
+  "Hold 'Em": {
+   "ko": "홀덤",
+   "state": "needs_review"
+  },
+  "Lock Blast": {
+   "ko": "락블래스트",
+   "state": "needs_review"
+  },
+  "Mansion Grounds": {
+   "ko": "저택 정원",
+   "state": "needs_review"
+  },
+  "Music Volume": {
+   "ko": "음악 음량",
+   "state": "needs_review"
+  },
+  "Number of Wins": {
+   "ko": "승리 횟수",
+   "state": "needs_review"
+  },
+  "Player": {
+   "ko": "플레이어",
+   "state": "needs_review"
+  },
+  "Power ups": {
+   "ko": "파워업",
+   "state": "needs_review"
+  },
+  "Restart Level": {
+   "ko": "레벨 다시 시작",
+   "state": "needs_review"
+  },
+  "Sfx Volume": {
+   "ko": "효과음 음량",
+   "state": "needs_review"
+  },
+  "Show AI Info": {
+   "ko": "AI 정보 표시",
+   "state": "needs_review"
+  },
+  "Show Player Position": {
+   "ko": "플레이어 위치 표시",
+   "state": "needs_review"
+  },
+  "Showstopper": {
+   "ko": "쇼스토퍼",
+   "state": "needs_review"
+  },
+  "Stud": {
+   "ko": "스터드",
+   "state": "needs_review"
+  },
+  "Subtitles": {
+   "ko": "자막",
+   "state": "needs_review"
+  },
+  "Sundown": {
+   "ko": "해 질 녘",
+   "state": "needs_review"
+  },
+  "Sunset Canyon": {
+   "ko": "선셋 캐니언",
+   "state": "needs_review"
+  },
+  "Super Dodge": {
+   "ko": "슈퍼 회피",
+   "state": "needs_review"
+  },
+  "Surround": {
+   "ko": "서라운드",
+   "state": "needs_review"
+  },
+  "Target Mode": {
+   "ko": "조준 방식",
+   "state": "needs_review"
+  },
+  "Targeting Style": {
+   "ko": "조준 방식",
+   "state": "needs_review"
+  },
+  "The Bridge": {
+   "ko": "다리",
+   "state": "needs_review"
+  },
+  "The Coliseum": {
+   "ko": "원형 경기장",
+   "state": "needs_review"
+  },
+  "The Mansion": {
+   "ko": "저택",
+   "state": "needs_review"
+  },
+  "The Mine": {
+   "ko": "광산",
+   "state": "needs_review"
+  },
+  "The Ranch": {
+   "ko": "목장",
+   "state": "needs_review"
+  },
+  "To the Death": {
+   "ko": "죽을 때까지",
+   "state": "needs_review"
+  },
+  "Toggle": {
+   "ko": "전환",
+   "state": "needs_review"
+  },
+  "Twin Rocks": {
+   "ko": "트윈 록스",
+   "state": "needs_review"
+  },
+  "Wall Pierce": {
+   "ko": "벽 관통",
+   "state": "needs_review"
+  },
+  "Widescreen": {
+   "ko": "와이드스크린",
+   "state": "needs_review"
+  },
+  "Widows Patch": {
+   "ko": "위도스 패치",
+   "state": "needs_review"
+  },
+  "X-Axis Sensitivity": {
+   "ko": "X축 감도",
+   "state": "needs_review"
+  },
+  "Y-Axis Sensitivity": {
+   "ko": "Y축 감도",
+   "state": "needs_review"
+  },
+  "abandoned settlement": {
+   "ko": "버려진 정착지",
+   "state": "needs_review"
+  },
+  "ancient monoliths": {
+   "ko": "고대의 거석",
+   "state": "needs_review"
+  },
+  "boyhood home": {
+   "ko": "어린 시절의 집",
+   "state": "needs_review"
+  },
+  "contested structure": {
+   "ko": "쟁탈 건물",
+   "state": "needs_review"
+  },
+  "desert badlands": {
+   "ko": "사막 황무지",
+   "state": "needs_review"
+  },
+  "fertile land": {
+   "ko": "비옥한 땅",
+   "state": "needs_review"
+  },
+  "giant fortress": {
+   "ko": "거대한 요새",
+   "state": "needs_review"
+  },
+  "lost inheritance": {
+   "ko": "잃어버린 유산",
+   "state": "needs_review"
+  },
+  "opulent palace": {
+   "ko": "호화 저택",
+   "state": "needs_review"
+  },
+  "ruined homestead": {
+   "ko": "폐허가 된 농가",
+   "state": "needs_review"
+  },
+  "snow-topped mountain": {
+   "ko": "눈 덮인 산",
+   "state": "needs_review"
+  },
+  "tended gardens": {
+   "ko": "가꾼 정원",
+   "state": "needs_review"
+  },
+  "terrified town": {
+   "ko": "겁에 질린 마을",
+   "state": "needs_review"
+  },
+  "training ground": {
+   "ko": "훈련장",
+   "state": "needs_review"
+  },
+  "yes": {
+   "ko": "예",
+   "state": "needs_review"
+  },
+  "no": {
+   "ko": "아니요",
+   "state": "needs_review"
+  },
+  "Player 1 Paused": {
+   "ko": "플레이어 1 일시정지",
+   "state": "needs_review"
+  },
+  "Player 2 Paused": {
+   "ko": "플레이어 2 일시정지",
+   "state": "needs_review"
+  },
+  "Player 3 Paused": {
+   "ko": "플레이어 3 일시정지",
+   "state": "needs_review"
+  },
+  "Player 4 Paused": {
+   "ko": "플레이어 4 일시정지",
+   "state": "needs_review"
+  },
+  "First One to $3000 Wins!": {
+   "ko": "$3000 먼저 모으면 승리!",
+   "state": "needs_review"
+  },
+  "First Team to $3000 Wins!": {
+   "ko": "$3000 먼저 모은 팀이 승리!",
+   "state": "needs_review"
+  },
+  "First One to $5000 Wins!": {
+   "ko": "$5000 먼저 모으면 승리!",
+   "state": "needs_review"
+  },
+  "First Team to $5000 Wins!": {
+   "ko": "$5000 먼저 모은 팀이 승리!",
+   "state": "needs_review"
+  },
+  "First One to $10000 Wins!": {
+   "ko": "$10000 먼저 모으면 승리!",
+   "state": "needs_review"
+  },
+  "First Team to $10000 Wins!": {
+   "ko": "$10000 먼저 모은 팀이 승리!",
+   "state": "needs_review"
+  },
+  "First One to $15000 Wins!": {
+   "ko": "$15000 먼저 모으면 승리!",
+   "state": "needs_review"
+  },
+  "First Team to $15000 Wins!": {
+   "ko": "$15000 먼저 모은 팀이 승리!",
+   "state": "needs_review"
+  },
+  "First One to $20000 Wins!": {
+   "ko": "$20000 먼저 모으면 승리!",
+   "state": "needs_review"
+  },
+  "First Team to $20000 Wins!": {
+   "ko": "$20000 먼저 모은 팀이 승리!",
+   "state": "needs_review"
+  },
+  "1 Minute Timed Battle!": {
+   "ko": "1분 제한 대결!",
+   "state": "needs_review"
+  },
+  "3 Minute Timed Battle!": {
+   "ko": "3분 제한 대결!",
+   "state": "needs_review"
+  },
+  "5 Minute Timed Battle!": {
+   "ko": "5분 제한 대결!",
+   "state": "needs_review"
+  },
+  "10 Minute Timed Battle!": {
+   "ko": "10분 제한 대결!",
+   "state": "needs_review"
+  },
+  "15 Minute Timed Battle!": {
+   "ko": "15분 제한 대결!",
+   "state": "needs_review"
+  }
+ }
+}

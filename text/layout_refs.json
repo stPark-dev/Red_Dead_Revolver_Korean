@@ -1,0 +1,3286 @@
+{
+ "key_fonts": {
+  "Ann_rifle": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BLANK": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "BOOK_BARFIGHT": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_BARFIGHT_DESC": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_BOMB": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_BOMB_DESC": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_BRIDGE": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_BRIDGE_DESC": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_CEMETERY": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_CEMETERY_DESC": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_COACH": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_COACH_DESC": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_CORE": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_CORENEW": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_CORENEW_DESC": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_CORE_DESC": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_FORT": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_FORT_DESC": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_GHOST": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_GHOST_DESC": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_GUNSMOKE": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_GUNSMOKE_DESC": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_HNG": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_HNG_DESC": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_MANS": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_MANSINT": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_MANSINT2": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_MANSINT2_DESC": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_MANSINT_DESC": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_MANS_DESC": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_MSN": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_MSN2": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_MSN2_DESC": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_MSN_DESC": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_PERFNEW": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_PERFNEW_DESC": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_RANCH": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_RANCH_DESC": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_ROYALE": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_ROYALE_DESC": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_SHER70": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_SHER70_DESC": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_SHERNITE": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_SHERNITE_DESC": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_TOMB1": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_TOMB1_DESC": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_TOMB2": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_TOMB2_DESC": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_TOMB3": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_TOMB3_DESC": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_TOMB4": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_TOMB4_DESC": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_TOMB5": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_TOMB5_DESC": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_TOMB7": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_TOMB7_DESC": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_TRAIN": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_TRAINCAR": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_TRAINCAR_DESC": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_TRAINEND": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_TRAINEND_DESC": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_TRAINGOOD": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_TRAINGOOD_DESC": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_TRAIN_DESC": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_WOODS": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BOOK_WOODS_DESC": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "BUTTON_ALT1_OPTIONS": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui",
+    "profile.swui"
+   ]
+  },
+  "BUTTON_ALT2_MISC": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui",
+    "profile.swui",
+    "roominstr.swui"
+   ]
+  },
+  "BUTTON_BACK": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "cheats.swui",
+    "frontendbuttons.swui",
+    "gameoptions.swui",
+    "gamepicture.swui",
+    "gameplayeropt.swui",
+    "gamesound.swui",
+    "lvl_coach_level_map.swui",
+    "lvl_core_level_map.swui",
+    "lvl_woods_level_map.swui",
+    "mainoptions.swui",
+    "mpmode.swui",
+    "profile.swui"
+   ]
+  },
+  "BUTTON_CONFIRM": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "cheats.swui",
+    "frontendbuttons.swui",
+    "gameoptions.swui",
+    "gamepicture.swui",
+    "gameplayeropt.swui",
+    "gamesound.swui",
+    "mainoptions.swui",
+    "mpmode.swui",
+    "profile.swui"
+   ]
+  },
+  "Faith": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "Inquisitor": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "Invert Duel Targeting": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "gameplayeropt.swui",
+    "multioption_controls.swui"
+   ]
+  },
+  "Invert Targeting": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "gameplayeropt.swui",
+    "multioption_controls.swui"
+   ]
+  },
+  "Inverted": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "gameplayeropt.swui",
+    "multioption_controls.swui"
+   ]
+  },
+  "JOURNAL_UNDER_CONSTRUCTION": {
+   "fonts": [
+    "courier18"
+   ],
+   "files": [
+    "journal.swui"
+   ]
+  },
+  "Lightning": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "Loading...": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "Mono": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "gamesound.swui"
+   ]
+  },
+  "Normal": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "gameplayeropt.swui",
+    "multioption_controls.swui"
+   ]
+  },
+  "Off": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "cheats.swui",
+    "gamepicture.swui",
+    "gameplayeropt.swui",
+    "gamesound.swui",
+    "mpmode.swui",
+    "multioption_controls.swui"
+   ]
+  },
+  "On": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "cheats.swui",
+    "gamepicture.swui",
+    "gameplayeropt.swui",
+    "gamesound.swui",
+    "mpmode.swui",
+    "multioption_controls.swui"
+   ]
+  },
+  "Options": {
+   "fonts": [
+    "berrylium",
+    "regulatorcondensed"
+   ],
+   "files": [
+    "frontendbuttons.swui",
+    "gameoptions.swui",
+    "mainoptions.swui",
+    "mpmode.swui",
+    "multioption_menu.swui",
+    "pause.swui"
+   ]
+  },
+  "POSTER_INSTR_ADD_NPC": {
+   "fonts": [
+    "narrow_lables"
+   ],
+   "files": [
+    "runtime:^POSTER_INSTR_"
+   ]
+  },
+  "POSTER_INSTR_CHANGE_SELF": {
+   "fonts": [
+    "narrow_lables"
+   ],
+   "files": [
+    "runtime:^POSTER_INSTR_"
+   ]
+  },
+  "POSTER_INSTR_CONFIRM_CHARACTER": {
+   "fonts": [
+    "narrow_lables"
+   ],
+   "files": [
+    "runtime:^POSTER_INSTR_"
+   ]
+  },
+  "POSTER_INSTR_INS_CONTROLLER": {
+   "fonts": [
+    "narrow_lables"
+   ],
+   "files": [
+    "runtime:^POSTER_INSTR_"
+   ]
+  },
+  "POSTER_INSTR_JOIN_GAME": {
+   "fonts": [
+    "narrow_lables"
+   ],
+   "files": [
+    "runtime:^POSTER_INSTR_"
+   ]
+  },
+  "POSTER_INSTR_MULTITAP_REQUIRED": {
+   "fonts": [
+    "narrow_lables"
+   ],
+   "files": [
+    "runtime:^POSTER_INSTR_"
+   ]
+  },
+  "POSTER_INSTR_REMOVE_NPC": {
+   "fonts": [
+    "narrow_lables"
+   ],
+   "files": [
+    "runtime:^POSTER_INSTR_"
+   ]
+  },
+  "Pacificador": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "Press START button": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "Press_Cross_To_Advance": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "pressbuttontoadvance.swui"
+   ]
+  },
+  "Press_Triangle_To_Skip": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "pressbuttontoadvance.swui",
+    "pressbuttontoskip.swui"
+   ]
+  },
+  "Quit": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "pause.swui"
+   ]
+  },
+  "Return to Game": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "pause.swui"
+   ]
+  },
+  "Revolver": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "Ricochet": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "Sawn_Off": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "Scorpion": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "Six_Shooter": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "Stereo": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "gamesound.swui"
+   ]
+  },
+  "Vibration": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "gameplayeropt.swui",
+    "multioption_controls.swui"
+   ]
+  },
+  "Widowmaker": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "ani": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "bfs": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "book_instr_left": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "book_instr_right": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "btnNo": {
+   "fonts": [
+    "berrylium",
+    "regulatorcondensed"
+   ],
+   "files": [
+    "profile.swui",
+    "warning.swui",
+    "warningfrontend.swui"
+   ]
+  },
+  "btnYes": {
+   "fonts": [
+    "berrylium",
+    "regulatorcondensed"
+   ],
+   "files": [
+    "profile.swui",
+    "warning.swui",
+    "warningfrontend.swui"
+   ]
+  },
+  "cmb_cht_golden_gun": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "cheats.swui"
+   ]
+  },
+  "cmb_cht_inf_deadeye": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "cheats.swui"
+   ]
+  },
+  "cmb_cht_invulnerable": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "cheats.swui"
+   ]
+  },
+  "cmb_cht_no_distort": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "cheats.swui"
+   ]
+  },
+  "cmb_cht_no_hud": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "cheats.swui"
+   ]
+  },
+  "cmb_cht_sad_stars": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "cheats.swui"
+   ]
+  },
+  "cmb_cht_sudden_death": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "cheats.swui"
+   ]
+  },
+  "dblgun_01": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "dblgun_UJ": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "dgo": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "diff_0": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "difficultyselect.swui"
+   ]
+  },
+  "diff_1": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "difficultyselect.swui"
+   ]
+  },
+  "diff_2": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "difficultyselect.swui"
+   ]
+  },
+  "diff_3": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "difficultyselect.swui"
+   ]
+  },
+  "flare_rifle": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "illegal team config": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "jck": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "knife_01": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "lvlmap_back": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "lvl_coach_level_map.swui",
+    "lvl_core_level_map.swui",
+    "lvl_woods_level_map.swui"
+   ]
+  },
+  "lvlmap_objective": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "lvl_coach_level_map.swui",
+    "lvl_core_level_map.swui",
+    "lvl_woods_level_map.swui"
+   ]
+  },
+  "lvlmap_player": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "lvl_coach_level_map.swui",
+    "lvl_core_level_map.swui",
+    "lvl_woods_level_map.swui"
+   ]
+  },
+  "map": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "pause.swui"
+   ]
+  },
+  "mrd": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "none": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "pistol_01": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "pistol_UJ": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "profile_cur_lgnd": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "storyselect.swui"
+   ]
+  },
+  "profile_delete": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "profile.swui"
+   ]
+  },
+  "profile_edit_name": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "profile.swui"
+   ]
+  },
+  "profile_exit": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "profile.swui"
+   ]
+  },
+  "profile_select": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "profile.swui"
+   ]
+  },
+  "rifle_01": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "story_bhunter": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "storyselect.swui"
+   ]
+  },
+  "story_confirm_new": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "warningfrontend.swui"
+   ]
+  },
+  "story_loadgame": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "storyselect.swui"
+   ]
+  },
+  "story_newgame": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "storyselect.swui"
+   ]
+  },
+  "story_playeropt": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "storyselect.swui"
+   ]
+  },
+  "story_profile": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "storyselect.swui"
+   ]
+  },
+  "ttk": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "warning_progress_loss": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "warning.swui"
+   ]
+  }
+ },
+ "literals": {
+  "": {
+   "fonts": [
+    "bosshealth",
+    "steelfish"
+   ],
+   "files": [
+    "bookchapterview.swui",
+    "bridgeslide_lostwave2.swui"
+   ]
+  },
+  "\"\"": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "continue.swui"
+   ]
+  },
+  "+": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "gameplayeropt.swui",
+    "multioption_sensitivity.swui"
+   ]
+  },
+  "-": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "gameplayeropt.swui",
+    "multioption_sensitivity.swui"
+   ]
+  },
+  "1": {
+   "fonts": [
+    "berrylium",
+    "narrow_lables"
+   ],
+   "files": [
+    "mpmode.swui",
+    "postermultiview.swui"
+   ]
+  },
+  "1 minute": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "mpmode.swui"
+   ]
+  },
+  "10": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "mpmode.swui"
+   ]
+  },
+  "10 minutes": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "mpmode.swui"
+   ]
+  },
+  "10000": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "mpmode.swui"
+   ]
+  },
+  "15 minutes": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "mpmode.swui"
+   ]
+  },
+  "15000": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "mpmode.swui"
+   ]
+  },
+  "2": {
+   "fonts": [
+    "narrow_lables"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "20000": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "mpmode.swui"
+   ]
+  },
+  "3": {
+   "fonts": [
+    "berrylium",
+    "narrow_lables"
+   ],
+   "files": [
+    "mpmode.swui",
+    "postermultiview.swui"
+   ]
+  },
+  "3 minutes": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "mpmode.swui"
+   ]
+  },
+  "3000": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "mpmode.swui"
+   ]
+  },
+  "4": {
+   "fonts": [
+    "narrow_lables"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "5": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "mpmode.swui"
+   ]
+  },
+  "5 minutes": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "mpmode.swui"
+   ]
+  },
+  "5000": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "mpmode.swui"
+   ]
+  },
+  "7": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "mpmode.swui"
+   ]
+  },
+  "Accept": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "cheats.swui",
+    "frontendbuttons.swui",
+    "gamepicture.swui",
+    "gameplayeropt.swui",
+    "gamesound.swui",
+    "mpmode.swui"
+   ]
+  },
+  "Audio Mode": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "gamesound.swui"
+   ]
+  },
+  "BUTTON0": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "BUTTON3": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "BUTTONJ0": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "BUTTONJ1": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "BUTTONJ2": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "Back": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui",
+    "gameoptions.swui",
+    "mainoptions.swui",
+    "mpmode.swui"
+   ]
+  },
+  "Barfight": {
+   "fonts": [
+    "bosshealth"
+   ],
+   "files": [
+    "barfight_wave3.swui"
+   ]
+  },
+  "Barfight_Wave3_1": {
+   "fonts": [
+    "bosshealth"
+   ],
+   "files": [
+    "barfight_wave3.swui"
+   ]
+  },
+  "Barfight_Wave3_2": {
+   "fonts": [
+    "bosshealth"
+   ],
+   "files": [
+    "barfight_wave3.swui"
+   ]
+  },
+  "Barfight_Wave3_3": {
+   "fonts": [
+    "bosshealth"
+   ],
+   "files": [
+    "barfight_wave3.swui"
+   ]
+  },
+  "Barfight_Wave3_4": {
+   "fonts": [
+    "bosshealth"
+   ],
+   "files": [
+    "barfight_wave3.swui"
+   ]
+  },
+  "Barfight_Wave3_5": {
+   "fonts": [
+    "bosshealth"
+   ],
+   "files": [
+    "barfight_wave3.swui"
+   ]
+  },
+  "Barfight_Wave3_6": {
+   "fonts": [
+    "bosshealth"
+   ],
+   "files": [
+    "barfight_wave3.swui"
+   ]
+  },
+  "Barfight_Wave3_Intro": {
+   "fonts": [
+    "bosshealth"
+   ],
+   "files": [
+    "barfight_wave3.swui"
+   ]
+  },
+  "Begin": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "Big Money": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "cheats.swui"
+   ]
+  },
+  "Bounty Hunter": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "mpmode.swui"
+   ]
+  },
+  "Bounty Limit": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "mpmode.swui"
+   ]
+  },
+  "Bridge_Lost_SecondWave_1": {
+   "fonts": [
+    "bosshealth"
+   ],
+   "files": [
+    "bridgeslide_lostwave2.swui"
+   ]
+  },
+  "Bridge_Lost_SecondWave_2": {
+   "fonts": [
+    "bosshealth"
+   ],
+   "files": [
+    "bridgeslide_lostwave2.swui"
+   ]
+  },
+  "Bridge_Lost_SecondWave_3": {
+   "fonts": [
+    "bosshealth"
+   ],
+   "files": [
+    "bridgeslide_lostwave2.swui"
+   ]
+  },
+  "Bridge_Lost_SecondWave_4": {
+   "fonts": [
+    "bosshealth"
+   ],
+   "files": [
+    "bridgeslide_lostwave2.swui"
+   ]
+  },
+  "Brightness": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "gamepicture.swui"
+   ]
+  },
+  "Broken Creek": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "CPU": {
+   "fonts": [
+    "woodcut_small"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "Cancel": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "cheats.swui",
+    "gamepicture.swui",
+    "gameplayeropt.swui",
+    "gamesound.swui"
+   ]
+  },
+  "Chapter 1": {
+   "fonts": [
+    "steelfish"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "Chapter 10": {
+   "fonts": [
+    "steelfish"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "Chapter 11": {
+   "fonts": [
+    "steelfish"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "Chapter 12": {
+   "fonts": [
+    "steelfish"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "Chapter 13": {
+   "fonts": [
+    "steelfish"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "Chapter 14": {
+   "fonts": [
+    "steelfish"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "Chapter 15": {
+   "fonts": [
+    "steelfish"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "Chapter 16": {
+   "fonts": [
+    "steelfish"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "Chapter 17": {
+   "fonts": [
+    "steelfish"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "Chapter 18": {
+   "fonts": [
+    "steelfish"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "Chapter 19": {
+   "fonts": [
+    "steelfish"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "Chapter 2": {
+   "fonts": [
+    "steelfish"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "Chapter 20": {
+   "fonts": [
+    "steelfish"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "Chapter 21": {
+   "fonts": [
+    "steelfish"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "Chapter 22": {
+   "fonts": [
+    "steelfish"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "Chapter 23": {
+   "fonts": [
+    "steelfish"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "Chapter 24": {
+   "fonts": [
+    "steelfish"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "Chapter 25": {
+   "fonts": [
+    "steelfish"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "Chapter 26": {
+   "fonts": [
+    "steelfish"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "Chapter 27": {
+   "fonts": [
+    "steelfish"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "Chapter 3": {
+   "fonts": [
+    "steelfish"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "Chapter 4": {
+   "fonts": [
+    "steelfish"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "Chapter 5": {
+   "fonts": [
+    "steelfish"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "Chapter 6": {
+   "fonts": [
+    "steelfish"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "Chapter 7": {
+   "fonts": [
+    "steelfish"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "Chapter 8": {
+   "fonts": [
+    "steelfish"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "Chapter 9": {
+   "fonts": [
+    "steelfish"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "CharName": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "multioption_prefchar.swui"
+   ]
+  },
+  "Cheats": {
+   "fonts": [
+    "berrylium",
+    "regulatorcondensed"
+   ],
+   "files": [
+    "cheats.swui",
+    "pause.swui"
+   ]
+  },
+  "Choose Video Mode": {
+   "fonts": [
+    "arial14"
+   ],
+   "files": [
+    "videooptions.swui"
+   ]
+  },
+  "Coffin Gun": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "Contents": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "Controls": {
+   "fonts": [
+    "berrylium",
+    "regulatorcondensed"
+   ],
+   "files": [
+    "multioption_controls.swui",
+    "multioption_menu.swui"
+   ]
+  },
+  "Desert Fortress": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "Duel Rules": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "mpmode.swui"
+   ]
+  },
+  "Dueling": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "mpmode.swui"
+   ]
+  },
+  "Enter": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "Fairground": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "Fallen Creek": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "Favorite": {
+   "fonts": [
+    "berrylium",
+    "regulatorcondensed"
+   ],
+   "files": [
+    "multioption_menu.swui",
+    "multioption_prefchar.swui"
+   ]
+  },
+  "Fight Time": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "mpmode.swui"
+   ]
+  },
+  "First Hit": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "mpmode.swui"
+   ]
+  },
+  "Game Modes": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "mpmode.swui"
+   ]
+  },
+  "Ghost Town": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "High Noon": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "mpmode.swui"
+   ]
+  },
+  "Hold": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "gameplayeropt.swui",
+    "multioption_controls.swui"
+   ]
+  },
+  "Hold 'Em": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "mpmode.swui"
+   ]
+  },
+  "Horizontal Position": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "gamepicture.swui"
+   ]
+  },
+  "If this image": {
+   "fonts": [
+    "arial14"
+   ],
+   "files": [
+    "ntsctest.swui"
+   ]
+  },
+  "InputName": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "profile.swui"
+   ]
+  },
+  "LITERAL": {
+   "fonts": [
+    "berrylium",
+    "regulatorcondensed"
+   ],
+   "files": [
+    "multioption_profile.swui",
+    "profile.swui"
+   ]
+  },
+  "Leave": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "Lock Blast": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "Mansion Grounds": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "Music Volume": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "gamesound.swui"
+   ]
+  },
+  "N/A": {
+   "fonts": [
+    "woodcut_small"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "NTSC 60Hz": {
+   "fonts": [
+    "arial14"
+   ],
+   "files": [
+    "ntsctest.swui"
+   ]
+  },
+  "Number of Wins": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "mpmode.swui"
+   ]
+  },
+  "OK": {
+   "fonts": [
+    "arial14",
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui",
+    "ntsctest.swui"
+   ]
+  },
+  "P-1": {
+   "fonts": [
+    "woodcut_small"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "P-2": {
+   "fonts": [
+    "woodcut_small"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "P-3": {
+   "fonts": [
+    "woodcut_small"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "P-4": {
+   "fonts": [
+    "woodcut_small"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "PROMPT0": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "PROMPT3": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "PROMPTJ0": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "PROMPTJ1": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "PROMPTJ2": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "PROMPT_TOP": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "Picture Options": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "gameoptions.swui",
+    "gamepicture.swui",
+    "mainoptions.swui"
+   ]
+  },
+  "Player": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "multioption_menu.swui"
+   ]
+  },
+  "Player Options": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "gameoptions.swui",
+    "gameplayeropt.swui"
+   ]
+  },
+  "PlayerName": {
+   "fonts": [
+    "damaged"
+   ],
+   "files": [
+    "pause.swui"
+   ]
+  },
+  "Power ups": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "mpmode.swui"
+   ]
+  },
+  "RETRY": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "continue.swui"
+   ]
+  },
+  "Random": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "Restart Level": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "pause.swui"
+   ]
+  },
+  "Select": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui",
+    "gameoptions.swui",
+    "mainoptions.swui"
+   ]
+  },
+  "Sensitivity": {
+   "fonts": [
+    "berrylium",
+    "regulatorcondensed"
+   ],
+   "files": [
+    "multioption_menu.swui",
+    "multioption_sensitivity.swui"
+   ]
+  },
+  "Sfx Volume": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "gamesound.swui"
+   ]
+  },
+  "Show AI Info": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "cheats.swui"
+   ]
+  },
+  "Show Player Position": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "cheats.swui"
+   ]
+  },
+  "Showdown": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "mpmode.swui"
+   ]
+  },
+  "Showstopper": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "Sound Options": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "gameoptions.swui",
+    "gamesound.swui",
+    "mainoptions.swui"
+   ]
+  },
+  "Stud": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "mpmode.swui"
+   ]
+  },
+  "Subtitles": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "gamesound.swui"
+   ]
+  },
+  "Sundown": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "mpmode.swui"
+   ]
+  },
+  "Sunset Canyon": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "Super Dodge": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "Surround": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "gamesound.swui"
+   ]
+  },
+  "Target Mode": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "gameplayeropt.swui"
+   ]
+  },
+  "Targeting Style": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "multioption_controls.swui"
+   ]
+  },
+  "Teams": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "Test NTSC 60Hz": {
+   "fonts": [
+    "arial14"
+   ],
+   "files": [
+    "videooptions.swui"
+   ]
+  },
+  "The Bridge": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "The Coliseum": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "The Mansion": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "The Mine": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "The Ranch": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "Title!!!": {
+   "fonts": [
+    "arial14"
+   ],
+   "files": [
+    "doormenu.swui"
+   ]
+  },
+  "To the Death": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "mpmode.swui"
+   ]
+  },
+  "Toggle": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "gameplayeropt.swui",
+    "multioption_controls.swui"
+   ]
+  },
+  "Tomb_Duel_1": {
+   "fonts": [
+    "damaged"
+   ],
+   "files": [
+    "duelingshowdown1.swui"
+   ]
+  },
+  "Tomb_Duel_2": {
+   "fonts": [
+    "damaged"
+   ],
+   "files": [
+    "duelingshowdown2.swui"
+   ]
+  },
+  "Tomb_Duel_3": {
+   "fonts": [
+    "damaged"
+   ],
+   "files": [
+    "duelingshowdown3.swui"
+   ]
+  },
+  "Tomb_Duel_4": {
+   "fonts": [
+    "damaged"
+   ],
+   "files": [
+    "duelingshowdown4.swui"
+   ]
+  },
+  "Tomb_Duel_5": {
+   "fonts": [
+    "damaged"
+   ],
+   "files": [
+    "duelingshowdown5.swui"
+   ]
+  },
+  "Tomb_Duel_6": {
+   "fonts": [
+    "damaged"
+   ],
+   "files": [
+    "duelingshowdown6.swui"
+   ]
+  },
+  "Tomb_Duel_7": {
+   "fonts": [
+    "damaged"
+   ],
+   "files": [
+    "duelingshowdown7.swui"
+   ]
+  },
+  "Tomb_Duel_8": {
+   "fonts": [
+    "damaged"
+   ],
+   "files": [
+    "duelingshowdown8.swui"
+   ]
+  },
+  "Twin Rocks": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "Use NTSC 60Hz": {
+   "fonts": [
+    "arial14"
+   ],
+   "files": [
+    "videooptions.swui"
+   ]
+  },
+  "Use PAL": {
+   "fonts": [
+    "arial14"
+   ],
+   "files": [
+    "videooptions.swui"
+   ]
+  },
+  "Vertical Position": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "gamepicture.swui"
+   ]
+  },
+  "Wall Pierce": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "Widescreen": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "gamepicture.swui"
+   ]
+  },
+  "Widows Patch": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "X-Axis": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "multioption_sensitivity.swui"
+   ]
+  },
+  "X-Axis Sensitivity": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "gameplayeropt.swui"
+   ]
+  },
+  "Xbox Live": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "pause.swui"
+   ]
+  },
+  "Y-Axis": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "multioption_sensitivity.swui"
+   ]
+  },
+  "Y-Axis Sensitivity": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "gameplayeropt.swui"
+   ]
+  },
+  "abandoned settlement": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "ancient monoliths": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "appears correct": {
+   "fonts": [
+    "arial14"
+   ],
+   "files": [
+    "ntsctest.swui"
+   ]
+  },
+  "arrow_angle": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "arrow_straight": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "book": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "bounty_description": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "bow_01": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "boyhood home": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "chapter_description0": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "chapter_heading0": {
+   "fonts": [
+    "steelfish"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "chapter_title0": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "chapterview": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "charname1": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "charname2": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "charname3": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "charname4": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "contested structure": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "crazy shoot": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "crouch shoot": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "cur_profile": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "storyselect.swui"
+   ]
+  },
+  "cursorlabel1": {
+   "fonts": [
+    "narrow_lables"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "cursorlabel2": {
+   "fonts": [
+    "narrow_lables"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "cursorlabel3": {
+   "fonts": [
+    "narrow_lables"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "cursorlabel4": {
+   "fonts": [
+    "narrow_lables"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "dancing bullet": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "desert badlands": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "fertile land": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "fire arrow": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "flare rifle": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "giant fortress": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "jes": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "joinmsg1": {
+   "fonts": [
+    "narrow_lables"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "joinmsg2": {
+   "fonts": [
+    "narrow_lables"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "joinmsg3": {
+   "fonts": [
+    "narrow_lables"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "joinmsg4": {
+   "fonts": [
+    "narrow_lables"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "journal": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "journal0": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "journal1": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "journal2": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "layout0": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "layout1": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "layout_book": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "layout_journal": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "layout_mplevel": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "layout_poster": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "level_desc": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "level_name": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "loading": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "lost inheritance": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "main": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "mode": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "roominstr.swui"
+   ]
+  },
+  "mpchar": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "mplevel": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "no": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "continue.swui"
+   ]
+  },
+  "opulent palace": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "pagenum_left": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "pagenum_right": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "bookchapterview.swui"
+   ]
+  },
+  "playertype1": {
+   "fonts": [
+    "woodcut_small"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "playertype2": {
+   "fonts": [
+    "woodcut_small"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "playertype3": {
+   "fonts": [
+    "woodcut_small"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "playertype4": {
+   "fonts": [
+    "woodcut_small"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "poster": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "profile_message": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "profile.swui"
+   ]
+  },
+  "right analog stick to zoom": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "ruined homestead": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "snow-topped mountain": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "storysel": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "frontendbuttons.swui"
+   ]
+  },
+  "tended gardens": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "terrified town": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "training ground": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "postermultiview.swui"
+   ]
+  },
+  "xboxlive": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "roominstr.swui"
+   ]
+  },
+  "xboxliveinfo": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "roominstr.swui"
+   ]
+  },
+  "xboxlivename": {
+   "fonts": [
+    "berrylium"
+   ],
+   "files": [
+    "roominstr.swui"
+   ]
+  },
+  "yes": {
+   "fonts": [
+    "regulatorcondensed"
+   ],
+   "files": [
+    "continue.swui"
+   ]
+  },
+  "you may use": {
+   "fonts": [
+    "arial14"
+   ],
+   "files": [
+    "ntsctest.swui"
+   ]
+  }
+ }
+}

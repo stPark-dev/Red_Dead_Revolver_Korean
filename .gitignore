@@ -1,0 +1,14 @@
+# Allow-list: only project sources go into the repository.
+# Never commit ROM/ISO/BIOS images or data extracted from the game (orig/, work/).
+/*
+!/.gitignore
+!/README.md
+!/cover_ko.png
+!/docs/
+!/hook/
+!/tests/
+!/text/
+!/tools/
+__pycache__/
+*.pyc
+.pytest_cache/

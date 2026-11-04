@@ -1,0 +1,168 @@
+{
+ "_doc": "Strings the game code (ELF) builds and looks up by key at run time; not in any layout or table. Each is added to swat.strtbl like a layout literal (translation in text/layout_ko.json). evidence = where the string comes from and the in-game check.",
+ "literals": {
+  "Player 1 Paused": {
+   "fonts": [
+    "berrylium",
+    "regulatorcondensed"
+   ],
+   "evidence": "ELF format 'Player %d Paused' (0x516EF8); Showdown pause title showed '플레이어 1 일시정지' with key added (2026-11-04 PoC)"
+  },
+  "Player 2 Paused": {
+   "fonts": [
+    "berrylium",
+    "regulatorcondensed"
+   ],
+   "evidence": "ELF format 'Player %d Paused' (0x516EF8); Showdown pause title showed '플레이어 1 일시정지' with key added (2026-11-04 PoC)"
+  },
+  "Player 3 Paused": {
+   "fonts": [
+    "berrylium",
+    "regulatorcondensed"
+   ],
+   "evidence": "ELF format 'Player %d Paused' (0x516EF8); Showdown pause title showed '플레이어 1 일시정지' with key added (2026-11-04 PoC)"
+  },
+  "Player 4 Paused": {
+   "fonts": [
+    "berrylium",
+    "regulatorcondensed"
+   ],
+   "evidence": "ELF format 'Player %d Paused' (0x516EF8); Showdown pause title showed '플레이어 1 일시정지' with key added (2026-11-04 PoC)"
+  },
+  "First One to $3000 Wins!": {
+   "fonts": [
+    "berrylium",
+    "regulatorcondensed",
+    "damaged",
+    "steelfish"
+   ],
+   "evidence": "ELF format 'First One to $%d Wins!' (0x52B3FC area); values from mpmode.swui COMBODATA; font not yet identified (candidates)"
+  },
+  "First Team to $3000 Wins!": {
+   "fonts": [
+    "berrylium",
+    "regulatorcondensed",
+    "damaged",
+    "steelfish"
+   ],
+   "evidence": "ELF format 'First Team to $%d Wins!' (0x52B3FC area); values from mpmode.swui COMBODATA; font not yet identified (candidates)"
+  },
+  "First One to $5000 Wins!": {
+   "fonts": [
+    "berrylium",
+    "regulatorcondensed",
+    "damaged",
+    "steelfish"
+   ],
+   "evidence": "ELF format 'First One to $%d Wins!' (0x52B3FC area); values from mpmode.swui COMBODATA; font not yet identified (candidates)"
+  },
+  "First Team to $5000 Wins!": {
+   "fonts": [
+    "berrylium",
+    "regulatorcondensed",
+    "damaged",
+    "steelfish"
+   ],
+   "evidence": "ELF format 'First Team to $%d Wins!' (0x52B3FC area); values from mpmode.swui COMBODATA; font not yet identified (candidates)"
+  },
+  "First One to $10000 Wins!": {
+   "fonts": [
+    "berrylium",
+    "regulatorcondensed",
+    "damaged",
+    "steelfish"
+   ],
+   "evidence": "ELF format 'First One to $%d Wins!' (0x52B3FC area); values from mpmode.swui COMBODATA; font not yet identified (candidates)"
+  },
+  "First Team to $10000 Wins!": {
+   "fonts": [
+    "berrylium",
+    "regulatorcondensed",
+    "damaged",
+    "steelfish"
+   ],
+   "evidence": "ELF format 'First Team to $%d Wins!' (0x52B3FC area); values from mpmode.swui COMBODATA; font not yet identified (candidates)"
+  },
+  "First One to $15000 Wins!": {
+   "fonts": [
+    "berrylium",
+    "regulatorcondensed",
+    "damaged",
+    "steelfish"
+   ],
+   "evidence": "ELF format 'First One to $%d Wins!' (0x52B3FC area); values from mpmode.swui COMBODATA; font not yet identified (candidates)"
+  },
+  "First Team to $15000 Wins!": {
+   "fonts": [
+    "berrylium",
+    "regulatorcondensed",
+    "damaged",
+    "steelfish"
+   ],
+   "evidence": "ELF format 'First Team to $%d Wins!' (0x52B3FC area); values from mpmode.swui COMBODATA; font not yet identified (candidates)"
+  },
+  "First One to $20000 Wins!": {
+   "fonts": [
+    "berrylium",
+    "regulatorcondensed",
+    "damaged",
+    "steelfish"
+   ],
+   "evidence": "ELF format 'First One to $%d Wins!' (0x52B3FC area); values from mpmode.swui COMBODATA; font not yet identified (candidates)"
+  },
+  "First Team to $20000 Wins!": {
+   "fonts": [
+    "berrylium",
+    "regulatorcondensed",
+    "damaged",
+    "steelfish"
+   ],
+   "evidence": "ELF format 'First Team to $%d Wins!' (0x52B3FC area); values from mpmode.swui COMBODATA; font not yet identified (candidates)"
+  },
+  "1 Minute Timed Battle!": {
+   "fonts": [
+    "berrylium",
+    "regulatorcondensed",
+    "damaged",
+    "steelfish"
+   ],
+   "evidence": "ELF format '%d Minute Timed Battle!' (0x52B3FC area); values from mpmode.swui COMBODATA; font not yet identified (candidates)"
+  },
+  "3 Minute Timed Battle!": {
+   "fonts": [
+    "berrylium",
+    "regulatorcondensed",
+    "damaged",
+    "steelfish"
+   ],
+   "evidence": "ELF format '%d Minute Timed Battle!' (0x52B3FC area); values from mpmode.swui COMBODATA; font not yet identified (candidates)"
+  },
+  "5 Minute Timed Battle!": {
+   "fonts": [
+    "berrylium",
+    "regulatorcondensed",
+    "damaged",
+    "steelfish"
+   ],
+   "evidence": "ELF format '%d Minute Timed Battle!' (0x52B3FC area); values from mpmode.swui COMBODATA; font not yet identified (candidates)"
+  },
+  "10 Minute Timed Battle!": {
+   "fonts": [
+    "berrylium",
+    "regulatorcondensed",
+    "damaged",
+    "steelfish"
+   ],
+   "evidence": "ELF format '%d Minute Timed Battle!' (0x52B3FC area); values from mpmode.swui COMBODATA; font not yet identified (candidates)"
+  },
+  "15 Minute Timed Battle!": {
+   "fonts": [
+    "berrylium",
+    "regulatorcondensed",
+    "damaged",
+    "steelfish"
+   ],
+   "evidence": "ELF format '%d Minute Timed Battle!' (0x52B3FC area); values from mpmode.swui COMBODATA; font not yet identified (candidates)"
+  }
+ }
+}

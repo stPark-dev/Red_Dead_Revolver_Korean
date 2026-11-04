@@ -1,0 +1,30 @@
+[
+ {
+  "table": "backup_swat.strtbl",
+  "copy": "SWAT.DAT#1301"
+ },
+ {
+  "table": "bak2_swat.strtbl",
+  "copy": "SWAT.DAT#1317"
+ },
+ {
+  "table": "lvl_front_crap.strtbl",
+  "copy": "SWAT.DAT#18162"
+ },
+ {
+  "table": "swat.bak.strtbl",
+  "copy": "SWAT.DAT#42622"
+ },
+ {
+  "table": "swat_xbx.strtbl",
+  "copy": "SWAT.DAT#42677"
+ },
+ {
+  "table": "xb_lvl_tng.strtbl",
+  "copy": "SWAT.DAT#46808"
+ },
+ {
+  "table": "xb_swat.strtbl",
+  "copy": "SWAT.DAT#46809"
+ }
+]

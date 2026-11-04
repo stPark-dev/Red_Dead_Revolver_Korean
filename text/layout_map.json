@@ -1,0 +1,21 @@
+{
+ "_doc": "LOOKUP column -> element it fills, per layout file (read from the .swui; null = not displayed text). 'runtime' lists key patterns that code puts into named layout elements, with the fonts of those elements.",
+ "bookchapterview.swui": {
+  "BookContents": [null, "chapter_heading0", "chapter_title0", null, "chapter_description0"],
+  "LevelChar": [null, "bounty_description"],
+  "CharSpecialMove": [null, "bounty_description"],
+  "CharWeapon": [null, "bounty_description", "bounty_description"]
+ },
+ "postermultiview.swui": {
+  "CharWeaponTable": [null, "level_desc"],
+  "CharSpecialTable": [null, "level_desc"],
+  "AIBrainTable": [null, null],
+  "PlayerBrainTable": [null, null],
+  "PartnerTable": [null, null],
+  "PartnerBrainTable": [null, null],
+  "LevelTable": [null, null, "level_name", "level_desc"]
+ },
+ "runtime": {
+  "^POSTER_INSTR_": ["narrow_lables"]
+ }
+}

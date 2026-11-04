@@ -1,0 +1,69 @@
+{
+ "_doc": "swui layouts whose BUTTON x positions are recomputed for the translated label (build_patch.swui_recenter).",
+ "files": {
+  "multioption_menu.swui": {
+   "font": "berrylium",
+   "scale": 0.75,
+   "center_x": 48,
+   "labels": [
+    "Player",
+    "Controls",
+    "Sensitivity",
+    "Favorite"
+   ],
+   "evidence": "original x 23/12/8/15 put the English labels' centres at 48.1/46.9/48.9/47.6 (berrylium widths x 0.75); user report 2026-11-04: Korean list uneven, '즐겨 쓰는 캐릭터' overflows the column"
+  },
+  "multioption_controls.swui": {
+   "font": "berrylium",
+   "scale": 0.684,
+   "center_x": 49,
+   "labels": [
+    "Targeting Style",
+    "Invert Targeting",
+    "Invert Duel Targeting",
+    "Vibration"
+   ],
+   "evidence": "labels sit over their value box (COMBO value at x 6, width 86 -> centre 49); original English label x were hand-set (-3/-11/-5/18), left edges uneven once translated"
+  },
+  "continue.swui": {
+   "font": "regulatorcondensed",
+   "scale": 1.5,
+   "mode": "group",
+   "labels": [
+    "yes",
+    "no"
+   ],
+   "evidence": "Yes/No row placed by left x for the English words; keep the English gap and centre the row on the English row's centre (mode group). keep_center left the row leaning right in-game (qa_l1/warn.png)"
+  },
+  "warning.swui": {
+   "font": "regulatorcondensed",
+   "scale": 1.5,
+   "mode": "group",
+   "labels": [
+    "btnNo",
+    "btnYes"
+   ],
+   "evidence": "Yes/No row placed by left x for the English words; keep the English gap and centre the row on the English row's centre (mode group). keep_center left the row leaning right in-game (qa_l1/warn.png)"
+  },
+  "warningfrontend.swui": {
+   "font": "regulatorcondensed",
+   "scale": 1.5,
+   "mode": "group",
+   "labels": [
+    "btnNo",
+    "btnYes"
+   ],
+   "evidence": "Yes/No row placed by left x for the English words; keep the English gap and centre the row on the English row's centre (mode group). keep_center left the row leaning right in-game (qa_l1/warn.png)"
+  },
+  "profile.swui": {
+   "font": "berrylium",
+   "scale": 0.65,
+   "mode": "group",
+   "labels": [
+    "btnYes",
+    "btnNo"
+   ],
+   "evidence": "Yes/No row placed by left x for the English words; keep the English gap and centre the row on the English row's centre (mode group). keep_center left the row leaning right in-game (qa_l1/warn.png)"
+  }
+ }
+}

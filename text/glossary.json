@@ -1,0 +1,311 @@
+{
+ "_doc": "Terminology/voice decisions (translation-artifacts §1.1). state: proposed | approved | unresolved | conflicting. Only approved entries bind translators.",
+ "policies": [
+  {
+   "id": "P-NAMES",
+   "state": "approved",
+   "rule": "Character/place proper names are transliterated by standard Korean loanword orthography (외래어 표기법).",
+   "examples": {
+    "Red Harlow": "레드 할로",
+    "Bear Mountain": "베어 마운틴",
+    "Brimstone": "브림스톤"
+   },
+   "approved": "2026-11-03 user (AskUserQuestion: nicknames by meaning, Western voice, translated place names)"
+  },
+  {
+   "id": "P-NICK",
+   "state": "approved",
+   "rule": "Quoted nicknames keep the quotes and are translated by meaning when descriptive; the surname is transliterated.",
+   "examples": {
+    "“Curly” Shaw": "“곱슬머리” 쇼",
+    "\"Pig\" Josh": "“돼지” 조시",
+    "“The Blade” Slade": "“칼잡이” 슬레이드",
+    "“Kid” Cougar": "“꼬마” 쿠거"
+   },
+   "approved": "2026-11-03 user (AskUserQuestion: nicknames by meaning, Western voice, translated place names)"
+  },
+  {
+   "id": "P-UI",
+   "state": "approved",
+   "rule": "Menus/HUD/tutorial instructions use concise 해요체-free imperative/noun style (e.g. '사격', '재장전', '~하려면 {BTN}를 누르세요' in tutorials uses 하십시오/하세요체).",
+   "approved": "2026-11-03 user (AskUserQuestion: nicknames by meaning, Western voice, translated place names)"
+  },
+  {
+   "id": "P-VOICE",
+   "state": "approved",
+   "rule": "Dialogue: Old-West tone; strangers/villains speak 반말 or rough 하게체; Red speaks terse 반말; elders to children 반말; townsfolk to Red polite 해요체 unless hostile.",
+   "approved": "2026-11-03 user (AskUserQuestion: nicknames by meaning, Western voice, translated place names)"
+  },
+  {
+   "id": "P-PUNCT",
+   "state": "approved",
+   "rule": "Use only glyph-supported punctuation. '…'(U+2026) and '–'(U+2013) have no glyph in any game font (dropped in the original) -> write '...' and '-'.",
+   "approved": "2026-11-03 user (AskUserQuestion: nicknames by meaning, Western voice, translated place names)"
+  }
+ ],
+ "terms": [
+  {
+   "id": "T-deadeye",
+   "src": "Deadeye",
+   "ko": "데드아이",
+   "state": "proposed",
+   "note": "signature slow-motion targeting system; series term kept"
+  },
+  {
+   "id": "T-bounty",
+   "src": "Bounty",
+   "ko": "현상금",
+   "state": "proposed"
+  },
+  {
+   "id": "T-bountyhunter",
+   "src": "bounty hunter",
+   "ko": "현상금 사냥꾼",
+   "state": "proposed"
+  },
+  {
+   "id": "T-showdown",
+   "src": "Showdown (mode)",
+   "ko": "쇼다운",
+   "state": "proposed",
+   "note": "multiplayer mode name"
+  },
+  {
+   "id": "T-duel",
+   "src": "Duel",
+   "ko": "결투",
+   "state": "proposed"
+  },
+  {
+   "id": "T-brimstone",
+   "src": "Brimstone",
+   "ko": "브림스톤",
+   "state": "approved",
+   "approved": "2026-11-03 via P-NAMES"
+  },
+  {
+   "id": "T-bearmtn",
+   "src": "Bear Mountain",
+   "ko": "베어 마운틴",
+   "state": "approved",
+   "approved": "2026-11-03 via P-NAMES"
+  },
+  {
+   "id": "T-red",
+   "src": "Red (Red Harlow)",
+   "ko": "레드",
+   "state": "approved",
+   "approved": "2026-11-03 via P-NAMES"
+  },
+  {
+   "id": "T-nate",
+   "src": "Nate Harlow",
+   "ko": "네이트 할로",
+   "state": "approved",
+   "approved": "2026-11-03 via P-NAMES"
+  },
+  {
+   "id": "T-fallingstar",
+   "src": "Falling Star",
+   "ko": "폴링 스타",
+   "state": "proposed",
+   "alternative": "떨어지는 별"
+  },
+  {
+   "id": "T-redwolf",
+   "src": "Red Wolf (tribe)",
+   "ko": "붉은 늑대 부족",
+   "state": "proposed"
+  },
+  {
+   "id": "T-shadowwolf",
+   "src": "Shadow Wolf",
+   "ko": "섀도 울프",
+   "state": "proposed",
+   "alternative": "그림자 늑대"
+  },
+  {
+   "id": "T-ogrady",
+   "src": "Sheriff O'Grady",
+   "ko": "오그레이디 보안관",
+   "state": "approved",
+   "approved": "2026-11-03 via P-NAMES"
+  },
+  {
+   "id": "T-diego",
+   "src": "General Diego",
+   "ko": "디에고 장군",
+   "state": "approved",
+   "approved": "2026-11-03 via P-NAMES"
+  },
+  {
+   "id": "T-griffon",
+   "src": "Governor Griffon",
+   "ko": "그리펀 주지사",
+   "state": "approved",
+   "approved": "2026-11-03 via P-NAMES"
+  },
+  {
+   "id": "T-kelley",
+   "src": "Mr. Kelley",
+   "ko": "켈리 씨",
+   "state": "proposed"
+  },
+  {
+   "id": "T-annie",
+   "src": "Annie Stoakes",
+   "ko": "애니 스토크스",
+   "state": "approved",
+   "approved": "2026-11-03 via P-NAMES"
+  },
+  {
+   "id": "T-jack",
+   "src": "Jack Swift",
+   "ko": "잭 스위프트",
+   "state": "approved",
+   "approved": "2026-11-03 via P-NAMES"
+  },
+  {
+   "id": "T-badbessie",
+   "src": "Bad Bessie",
+   "ko": "배드 베시",
+   "state": "proposed",
+   "alternative": "나쁜 베시"
+  },
+  {
+   "id": "T-bartlett",
+   "src": "Sheriff Bartlett",
+   "ko": "바틀렛 보안관",
+   "state": "approved",
+   "approved": "2026-11-03 via P-NAMES"
+  },
+  {
+   "id": "T-gatling",
+   "src": "Gatling Gun",
+   "ko": "개틀링 건",
+   "state": "proposed"
+  },
+  {
+   "id": "T-shotgun",
+   "src": "Shotgun",
+   "ko": "산탄총",
+   "state": "proposed"
+  },
+  {
+   "id": "T-rifle",
+   "src": "Rifle",
+   "ko": "소총",
+   "state": "proposed"
+  },
+  {
+   "id": "T-pistol",
+   "src": "Pistol",
+   "ko": "권총",
+   "state": "proposed"
+  },
+  {
+   "id": "T-revolver",
+   "src": "Revolver",
+   "ko": "리볼버",
+   "state": "proposed"
+  },
+  {
+   "id": "T-dynamite",
+   "src": "Dynamite",
+   "ko": "다이너마이트",
+   "state": "proposed"
+  },
+  {
+   "id": "T-saloon",
+   "src": "Saloon",
+   "ko": "술집",
+   "state": "approved",
+   "approved": "2026-11-03 user (translated place names)"
+  },
+  {
+   "id": "T-sheriffoffice",
+   "src": "Sheriff's Office",
+   "ko": "보안관 사무소",
+   "state": "approved",
+   "approved": "2026-11-03 user (translated place names)"
+  },
+  {
+   "id": "T-gunshop",
+   "src": "Gun Shop / Gunshop",
+   "ko": "총포상",
+   "state": "approved",
+   "approved": "2026-11-03 user (translated place names)"
+  },
+  {
+   "id": "T-generalstore",
+   "src": "General Store",
+   "ko": "잡화점",
+   "state": "approved",
+   "approved": "2026-11-03 user (translated place names)"
+  },
+  {
+   "id": "T-poker",
+   "src": "poker hands (Pair, Two Pair, Straight, Flush, Full House, Royal Flush ...)",
+   "ko": "원 페어, 투 페어, 스트레이트, 플러시, 풀하우스, 로열 플러시",
+   "state": "proposed",
+   "note": "standard Korean poker terms"
+  },
+  {
+   "id": "T-story",
+   "src": "Story Mode",
+   "ko": "스토리 모드",
+   "state": "proposed"
+  },
+  {
+   "id": "T-sticks",
+   "src": "left/right analog stick",
+   "ko": "왼쪽/오른쪽 아날로그 스틱",
+   "state": "proposed"
+  },
+  {
+   "id": "T-griff",
+   "src": "Griff (Nate's partner = Governor Griffon)",
+   "ko": "그리프",
+   "state": "proposed",
+   "note": "cutscene perfnew_01"
+  },
+  {
+   "id": "T-buffalosoldier",
+   "src": "Buffalo soldier",
+   "ko": "버펄로 솔저",
+   "state": "proposed",
+   "alternative": "흑인 기병대 병사"
+  },
+  {
+   "id": "T-peabody",
+   "src": "Mr. Peabody",
+   "ko": "피버디 씨",
+   "state": "proposed"
+  },
+  {
+   "id": "T-bodie",
+   "src": "General Bodie",
+   "ko": "보디 장군",
+   "state": "proposed"
+  },
+  {
+   "id": "T-gringo",
+   "src": "Gringo",
+   "ko": "그링고",
+   "state": "proposed"
+  },
+  {
+   "id": "T-battleroyale",
+   "src": "Battle Royale",
+   "ko": "배틀 로열",
+   "state": "proposed"
+  },
+  {
+   "id": "T-andale",
+   "src": "Ándale!",
+   "ko": "어서!",
+   "state": "proposed",
+   "note": "Spanish; translated by meaning"
+  }
+ ]
+}

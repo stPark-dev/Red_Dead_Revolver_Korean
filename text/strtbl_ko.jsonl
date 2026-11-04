@@ -402,7 +402,7 @@
 {"id": "swat.strtbl/CIRCLE_BUTTON", "src": "{BTN_BE}", "same_as": "swat.strtbl/BOOK_CIRCLE_BUTTON", "state": "needs_review"}
 {"id": "swat.strtbl/CONTINUE?", "src": "CONTINUE?", "ko": "이어하시겠습니까?", "state": "needs_review"}
 {"id": "swat.strtbl/CROSS_BUTTON", "src": "{BTN_BA}", "same_as": "swat.strtbl/BOOK_CROSS_BUTTON", "state": "needs_review"}
-{"id": "swat.strtbl/Camera_Movement", "src": "Press left or right on the right analog stick to move the camera.", "ko": "오른쪽 아날로그 스틱을 좌우로 움직여 카메라를 돌리세요.", "state": "needs_review"}
+{"id": "swat.strtbl/Camera_Movement", "src": "Press left or right on the right analog stick to move the camera.", "ko": "오른쪽 스틱을 좌우로 움직여 카메라를 돌리세요.", "state": "needs_review"}
 {"id": "swat.strtbl/Camera_Movement2", "src": "Rotate the camera all the way around so you can get your bearings.", "ko": "카메라를 한 바퀴 돌려 주위를 둘러보세요.", "state": "needs_review"}
 {"id": "swat.strtbl/Camera_Movement3", "src": "Great! You can also look around while moving. Try it sometime.", "ko": "좋아요! 이동하면서도 주위를 둘러볼 수 있습니다. 한번 해 보세요.", "state": "needs_review"}
 {"id": "swat.strtbl/CannonArmSized", "src": "Arm-Sized Cannon", "ko": "팔뚝만 한 대포", "state": "needs_review"}
@@ -412,8 +412,8 @@
 {"id": "swat.strtbl/Continue(s) Left", "src": "Continue(s) Left", "ko": "남은 이어하기", "state": "needs_review"}
 {"id": "swat.strtbl/Copperhead", "src": "Copperhead", "ko": "코퍼헤드", "state": "needs_review"}
 {"id": "swat.strtbl/CorePrisoner_Line_1", "src": "I was startin' to think noone would ever get me out of here.  Hurry!  The guards could be back any minute.", "ko": "아무도 날 여기서 못 꺼내 줄 줄 알았지. 서둘러! 간수들이 언제 돌아올지 몰라.", "state": "needs_review"}
-{"id": "swat.strtbl/CorePrisoner_Line_2", "src": "C'mon, think you can get me out of here?  I'd be much obliged.", "ko": "이봐, 나 좀 여기서 꺼내 줄 수 있겠나? 그럼 정말 고맙겠네.", "state": "needs_review"}
-{"id": "swat.strtbl/CorePrisoner_Line_3", "src": "Thanks! Maybe you can use this key that one of the guards left behind. I think it opens the door that  leads up to the fort.", "ko": "고마워! 간수가 두고 간 열쇠야. 요새로 통하는 문 열쇠 같아.", "state": "needs_review"}
+{"id": "swat.strtbl/CorePrisoner_Line_2", "src": "C'mon, think you can get me out of here?  I'd be much obliged.", "ko": "이봐, 여기서 나 좀 꺼내 주겠나? 정말 고맙겠네.", "state": "needs_review"}
+{"id": "swat.strtbl/CorePrisoner_Line_3", "src": "Thanks! Maybe you can use this key that one of the guards left behind. I think it opens the door that  leads up to the fort.", "ko": "고마워! 간수가 두고 간 열쇠야. 요새 문 열쇠 같아.", "state": "needs_review"}
 {"id": "swat.strtbl/Counter", "src": "Counter", "ko": "반격", "state": "needs_review"}
 {"id": "swat.strtbl/Cover3_Duel_GP3_Draw", "src": "Drawing", "ko": "뽑는 중", "state": "needs_review"}
 {"id": "swat.strtbl/Cover3_Duel_GP3_Fire", "src": "Firing", "ko": "사격 중", "state": "needs_review"}
@@ -513,7 +513,7 @@
 {"id": "swat.strtbl/HowToSneak04", "src": "… or you can walk to the left.", "ko": "... 왼쪽으로 걸을 수도 있습니다.", "state": "needs_review"}
 {"id": "swat.strtbl/HowToSneak05", "src": "When you reach an open edge, continue to press in the direction of the edge …", "ko": "트인 모서리에 닿으면 계속 그 방향으로 누르세요...", "state": "needs_review"}
 {"id": "swat.strtbl/HowToSneak05_B", "src": "and you'll peep around the corner.", "ko": "그러면 모퉁이 너머를 엿볼 수 있습니다.", "state": "needs_review"}
-{"id": "swat.strtbl/HowToSneak08", "src": "Pressing the fire button from this point will make you spin out and fire.", "ko": "이 상태에서 사격 버튼을 누르면 몸을 돌려 나오며 쏩니다.", "state": "needs_review"}
+{"id": "swat.strtbl/HowToSneak08", "src": "Pressing the fire button from this point will make you spin out and fire.", "ko": "사격 버튼을 누르면 몸을 내밀며 쏩니다.", "state": "needs_review"}
 {"id": "swat.strtbl/HowToSneak09", "src": "To detach from a cover object, simply walk away from it.", "ko": "엄폐물에서 떨어지려면 그냥 반대쪽으로 걸어가세요.", "state": "needs_review"}
 {"id": "swat.strtbl/HowToSpecialMove", "src": "Press the the R2 button with your gun drawn to activate your special move.", "ko": "총을 뽑은 상태에서 R2 버튼을 누르면 특수 기술이 발동합니다.", "state": "needs_review"}
 {"id": "swat.strtbl/HowToTipTable", "src": "Press Kick {ICON_2021} or Punch {BTN_BE} to tip a table over.", "ko": "발차기 {ICON_2021} 또는 주먹 {BTN_BE} 버튼으로 탁자를 엎을 수 있습니다.", "state": "needs_review"}
@@ -522,8 +522,8 @@
 {"id": "swat.strtbl/Hunting_Knife", "src": "Hunting Knife", "ko": "사냥칼", "state": "needs_review"}
 {"id": "swat.strtbl/Inquisitor", "src": "Inquisitor", "ko": "심문관", "state": "needs_review"}
 {"id": "swat.strtbl/Inquisitor_u", "src": "+Inquisitor+", "ko": "+심문관+", "state": "needs_review"}
-{"id": "swat.strtbl/Inst_Bomb_Fall", "src": "Watch your step. Falling from high distances can cause damage.", "ko": "발밑을 조심하세요. 높은 곳에서 떨어지면 피해를 입습니다.", "state": "needs_review"}
-{"id": "swat.strtbl/Inst_Ranch_Dismount", "src": "Press {BTN_BD} again when on the animal to dismount it", "ko": "동물을 탄 상태에서 {BTN_BD} 버튼을 다시 누르면 내립니다", "state": "needs_review"}
+{"id": "swat.strtbl/Inst_Bomb_Fall", "src": "Watch your step. Falling from high distances can cause damage.", "ko": "발밑을 조심하세요. 높은 곳에서 떨어지면 다칩니다.", "state": "needs_review"}
+{"id": "swat.strtbl/Inst_Ranch_Dismount", "src": "Press {BTN_BD} again when on the animal to dismount it", "ko": "탄 채로 {BTN_BD} 버튼을 다시 누르면 내립니다", "state": "needs_review"}
 {"id": "swat.strtbl/Inst_Ranch_Dismount2", "src": "Animals need to be stopped before dismounting.", "ko": "동물이 멈춰야 내릴 수 있습니다.", "state": "needs_review"}
 {"id": "swat.strtbl/Inst_Ranch_Mount", "src": "Press {BTN_BD} while near an animal to ride it", "ko": "동물 가까이에서 {BTN_BD} 버튼을 누르면 올라탑니다", "state": "needs_review"}
 {"id": "swat.strtbl/Inst_Train_JumpToTrain", "src": "Get near the train and press {BTN_BD} to jump onto it.", "ko": "기차에 다가가 {BTN_BD} 버튼을 누르면 뛰어오릅니다.", "state": "needs_review"}
@@ -664,7 +664,7 @@
 {"id": "swat.strtbl/Perfnew_RedSr_29", "src": "You never met yer older brother did you?", "ko": "넌 네 형을 본 적이 없지?", "state": "needs_review"}
 {"id": "swat.strtbl/Perfnew_RedSr_3", "src": "Now, let's draw and shoot", "ko": "자, 총을 뽑아서 쏴 보자", "state": "needs_review"}
 {"id": "swat.strtbl/Perfnew_RedSr_30", "src": "That's cause he screwed this part up so bad I had to shoot and bury him.", "ko": "그 녀석이 이걸 하도 엉망으로 해서 내가 쏴 죽이고 묻어 버렸거든.", "state": "needs_review"}
-{"id": "swat.strtbl/Perfnew_RedSr_31", "src": "No pressure, though my shovel is right there, just so you know.", "ko": "부담 갖진 마라. 그냥 알려 주는 건데, 삽은 바로 저기 있다.", "state": "needs_review"}
+{"id": "swat.strtbl/Perfnew_RedSr_31", "src": "No pressure, though my shovel is right there, just so you know.", "ko": "부담 갖진 마라. 그냥 하는 말인데, 삽은 저기 있다.", "state": "needs_review"}
 {"id": "swat.strtbl/Perfnew_RedSr_7", "src": "Ok, give it a try shit stain.", "ko": "좋아, 해 봐라, 이 똥강아지야.", "state": "needs_review"}
 {"id": "swat.strtbl/Perfnew_RedSr_8", "src": "Now hit the bull's eye. ", "ko": "이제 과녁 한가운데를 맞혀라. ", "state": "needs_review"}
 {"id": "swat.strtbl/Perfnew_RedSr_8a", "src": "Hit the bull's eye.", "ko": "과녁 한가운데를 맞혀라.", "state": "needs_review"}
@@ -753,7 +753,7 @@
 {"id": "swat.strtbl/Sher70_DuelTutorial_14", "src": "Grab", "ko": "잡기", "state": "needs_review"}
 {"id": "swat.strtbl/Sher70_DuelTutorial_15", "src": "Draw", "ko": "뽑기", "state": "needs_review"}
 {"id": "swat.strtbl/Sher70_DuelTutorial_16", "src": "Ok, give it a try.  ", "ko": "좋아, 해 봐.  ", "state": "needs_review"}
-{"id": "swat.strtbl/Sher70_DuelTutorial_17", "src": "Remember, press Back to grab for the gun and then Forward to Draw.", "ko": "기억해. 뒤로 당겨서 총을 잡고, 앞으로 밀어서 뽑는 거다.", "state": "needs_review"}
+{"id": "swat.strtbl/Sher70_DuelTutorial_17", "src": "Remember, press Back to grab for the gun and then Forward to Draw.", "ko": "기억해. 당겨서 잡고, 밀어서 뽑는 거다.", "state": "needs_review"}
 {"id": "swat.strtbl/Sher70_DuelTutorial_18", "src": "You went too early.  Try it again.", "ko": "너무 일렀어. 다시 해 봐.", "state": "needs_review"}
 {"id": "swat.strtbl/Sher70_DuelTutorial_19", "src": "A little late there.  You can’t be too slow on the draw. ", "ko": "늦었어. 총을 좀 더 빨리 뽑아야지.", "state": "needs_review"}
 {"id": "swat.strtbl/Sher70_DuelTutorial_2", "src": "There are 4 phases. ", "ko": "4단계가 있다. ", "state": "needs_review"}
@@ -770,9 +770,9 @@
 {"id": "swat.strtbl/Sher70_DuelTutorial_27", "src": "Press the L1 button to acquire each lock.", "ko": "L1 버튼을 누를 때마다 조준점을 하나씩 찍는다.", "state": "needs_review"}
 {"id": "swat.strtbl/Sher70_DuelTutorial_28", "src": "You can have a maximum of 6 locks", "ko": "조준점은 최대 6개까지 찍을 수 있다", "state": "needs_review"}
 {"id": "swat.strtbl/Sher70_DuelTutorial_29a", "src": "end the slow motion phase,", "ko": "슬로 모션 단계가 끝나고,", "state": "needs_review"}
-{"id": "swat.strtbl/Sher70_DuelTutorial_29a1", "src": "Pressing the R1 button at any time will end the slow motion phase,", "ko": "언제든 R1 버튼을 누르면 슬로 모션 단계가 끝나고,", "state": "needs_review"}
+{"id": "swat.strtbl/Sher70_DuelTutorial_29a1", "src": "Pressing the R1 button at any time will end the slow motion phase,", "ko": "언제든 R1을 누르면 슬로 모션이 끝나고,", "state": "needs_review"}
 {"id": "swat.strtbl/Sher70_DuelTutorial_29b", "src": "and fire any shots you've locked in.", "ko": "찍어 둔 조준점에 모두 사격한다.", "state": "needs_review"}
-{"id": "swat.strtbl/Sher70_DuelTutorial_29b1", "src": "Pressing the R1 button at any time will end the slow motion phase, and fire any shots you've locked in.", "ko": "언제든 R1 버튼을 누르면 슬로 모션 단계가 끝나고, 찍어 둔 조준점에 모두 사격한다.", "state": "needs_review"}
+{"id": "swat.strtbl/Sher70_DuelTutorial_29b1", "src": "Pressing the R1 button at any time will end the slow motion phase, and fire any shots you've locked in.", "ko": "언제든 R1을 누르면 슬로 모션이 끝나고, 찍어 둔 조준점에 모두 사격한다.", "state": "needs_review"}
 {"id": "swat.strtbl/Sher70_DuelTutorial_29c", "src": "The more locks you have before pressing R1, the better!", "ko": "R1을 누르기 전에 조준점을 많이 찍을수록 좋다!", "state": "needs_review"}
 {"id": "swat.strtbl/Sher70_DuelTutorial_2a", "src": "There are 4 phases: grabbing gun, ", "ko": "4단계가 있다: 총 잡기, ", "state": "needs_review"}
 {"id": "swat.strtbl/Sher70_DuelTutorial_2b", "src": "There are 4 phases: grabbing gun, drawing, ", "ko": "4단계가 있다: 총 잡기, 뽑기, ", "state": "needs_review"}
@@ -837,7 +837,7 @@
 {"id": "swat.strtbl/SunUmbrella", "src": "Sun Umbrella", "ko": "양산", "state": "needs_review"}
 {"id": "swat.strtbl/Super Armor", "src": "Super Armor", "ko": "슈퍼 아머", "state": "needs_review"}
 {"id": "swat.strtbl/Super Tackle", "src": "Super Tackle", "ko": "슈퍼 태클", "state": "needs_review"}
-{"id": "swat.strtbl/TIP_CanShootPowerups", "src": "TIP: You can shoot most powerups in order to collect them.", "ko": "팁: 대부분의 파워업은 총으로 쏴서 얻을 수 있습니다.", "state": "needs_review"}
+{"id": "swat.strtbl/TIP_CanShootPowerups", "src": "TIP: You can shoot most powerups in order to collect them.", "ko": "팁: 대부분의 파워업은 쏴서 얻을 수 있습니다.", "state": "needs_review"}
 {"id": "swat.strtbl/TIP_PigJosh_A", "src": "This is Pig Josh, he likes to use dynamite.", "ko": "‘돼지’ 조시는 다이너마이트를 즐겨 씁니다.", "state": "needs_review"}
 {"id": "swat.strtbl/TIP_PigJosh_B", "src": "He uses iron plates on his arms to block bullets so he's really tough.", "ko": "팔에 두른 철판으로 총알을 막아서 아주 질깁니다.", "state": "needs_review"}
 {"id": "swat.strtbl/TIP_PigJosh_C", "src": "Blocking slows him down; but he can call his pet vultures on you.", "ko": "막는 동안은 느려지지만, 애완 독수리들을 불러 당신을 공격합니다.", "state": "needs_review"}
@@ -902,7 +902,7 @@
 {"id": "swat.strtbl/Traingood_Next_Stop", "src": "Next stop, Brimstone.", "ko": "다음 역은 브림스톤.", "state": "needs_review"}
 {"id": "swat.strtbl/Traingood_SomethingMust", "src": "Something must have happened to the engineer!", "ko": "기관사한테 무슨 일이 생긴 게 틀림없어!", "state": "needs_review"}
 {"id": "swat.strtbl/Traingood_ThanksForSaving", "src": "Thanks for saving me! Let me patch you up a bit.", "ko": "살려 줘서 고맙소! 상처를 좀 봐 드리지.", "state": "needs_review"}
-{"id": "swat.strtbl/Traingood_TheTrainIsGoing", "src": "This train is gonna fly off the tracks! Gotta slow it down!", "ko": "이러다 기차가 선로를 벗어나겠어! 속도를 줄여야 해!", "state": "needs_review"}
+{"id": "swat.strtbl/Traingood_TheTrainIsGoing", "src": "This train is gonna fly off the tracks! Gotta slow it down!", "ko": "이러다 탈선하겠어! 속도를 줄여야 해!", "state": "needs_review"}
 {"id": "swat.strtbl/Traingood_The_Riders", "src": "The Figgs riders! They've hit every train we've got.  ", "ko": "피그스 패거리야! 우리 기차란 기차는 다 털었다고.  ", "state": "needs_review"}
 {"id": "swat.strtbl/Traingood_The_Riders2", "src": "Keep shooting! Go after em!", "ko": "계속 쏴! 쫓아가!", "state": "needs_review"}
 {"id": "swat.strtbl/Traingood_WhatTheTrain", "src": "Why is the train speeding up? ", "ko": "기차가 왜 빨라지는 거지? ", "state": "needs_review"}
@@ -1014,7 +1014,7 @@
 {"id": "swat.strtbl/bountygoal_lvl_trainend_1", "src": "Complete the level in 5 minutes!", "same_as": "swat.strtbl/bountygoal_lvl_mansintb_1", "state": "needs_review"}
 {"id": "swat.strtbl/bountygoal_lvl_traingood_1", "src": "Defeat Hoss within 2 minutes!", "ko": "2분 안에 호스를 쓰러뜨리세요!", "state": "needs_review"}
 {"id": "swat.strtbl/bountygoal_lvl_waterfall_1", "src": "Complete the level in 3 minutes!", "same_as": "swat.strtbl/bountygoal_lvl_corenew_1", "state": "needs_review"}
-{"id": "swat.strtbl/bountygoal_lvl_woods_1", "src": "Get to the source of the river without alerting the patrolling guards.", "ko": "순찰 중인 경비에게 들키지 않고 강의 발원지까지 가세요.", "state": "needs_review"}
+{"id": "swat.strtbl/bountygoal_lvl_woods_1", "src": "Get to the source of the river without alerting the patrolling guards.", "ko": "경비 몰래 강의 발원지까지 가세요.", "state": "needs_review"}
 {"id": "swat.strtbl/bra", "src": "Rico\nPedrosa", "ko": "리코\n페드로사", "state": "needs_review"}
 {"id": "swat.strtbl/bsd", "src": "Sergeant\nMarquez", "ko": "마르케스\n상사", "state": "needs_review"}
 {"id": "swat.strtbl/btnNo", "src": "NO", "ko": "아니요", "state": "needs_review"}
@@ -1505,9 +1505,9 @@
 {"id": "swat_ps2.strtbl/HowToRicochet_HowDoIGetFree", "src": "\"Time to stretch my legs a bit\"", "ko": "“다리 좀 펴 볼까”", "state": "needs_review"}
 {"id": "swat_ps2.strtbl/HowToRicochet_IllHitTheLever", "src": "\"I'll hit the lever and free myself.\"", "ko": "“레버를 맞혀서 빠져나가야겠군.”", "state": "needs_review"}
 {"id": "swat_ps2.strtbl/HowToRicochet_PerhapsIfI", "src": "\"Perhaps I can manage a shot off that wall over there..\"", "ko": "“저쪽 벽에 맞혀서 튕기면 될지도..”", "state": "needs_review"}
-{"id": "swat_ps2.strtbl/HowToRollDodge", "src": "Pressing {BTN_BA} while moving with your weapon drawn will cause you roll dodge.", "ko": "무기를 뽑고 이동 중에 {BTN_BA} 버튼을 누르면 구르며 피합니다.", "state": "needs_review"}
+{"id": "swat_ps2.strtbl/HowToRollDodge", "src": "Pressing {BTN_BA} while moving with your weapon drawn will cause you roll dodge.", "ko": "무기를 뽑고 움직이며 {BTN_BA} 버튼을 누르면 구릅니다.", "state": "needs_review"}
 {"id": "swat_ps2.strtbl/HowToSneak01", "src": "How to use cover:", "same_as": "swat.strtbl/HowToSneak01", "state": "needs_review"}
-{"id": "swat_ps2.strtbl/HowToSneak02", "src": "Press towards an object that will provide cover and press {BTN_BD}", "ko": "엄폐할 물체 쪽으로 방향을 누른 채 {BTN_BD} 버튼을 누르세요", "state": "needs_review"}
+{"id": "swat_ps2.strtbl/HowToSneak02", "src": "Press towards an object that will provide cover and press {BTN_BD}", "ko": "엄폐물 쪽을 향해 {BTN_BD} 버튼을 누르세요", "state": "needs_review"}
 {"id": "swat_ps2.strtbl/HowToSneak03", "src": "While attached to cover you can walk right…", "same_as": "swat.strtbl/HowToSneak03", "state": "needs_review"}
 {"id": "swat_ps2.strtbl/HowToSneak04", "src": "… or you can walk to the left.", "same_as": "swat.strtbl/HowToSneak04", "state": "needs_review"}
 {"id": "swat_ps2.strtbl/HowToSneak05", "src": "When you reach an open edge, continue to press in the direction of the edge …", "same_as": "swat.strtbl/HowToSneak05", "state": "needs_review"}
@@ -1574,16 +1574,16 @@
 {"id": "swat_ps2.strtbl/RetryTrainingSectionHudTextBox", "src": "Press {BTN_BD} to retry training section\nPress {BTN_BC} to end training section", "ko": "{BTN_BD} 훈련 다시 하기\n{BTN_BC} 훈련 끝내기", "state": "needs_review"}
 {"id": "swat_ps2.strtbl/SQUARE_BUTTON", "src": "{BTN_BD}", "same_as": "swat.strtbl/BOOK_SQUARE_BUTTON", "state": "needs_review"}
 {"id": "swat_ps2.strtbl/Sher70_DuelTutorial_11", "src": "Draw: press Forward on the right analog stick.", "ko": "뽑기: 오른쪽 스틱을 위로 밀어 올리세요.", "state": "needs_review"}
-{"id": "swat_ps2.strtbl/Sher70_DuelTutorial_24", "src": "Use the right analog stick to move your cursor over the enemy.  ", "ko": "오른쪽 아날로그 스틱으로 커서를 적 위로 옮기세요.  ", "state": "needs_review"}
+{"id": "swat_ps2.strtbl/Sher70_DuelTutorial_24", "src": "Use the right analog stick to move your cursor over the enemy.  ", "ko": "오른쪽 스틱으로 커서를 적 위로 옮기세요.", "state": "needs_review"}
 {"id": "swat_ps2.strtbl/Sher70_DuelTutorial_27_R1", "src": "Press the R1 button to acquire each lock.", "ko": "R1 버튼을 누를 때마다 조준점을 하나씩 찍습니다.", "state": "needs_review"}
 {"id": "swat_ps2.strtbl/Sher70_DuelTutorial_29", "src": "Firing at locks: press the R1 button.", "ko": "조준점 사격: R1 버튼을 누르세요.", "state": "needs_review"}
-{"id": "swat_ps2.strtbl/Sher70_DuelTutorial_29R2_R1", "src": "Early Fire: press the R2 button to end the lock on phase early.", "ko": "조기 사격: R2 버튼으로 조준 단계를 일찍 끝냅니다.", "state": "needs_review"}
+{"id": "swat_ps2.strtbl/Sher70_DuelTutorial_29R2_R1", "src": "Early Fire: press the R2 button to end the lock on phase early.", "ko": "조기 사격: R2 버튼으로 조준 단계를 끝냅니다.", "state": "needs_review"}
 {"id": "swat_ps2.strtbl/Sher70_DuelTutorial_29_Fire1", "src": "Firing: Red will fire once 6 locks have been placed or the slow motion phase times out.", "ko": "사격: 조준점을 6개 찍거나 슬로 모션 시간이 끝나면 레드가 쏩니다.", "state": "needs_review"}
-{"id": "swat_ps2.strtbl/Sher70_DuelTutorial_29_Fire2", "src": "To end the slow motion phase early press the R2 button", "ko": "슬로 모션 단계를 일찍 끝내려면 R2 버튼을 누르세요", "state": "needs_review"}
+{"id": "swat_ps2.strtbl/Sher70_DuelTutorial_29_Fire2", "src": "To end the slow motion phase early press the R2 button", "ko": "R2를 누르면 슬로 모션이 일찍 끝납니다", "state": "needs_review"}
 {"id": "swat_ps2.strtbl/Sher70_DuelTutorial_29_R1", "src": "Firing at locks: press the R1 button with 6 locks placed.", "ko": "조준점 사격: 조준점 6개를 찍은 상태에서 R1 버튼을 누르세요.", "state": "needs_review"}
 {"id": "swat_ps2.strtbl/Sher70_DuelTutorial_29_R2", "src": "Firing at locks: press the R2 button.", "ko": "조준점 사격: R2 버튼을 누르세요.", "state": "needs_review"}
 {"id": "swat_ps2.strtbl/Sher70_DuelTutorial_4", "src": "Grab: press Back on the right analog stick", "ko": "잡기: 오른쪽 아날로그 스틱을 뒤로 당기세요", "state": "needs_review"}
-{"id": "swat_ps2.strtbl/Sher70_DuelTutorial_BadEarlyDraw", "src": "Let's try again.  Wait until the hand grasps the gun to draw.", "ko": "다시 해 보자. 손이 총을 잡을 때까지 기다렸다 뽑아.", "state": "needs_review"}
+{"id": "swat_ps2.strtbl/Sher70_DuelTutorial_BadEarlyDraw", "src": "Let's try again.  Wait until the hand grasps the gun to draw.", "ko": "다시 해 보자. 손이 총을 잡으면 뽑아.", "state": "needs_review"}
 {"id": "swat_ps2.strtbl/Sher70_DuelTutorial_BadLateDraw", "src": "Let's try again.  Draw just as the hand grasps the gun.", "ko": "다시 해 보자. 손이 총자루에 닿을 때 뽑아야 해.", "state": "needs_review"}
 {"id": "swat_ps2.strtbl/Sher70_DuelTutorial_BadNoHits", "src": "Let's try again.  Make sure to use the L1 button to get locks on the enemy before pressing the R1 button!", "ko": "다시 해 보자. R1 버튼을 누르기 전에 꼭 L1 버튼으로 적에게 조준점을 찍어!", "state": "needs_review"}
 {"id": "swat_ps2.strtbl/Sher70_DuelTutorial_BadNoHits_R1", "src": "Let's try again.  Make sure to use the R1 button to acquire successful locks on the enemy!", "ko": "다시 해 보자. 꼭 R1 버튼으로 적에게 조준점을 제대로 찍어!", "state": "needs_review"}

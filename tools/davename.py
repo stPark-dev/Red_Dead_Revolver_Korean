@@ -49,9 +49,22 @@ def encode_one(name, prev=''):
     return v.to_bytes((6 * len(codes) + 7) // 8, 'little')
 
 
+MAX_CHAIN = 32  # a full name at least every 32 entries, as in every original archive
+
+
 def encode(names):
-    """Return (blob, offsets) with entry 0 last in the blob, offsets relative to the blob start."""
-    parts = [encode_one(n, names[i - 1] if i else '') for i, n in enumerate(names)]
+    """Return (blob, offsets) with entry 0 last in the blob, offsets relative to the blob start.
+
+    A name is stored in full at least every MAX_CHAIN entries: the game resolves a prefix copy by
+    walking back to a full name, and original archives never chain longer (longer chains made
+    SWAT.DAT lookups fail in game: slow level loads and a crash in chapter 21)."""
+    parts, last = [], 0
+    for i, n in enumerate(names):
+        if i - last >= MAX_CHAIN:
+            parts.append(encode_one(n, ''))
+        else:
+            parts.append(encode_one(n, names[i - 1] if i else ''))
+        if parts[-1][0] & 63 < 56: last = i
     blob = b''.join(reversed(parts))
     offs, o = [0] * len(parts), len(blob)
     for i, p in enumerate(parts):

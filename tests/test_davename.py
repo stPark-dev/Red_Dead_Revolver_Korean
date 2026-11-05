@@ -48,3 +48,26 @@ def test_reencoded_names_decode_identically(arc):
     names = davename.names_of(archive(arc))
     blob, offs = davename.encode(names)
     assert davename.decode_all(blob + b'\0' * 64, offs) == names
+
+
+def _full_name_gaps(blob, offs):
+    full = [i for i, o in enumerate(offs) if blob[o] & 63 < 56]
+    return full, [b - a for a, b in zip(full, full[1:])] + [len(offs) - full[-1]]
+
+
+def test_encode_restarts_full_name_within_32_entries():
+    # original archives never chain more than 31 prefix-copied names after a full name (max gap 32);
+    # longer chains made the game fail lookups in SWAT.DAT (slow loads, crash in chapter 21)
+    names = ['hud_w_%03d.tex' % i for i in range(200)]
+    blob, offs = davename.encode(names)
+    full, gaps = _full_name_gaps(blob, offs)
+    assert full[0] == 0 and max(gaps) <= 32
+    assert davename.decode_all(blob + b'\0' * 64, offs) == names
+
+
+@need
+def test_encode_swat_names_keeps_original_chain_limit():
+    names = davename.names_of(archive('SWAT.DAT'))
+    blob, offs = davename.encode(names)
+    assert max(_full_name_gaps(blob, offs)[1]) <= 32
+    assert davename.decode_all(blob + b'\0' * 64, offs) == names

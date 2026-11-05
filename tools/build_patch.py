@@ -283,7 +283,8 @@ def patch_archive(raw, texts_by_table, fonts, extra=None, gfx=None):
             reps[e['idx']] = desc
             new.update(pages)
     if not reps and not new: return None
-    return dave_patch.insert(dave_patch.patch(raw, reps), new)
+    # repack: keep the original data order (appended data made level loads seek back and forth)
+    return dave_patch.repack(raw, dave_patch.insert(dave_patch.patch(raw, reps), new))
 
 
 def main(argv=None):
@@ -349,11 +350,12 @@ def main(argv=None):
     texts_by_table = {}
     for rid, text in selected.items():
         texts_by_table.setdefault(src_by_id[rid]['table'], {})[src_by_id[rid]['key']] = text
-    touched = []
+    new_files = {}
     for path, raw in arcs:
         new = patch_archive(raw, texts_by_table, fonts, extra, gfx)
-        if new is not None:
-            iso9660.replace(img, path, new); touched.append(path)
+        if new is not None: new_files[path] = new
+    touched = sorted(new_files)
+    iso9660.replace_all(img, new_files)  # keep file order: appending at the end made level loads seek far
     iso9660.finalize(img)
     open(a.out, 'wb').write(img)
     states = {}

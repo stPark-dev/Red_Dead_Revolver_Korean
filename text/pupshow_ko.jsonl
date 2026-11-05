@@ -1,3 +1,43 @@
+{"id": "pupshow/bridge01_en.txt/0", "src": "Hahahaha! We have those Gringos\nexactly where we want them!", "ko": "하하하하! 그링고 놈들을\n딱 우리가 원하는 곳에 몰아넣었다!", "state": "needs_review"}
+{"id": "pupshow/bridge01_en.txt/1", "src": "Generalissimo, you're not planning to\ntake on the entire Yankee army?", "ko": "총사령관 각하, 설마 양키 군대 전체와\n붙으실 생각은 아니시겠지요?", "state": "needs_review"}
+{"id": "pupshow/bridge01_en.txt/2", "src": "You don’t expect me to answer\na stupid question like that? Prepare the artillery!", "ko": "그런 멍청한 질문에 내가 대답할 거라 생각하나?\n대포를 준비해라!", "state": "needs_review"}
+{"id": "pupshow/bridge04_en.txt/0", "src": "Ándale, Ándale!", "ko": "서둘러, 서둘러!", "state": "needs_review"}
+{"id": "pupshow/bridge04_en.txt/1", "src": "This will teach those gringos to cross the Rio Grande!", "ko": "그링고 놈들, 리오그란데를 건넌 대가다!", "state": "needs_review"}
+{"id": "pupshow/bridge04_en.txt/10", "src": "It’s lots of gold, more gold than you've ever seen.\nA gold mine, and it's just over the border", "ko": "금이 아주 많아요. 평생 못 보셨을 만큼요.\n금광이 있는데, 국경 바로 너머", "state": "needs_review"}
+{"id": "pupshow/bridge04_en.txt/11", "src": "in the territory!", "ko": "준주 땅에 있습니다!", "state": "needs_review"}
+{"id": "pupshow/bridge04_en.txt/12", "src": "If you spare my life, I can give you half.", "ko": "목숨만 살려 주시면 절반을 드리겠습니다.", "state": "needs_review"}
+{"id": "pupshow/bridge04_en.txt/13", "src": "Why shouldn't I take all of it?", "ko": "내가 전부 가지면 안 될 이유라도 있나?", "state": "needs_review"}
+{"id": "pupshow/bridge04_en.txt/14", "src": "Cause you don't know where it is.", "ko": "어디 있는지 모르시잖아요.", "state": "needs_review"}
+{"id": "pupshow/bridge04_en.txt/15", "src": "You better speak fast.\nWe need some privacy. . .", "ko": "빨리 말하는 게 좋을 거다.\n우리끼리 얘기 좀 하지...", "state": "needs_review"}
+{"id": "pupshow/bridge04_en.txt/16", "src": "now tell me more about this gold mine.", "ko": "자, 그 금광 얘기를 더 해 봐라.", "state": "needs_review"}
+{"id": "pupshow/bridge04_en.txt/17", "src": "Truth be told, there is one little problem.\nI only own half the claim.", "ko": "사실은 작은 문제가 하나 있습니다.\n채굴권이 절반만 제 겁니다.", "state": "needs_review"}
+{"id": "pupshow/bridge04_en.txt/18", "src": "My partner Nate owns the other half.", "ko": "나머지 절반은 제 동업자 네이트 거고요.", "state": "needs_review"}
+{"id": "pupshow/bridge04_en.txt/19", "src": "And what if I kill your partner?", "ko": "그럼 내가 네 동업자를 죽이면?", "state": "needs_review"}
+{"id": "pupshow/bridge04_en.txt/2", "src": "No uniform, he must be a spy.", "ko": "군복이 없군. 첩자가 틀림없다.", "state": "needs_review"}
+{"id": "pupshow/bridge04_en.txt/20", "src": "Then that would make us. . . partners.", "ko": "그럼 우리가... 동업자가 되는 거죠.", "state": "needs_review"}
+{"id": "pupshow/bridge04_en.txt/21", "src": "Partner!\nHahahahaha!", "ko": "동업자!\n하하하하하!", "state": "needs_review"}
+{"id": "pupshow/bridge04_en.txt/3", "src": "Bring him to me!", "ko": "그놈을 데려와라!", "state": "needs_review"}
+{"id": "pupshow/bridge04_en.txt/4", "src": "Take him to the river and shoot him like a dog!", "ko": "강가로 끌고 가서 개처럼 쏴 버려!", "state": "needs_review"}
+{"id": "pupshow/bridge04_en.txt/5", "src": "No, no, no! I'm not a spy, I’m a businessman.\nPlease! I was just trying to get across the river.", "ko": "아니, 아니, 아니에요! 첩자가 아니라 장사꾼입니다.\n제발요! 그냥 강을 건너려던 것뿐이에요.", "state": "needs_review"}
+{"id": "pupshow/bridge04_en.txt/6", "src": "Please, I have gold. Lots of gold!", "ko": "제발, 금이 있어요. 금이 아주 많아요!", "state": "needs_review"}
+{"id": "pupshow/bridge04_en.txt/7", "src": "Ha ha. You lie to save your pathetic life.", "ko": "하하. 그 한심한 목숨 건지려고 거짓말을 하는군.", "state": "needs_review"}
+{"id": "pupshow/bridge04_en.txt/8", "src": "No! It’s true! It's true! I have gold!", "ko": "아니에요! 진짜예요! 진짜라니까요! 금이 있어요!", "state": "needs_review"}
+{"id": "pupshow/bridge04_en.txt/9", "src": "Bring him to me!", "ko": "그놈을 데려와라!", "state": "needs_review"}
+{"id": "pupshow/coach02_en.txt/0", "src": "We’re being raided!", "ko": "습격이다!", "state": "needs_review"}
+{"id": "pupshow/coach03_en.txt/0", "src": "I want him alive. I have questions for this one...", "ko": "놈은 산 채로 잡아라. 물어볼 게 있으니...", "state": "needs_review"}
+{"id": "pupshow/coach03_en.txt/1", "src": "Take him to the Gold Mine!", "ko": "금광으로 끌고 가라!", "state": "needs_review"}
+{"id": "pupshow/diegocar_en.txt/0", "src": "What? Did you forget how to use those rifles!", "ko": "뭐야? 소총 쓰는 법을 잊어버리기라도 했나!", "state": "needs_review"}
+{"id": "pupshow/diegocar_en.txt/1", "src": "I have had enough!", "ko": "더는 못 참겠다!", "state": "needs_review"}
+{"id": "pupshow/diegocar_en.txt/2", "src": "A thousand pieces in gold to the man\nwho brings me that gringo's head.", "ko": "저 그링고 놈의 목을 가져오는 자에게\n금화 천 닢을 주겠다.", "state": "needs_review"}
+{"id": "pupshow/jailnw01_en.txt/0", "src": "It’s been a week since General Diego\ncaptured me.", "ko": "디에고 장군에게 붙잡힌 지\n일주일이 됐군.", "state": "needs_review"}
+{"id": "pupshow/jailnw01_en.txt/1", "src": "I don't know nothing about bounty hunting,", "ko": "현상금 사냥 같은 건 하나도 모르지만,", "state": "needs_review"}
+{"id": "pupshow/jailnw01_en.txt/2", "src": "but I’ve been a slave once and\nain’t never going do it again.", "ko": "한 번 노예였던 몸이니\n두 번 다시 그렇게는 안 살아.", "state": "needs_review"}
+{"id": "pupshow/jailnw01_en.txt/3", "src": "Cousin Red?", "ko": "레드 사촌?", "state": "needs_review"}
+{"id": "pupshow/jailnw01_en.txt/4", "src": "Shadow wolf?", "ko": "섀도 울프?", "state": "needs_review"}
+{"id": "pupshow/jailnw01_en.txt/5", "src": "I knew I'd find you!\nThe blood bond between us is strong.", "ko": "찾을 줄 알았다!\n우리를 잇는 피의 맹세는 강하니까.", "state": "needs_review"}
+{"id": "pupshow/jailnw01_en.txt/6", "src": "I’ll go to Brimstone.\nI’ll have the Cavalry here in no time!", "ko": "난 브림스톤으로 가겠소.\n금세 기병대를 데려오지!", "state": "needs_review"}
+{"id": "pupshow/jailnw01_en.txt/7", "src": "Go fast, Soldier.  Unless we separate\nwe'll have no chance for escape.", "ko": "서두르시오, 병사 양반. 흩어지지 않으면\n빠져나갈 가망이 없소.", "state": "needs_review"}
+{"id": "pupshow/jailnw01_en.txt/8", "src": "I will go this way and\nmeet you at Diego’s fort.", "ko": "나는 이쪽으로 가서\n디에고의 요새에서 만나겠다.", "state": "needs_review"}
 {"id": "pupshow/lvl_bank_pupshow_01_en.txt/0", "src": "I just need one more week! I can pay you\nthe $5,000 that I owe, but the Governor is bribing", "ko": "일주일만 더 주세요! 빚진 5,000달러는\n갚을 수 있어요. 그런데 주지사가 뇌물로", "state": "needs_review"}
 {"id": "pupshow/lvl_bank_pupshow_01_en.txt/1", "src": "my ranch hands to leave,\nI can't do it by myself.", "ko": "우리 일꾼들을 빼 가고 있어요.\n저 혼자서는 못 해요.", "state": "needs_review"}
 {"id": "pupshow/lvl_bank_pupshow_01_en.txt/10", "src": "Ma'am?", "ko": "부인.", "state": "needs_review"}
@@ -307,3 +347,71 @@
 {"id": "pupshow/lvl_traingood_pupshow_01_en.txt/0", "src": "This train is gonna fly off the tracks!\nI gotta slow it down!", "ko": "이러다 기차가 선로를 벗어나겠어!\n속도를 줄여야 해!", "state": "needs_review"}
 {"id": "pupshow/lvl_traingood_pupshow_01_en.txt/1", "src": "Woo, that was close.", "ko": "휴, 큰일 날 뻔했네.", "state": "needs_review"}
 {"id": "pupshow/lvl_traingood_pupshow_01_en.txt/2", "src": "Hey, thanks for saving me.\nHere, let me patch you up a bit.", "ko": "이봐요, 살려 줘서 고맙소.\n자, 상처를 좀 봐 드리지.", "state": "needs_review"}
+{"id": "pupshow/mans07_en.txt/0", "src": "Never did like him much.", "ko": "원래 그자는 별로 맘에 안 들었어.", "state": "needs_review"}
+{"id": "pupshow/mans07_en.txt/1", "src": "Jack?", "ko": "잭?", "state": "needs_review"}
+{"id": "pupshow/mans07_en.txt/2", "src": "Well Red, I'm not saying Griffon didn’t\ndeserve it, but he was the Governor.", "ko": "레드, 그리펀이 그런 꼴을 당해도\n싼 놈이긴 했지만, 그래도 주지사였어.", "state": "needs_review"}
+{"id": "pupshow/mans07_en.txt/3", "src": "I reckon the army will be sniffing\naround here and. . .", "ko": "군대가 곧 이 근처를\n냄새 맡고 다닐 거고...", "state": "needs_review"}
+{"id": "pupshow/mans07_en.txt/4", "src": "well I’d hate to see you hang after all you’ve done.", "ko": "자네가 해낸 일을 생각하면 목매달리는 꼴은 보기 싫군.", "state": "needs_review"}
+{"id": "pupshow/mans07_en.txt/5", "src": "$5000 in gold sound like a fair bounty?", "ko": "금화 5,000달러면 현상금으로 적당하겠지?", "state": "needs_review"}
+{"id": "pupshow/mans07_en.txt/6", "src": "Give it to them.", "ko": "그 사람들한테 주시오.", "state": "needs_review"}
+{"id": "pupshow/mans07_en.txt/7", "src": "It was never about the money.", "ko": "애초에 돈 때문이 아니었소.", "state": "needs_review"}
+{"id": "pupshow/royfi01_en.txt/0", "src": "Well Red you’re good, I’ll give you that,", "ko": "레드, 실력은 좋군. 그건 인정하지.", "state": "needs_review"}
+{"id": "pupshow/royfi01_en.txt/1", "src": "but of course you’d have to be to\nlive through what you did.", "ko": "하긴 그만한 일을 겪고 살아남았으니\n그럴 수밖에.", "state": "needs_review"}
+{"id": "pupshow/royfi01_en.txt/2", "src": "Still, I'm afraid that we’re going to have to end\nright here and now what we should have ended", "ko": "그래도 유감이지만, 진작 끝냈어야 할 일을\n지금 여기서 끝내야겠군.", "state": "needs_review"}
+{"id": "pupshow/royfi01_en.txt/3", "src": "so many years ago.", "ko": "이미 여러 해 전에 말이야.", "state": "needs_review"}
+{"id": "pupshow/royfi01_en.txt/4", "src": "Isn't she a beut?\nYeah! Can I hold it?", "ko": "멋지지 않니?\n응! 나 들어 봐도 돼?", "state": "needs_review"}
+{"id": "pupshow/royfi01_en.txt/5", "src": "She's one of a pair.  Only 2 in the whole world.\nWhere's the other one?", "ko": "한 쌍 중 하나란다. 세상에 두 자루뿐이지.\n다른 하나는 어디 있어?", "state": "needs_review"}
+{"id": "pupshow/royfi01_en.txt/6", "src": "Mr. Kelley, please join me at the mansion\nwhen you’ve finally taken care of business.", "ko": "켈리 씨, 일을 다 마치면\n저택으로 와 주게.", "state": "needs_review"}
+{"id": "pupshow/saloon06_en.txt/0", "src": "Alright, there bounty hunter.", "ko": "자, 거기 현상금 사냥꾼.", "state": "needs_review"}
+{"id": "pupshow/saloon06_en.txt/1", "src": "That's enough disturbing the peace for one day.", "ko": "오늘 소란은 그만하면 됐어.", "state": "needs_review"}
+{"id": "pupshow/saloon06_en.txt/2", "src": "Hand over the weapon.", "ko": "무기를 넘겨.", "state": "needs_review"}
+{"id": "pupshow/saloon06_en.txt/3", "src": "I said, hand it over!", "ko": "넘기라고 했다!", "state": "needs_review"}
+{"id": "pupshow/sher7001_en.txt/0", "src": "How much for the lot?", "ko": "전부 얼마요?", "state": "needs_review"}
+{"id": "pupshow/sher7001_en.txt/1", "src": "Well you did good, son, but you’re out of luck.\nTake a look around, there ain’t much here..", "ko": "잘했네, 젊은이. 그런데 운이 없군.\n둘러보게, 여긴 남은 게 별로 없어.", "state": "needs_review"}
+{"id": "pupshow/sher7001_en.txt/2", "src": "I got nothing to offer you.\nThe Ugly Gang has done destroyed my town!", "ko": "자네한테 줄 게 하나도 없어.\n못난이 갱이 우리 마을을 쑥대밭으로 만들었거든!", "state": "needs_review"}
+{"id": "pupshow/sher7001_en.txt/3", "src": "Look at that mangy mutt!", "ko": "저 비루먹은 똥개 좀 보게!", "state": "needs_review"}
+{"id": "pupshow/sher7001_en.txt/4", "src": "That damn dog's gone and relieved\nhimself all over them fancy boots of yours!", "ko": "저 망할 개가 자네 멋진 장화에\n잔뜩 볼일을 봤구먼!", "state": "needs_review"}
+{"id": "pupshow/sher7001_en.txt/5", "src": "Damn varmint!", "ko": "망할 놈의 짐승!", "state": "needs_review"}
+{"id": "pupshow/sher7007_en.txt/0", "src": "Excuse me, mister! Mister, please!\nCan you help me? You got to help my pa!", "ko": "저기요, 아저씨! 아저씨, 제발요!\n도와주실 수 있나요? 우리 아빠 좀 살려 주세요!", "state": "needs_review"}
+{"id": "pupshow/sher7007_en.txt/1", "src": "There’s no doctor left in this town!", "ko": "이 마을엔 의사가 하나도 안 남았어요!", "state": "needs_review"}
+{"id": "pupshow/sher7007_en.txt/2", "src": "The closest doctor is in Brimstone.", "ko": "제일 가까운 의사는 브림스톤에 있어요.", "state": "needs_review"}
+{"id": "pupshow/sher7007_en.txt/3", "src": "Sheriff Bartlett might offer you a handsome\nreward if you can get me there.", "ko": "저를 거기 데려다주시면 바틀렛 보안관이\n두둑한 보상을 줄지도 몰라요.", "state": "needs_review"}
+{"id": "pupshow/sher7007_en.txt/4", "src": "I’ll send a telegram and tell them\nabout your arrival.", "ko": "전보를 보내서 아저씨가 간다고\n알려 둘게요.", "state": "needs_review"}
+{"id": "pupshow/stgend01_en.txt/0", "src": "Governor, you got to call\nGeneral Boden right away, sir!", "ko": "주지사님, 당장\n보든 장군에게 연락하셔야 합니다!", "state": "needs_review"}
+{"id": "pupshow/stgend01_en.txt/1", "src": "Hehe, who let you in here, Soldier?", "ko": "허허, 누가 자넬 들여보냈나, 병사?", "state": "needs_review"}
+{"id": "pupshow/stgend01_en.txt/2", "src": "There’s a renegade general on your territory.\nHis name is Diego.", "ko": "주지사님 관할 땅에 반역 장군이 있습니다.\n이름은 디에고입니다.", "state": "needs_review"}
+{"id": "pupshow/stgend01_en.txt/3", "src": "He's running a gold mine and he's using slave labor.", "ko": "금광을 운영하면서 노예를 부리고 있습니다.", "state": "needs_review"}
+{"id": "pupshow/stgend01_en.txt/4", "src": "It’s a job only the U.S. Army can handle, sir!\nHe has an army and a fort, too!", "ko": "미 육군만이 감당할 수 있는 일입니다!\n놈에겐 군대와 요새까지 있습니다!", "state": "needs_review"}
+{"id": "pupshow/stgend01_en.txt/5", "src": "Well, thank you soldier.\nMr. Diego is one of my biggest contributors.", "ko": "그래, 고맙네, 병사.\n디에고 씨는 내 가장 큰 후원자 중 하나라네.", "state": "needs_review"}
+{"id": "pupshow/stgend01_en.txt/6", "src": "I’m sure this is all a simple misunderstanding.", "ko": "분명 단순한 오해일 걸세.", "state": "needs_review"}
+{"id": "pupshow/stgend01_en.txt/7", "src": "But Mr. Kelly here,\nhe's going to take good care of you.", "ko": "하지만 여기 켈리 씨가\n자네를 잘 대접해 줄 걸세.", "state": "needs_review"}
+{"id": "pupshow/stgmid01_en.txt/0", "src": "Brimstone is just about mile or so down that away.\nSorry I can’t take you any closer,", "ko": "브림스톤은 저쪽으로 1마일쯤만 가면 돼.\n더 가까이 못 데려다줘서 미안하오만,", "state": "needs_review"}
+{"id": "pupshow/stgmid01_en.txt/1", "src": "but there are some desperate folks\nin need of these supplies.", "ko": "이 보급품을 애타게 기다리는\n사람들이 있어서 말이오.", "state": "needs_review"}
+{"id": "pupshow/stgmid01_en.txt/2", "src": "Much obliged, Mister.  I’ll make sure\nto tell the Governor you helped me.", "ko": "정말 고맙소. 당신이 도와줬다고\n주지사께 꼭 말씀드리리다.", "state": "needs_review"}
+{"id": "pupshow/stgmid01_en.txt/3", "src": "There may even be a reward in it for you.", "ko": "어쩌면 보상도 있을 거요.", "state": "needs_review"}
+{"id": "pupshow/stgmid01_en.txt/4", "src": "If it’s all the same to you, I’d just assume\nGovernor Griffon don’t even know who I am.", "ko": "괜찮다면 그리펀 주지사가\n내가 누군지 모르는 편이 낫겠소.", "state": "needs_review"}
+{"id": "pupshow/stgmid01_en.txt/5", "src": "Good luck to you, soldier.", "ko": "행운을 비오, 병사 양반.", "state": "needs_review"}
+{"id": "pupshow/stgopn01_en.txt/0", "src": "Whoa!", "ko": "워!", "state": "needs_review"}
+{"id": "pupshow/stgopn01_en.txt/1", "src": "Hey there, you going to Brimstone?", "ko": "이보시오, 브림스톤 가시오?", "state": "needs_review"}
+{"id": "pupshow/stgopn01_en.txt/2", "src": "Close enough, I suppose.   The express road\npasses about a mile outside of town.", "ko": "거의 그렇지. 급행 도로가\n시내에서 1마일쯤 떨어진 데를 지나가.", "state": "needs_review"}
+{"id": "pupshow/stgopn01_en.txt/3", "src": "Well, I got to get to the governor so he can call out\nthe troops. There’s trouble heading from down South.", "ko": "주지사를 만나서 군대를 부르게 해야 하오.\n남쪽에서 골칫거리가 올라오고 있소.", "state": "needs_review"}
+{"id": "pupshow/stgopn01_en.txt/4", "src": "Well, climb on back soldier.", "ko": "그럼 뒤에 타시오, 병사 양반.", "state": "needs_review"}
+{"id": "pupshow/tng01_en.txt/0", "src": "My fathers, I have news.", "ko": "아버지들, 소식이 있습니다.", "state": "needs_review"}
+{"id": "pupshow/tng01_en.txt/1", "src": "What is it, Shadow Wolf?", "ko": "무슨 일이냐, 섀도 울프?", "state": "needs_review"}
+{"id": "pupshow/tng01_en.txt/2", "src": "Cousin Red is alive! I saw the devil Diego\ntake him prisoner to the mines.", "ko": "레드 사촌이 살아 있습니다! 악마 같은 디에고가\n그를 광산으로 끌고 가는 걸 봤습니다.", "state": "needs_review"}
+{"id": "pupshow/tng01_en.txt/3", "src": "You must help him then. Go, Shadow Wolf,\nbut beware of the ghost devil.", "ko": "그렇다면 그를 도와야 한다. 가라, 섀도 울프.\n하지만 유령 악마를 조심해라.", "state": "needs_review"}
+{"id": "pupshow/tosher05_en.txt/0", "src": "Fellow such as yourself should know better\nthan to stick his nose where it don't belong.", "ko": "당신 같은 사람이라면 남의 일에\n코를 들이밀면 안 된다는 것쯤은 알 텐데.", "state": "needs_review"}
+{"id": "pupshow/tosher05_en.txt/1", "src": "Tell me about the one-armed man.", "ko": "외팔이 사내에 대해 말해 봐.", "state": "needs_review"}
+{"id": "pupshow/tosher05_en.txt/2", "src": "Hahahaha!  What’s it to you?", "ko": "하하하하! 그게 자네랑 무슨 상관인가?", "state": "needs_review"}
+{"id": "pupshow/tosher05_en.txt/3", "src": "He killed my folks!", "ko": "그놈이 내 가족을 죽였다!", "state": "needs_review"}
+{"id": "pupshow/tosher05_en.txt/4", "src": "Well, I’ll be darned. I heard rumors you\nwere alive but never believed it.", "ko": "이거 놀랍구먼. 자네가 살아 있다는\n소문은 들었지만 믿지는 않았는데.", "state": "needs_review"}
+{"id": "pupshow/tosher05_en.txt/5", "src": "You're Nate Harlow’s son, Red!", "ko": "자네가 네이트 할로의 아들, 레드로군!", "state": "needs_review"}
+{"id": "pupshow/tosher05_en.txt/6", "src": "Tell me what you know about the\ndeath of my family.", "ko": "우리 가족이 어떻게 죽었는지\n아는 대로 말해.", "state": "needs_review"}
+{"id": "pupshow/tosher05_en.txt/7", "src": "You see, it all happened about 12 years ago, when\nthe U.S. cavalry made a little incursion", "ko": "그게 말이지, 한 12년 전 일이야.\n미국 기병대가 국경 남쪽으로", "state": "needs_review"}
+{"id": "pupshow/tosher05_en.txt/8", "src": "south of the border.", "ko": "잠깐 쳐들어간 적이 있었지.", "state": "needs_review"}
+{"id": "pupshow/tosher06_en.txt/0", "src": "Where would I find this Diego?", "ko": "디에고는 어디서 찾을 수 있지?", "state": "needs_review"}
+{"id": "pupshow/tosher06_en.txt/1", "src": "He rides through the territory to deliver gold\nto the Governor once a week.", "ko": "그자는 일주일에 한 번 준주를 가로질러\n주지사에게 금을 갖다 바치지.", "state": "needs_review"}
+{"id": "pupshow/tosher06_en.txt/2", "src": "He rests his horses at Devil’s Fork.", "ko": "데빌스 포크에서 말을 쉬게 하고.", "state": "needs_review"}
+{"id": "pupshow/tosher06_en.txt/3", "src": "It won’t be easy.\nThat wagon is like a fortress on wheels.", "ko": "쉽진 않을 거야.\n그 마차는 바퀴 달린 요새나 다름없으니까.", "state": "needs_review"}
+{"id": "pupshow/tosher06_en.txt/4", "src": "The charges are dropped, if you reckon you can\nbring him in, dead or. . . well dead’ll do.", "ko": "그자를 잡아 올 수 있다면 혐의는 없던 걸로 하지.\n죽었든... 뭐, 죽은 채로도 괜찮아.", "state": "needs_review"}
+{"id": "pupshow/tosher06_en.txt/5", "src": "Much obliged.", "ko": "고맙소.", "state": "needs_review"}

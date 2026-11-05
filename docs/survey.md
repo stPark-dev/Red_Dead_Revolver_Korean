@@ -200,3 +200,10 @@
 - 현상금 사냥꾼 7장 "Katie"/"Slade", 13장 "Ted"/"Tony" 등 체력바 이름이 영어. 출처는 레벨 `lvl_*_var_*.enm`의 `Name` 필드이며 같은 문자열을 스크립트(actb/stateb)가 액터 식별자로 씀 → 값 직접 변경 불가.
 - PoC: swat.strtbl에 키 'Katie'/'Slade' 추가(FRONT·SWAT·SHERNITE 사본 모두 반영 확인) → 화면은 영어 그대로. 체력바는 strtbl 조회를 거치지 않음(키 'Red'/'Scrooge'의 존재는 다른 소비자). PoC 항목은 되돌림.
 - 한글화하려면 체력바 그리기 코드의 이름 인자를 가로채는 실행 파일 훅이 필요 → 범위·투자 결정 대상.
+
+## 동영상(PSS) 자막 모집단 추가 (2026-11-05)
+
+- 자막을 켠 순회(받은 세이브는 소리 설정 → 자막이 '끔'이었음)에서 3장 'How much for the lot?', 14장 'My fathers, I have news.'가 영어로 표시. 출처는 SWAT.DAT의 `<동영상>_en.txt`(PSS/SHER7001.PSS ↔ `sher7001_en.txt`). 형식은 레벨 컷신 자막과 같아 기존 파서로 바이트 왕복 일치(17개 파일).
+- `tools/extract_pupshow.py`: 대상 = `lvl_*_pupshow_*_en.txt` + 디스크에 있는 PSS 이름과 일치하는 `<name>_en.txt`(17개). 키 기반 `lvl_*_subtitles_en.txt`(strtbl로 대체됨)와 짝 없는 파일(testsubtitles, jail01, jailnew01, station, wartrain01, 03_uglystreetfight_open 1, 02_bounty_open01_01, 1)은 제외. 동영상 자막은 SWAT.DAT에만 있어도 reach=game.
+- 기준선 309 → 417큐(+108, 5,133자, 기존 기록 변경 0). 초벌 번역 108줄(15줄은 다른 컷신의 같은 문장 번역 재사용), 폭 제한(600) 초과 1줄 단축. 콜드부트 3장 동영상 자막 6줄 한글 표시·2줄 안에 맞음 확인.
+- 자막을 켠 20개 장 순회: 레벨 컷신 자막 한글 정상(줄바꿈·잘림 없음), 에뮬레이터 예외 0.

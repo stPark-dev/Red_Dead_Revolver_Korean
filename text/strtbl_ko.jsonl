@@ -310,7 +310,7 @@
 {"id": "swat.strtbl/BOOK_MSN", "src": "Stagecoach", "ko": "역마차", "state": "needs_review"}
 {"id": "swat.strtbl/BOOK_MSN2", "src": "Hell Pass", "ko": "헬 패스", "state": "needs_review"}
 {"id": "swat.strtbl/BOOK_MSN2_DESC", "src": "  Hell Pass is a place of natural beauty and wonder, and might be renamed something kinder in more peace- ful times.", "ko": "  헬 패스는 경이로운 자연의 아름다움을 품은 곳이다. 좀 더 평화로운 시절이라면 더 다정한 이름으로 바뀔지도 모른다.", "state": "needs_review"}
-{"id": "swat.strtbl/BOOK_MSN_DESC", "src": "  Some say that wagon drivers were the true heroes of the West.\n  They faced more danger and saved more lives that the bravest of sheriffs.\n  This route was one of the worst.", "ko": "  서부의 진짜 영웅은 마차꾼이었다고 말하는 이들도 있다.\n  그들은 가장 용감한 보안관보다도 많은 위험에 맞서고 많은 목숨을 구했다.\n  그중에서도 이 길은 최악이었다.", "state": "needs_review"}
+{"id": "swat.strtbl/BOOK_MSN_DESC", "src": "  Some say that wagon drivers were the true heroes of the West.\n  They faced more danger and saved more lives that the bravest of sheriffs.\n  This route was one of the worst.", "ko": "  서부의 진짜 영웅은 마차꾼이었다는 말도 있다. 누구보다 많은 위험에 맞서 많은 목숨을 구했으니까.\n  그중에서도 이 길은 최악이었다.", "state": "needs_review"}
 {"id": "swat.strtbl/BOOK_PERFNEW", "src": "Bull's Eye", "ko": "과녁 한가운데", "state": "needs_review"}
 {"id": "swat.strtbl/BOOK_PERFNEW_DESC", "src": "  Young Nate Harlow built a cabin a ways away from Bear Mountain, partly to get some distance from the Red Wolf tribe after some folks weren't happy about him marrying Falling Star.   ", "ko": "  젊은 네이트 할로는 베어 마운틴에서 조금 떨어진 곳에 오두막을 지었다. 그가 폴링 스타와 결혼한 것을 못마땅해한 이들이 있었기에, 붉은 늑대 부족과 거리를 두려는 뜻도 있었다.   ", "state": "needs_review"}
 {"id": "swat.strtbl/BOOK_RANCH", "src": "Range War", "ko": "목장 전쟁", "state": "needs_review"}
@@ -319,7 +319,7 @@
 {"id": "swat.strtbl/BOOK_ROYALE_DESC", "src": "  A contest filled with blood and bullets on the streets of our fair city.\n  It's easy to condemn it, but it's hard not to watch.", "ko": "  우리 아름다운 도시의 거리에서 피와 총알로 가득한 시합이 벌어진다.\n  비난하기는 쉽지만, 안 보기는 어렵다.", "state": "needs_review"}
 {"id": "swat.strtbl/BOOK_SALOON", "src": "The Saloon", "ko": "술집", "state": "needs_review"}
 {"id": "swat.strtbl/BOOK_SALOON_DESC", "src": "saloon description", "ko": "술집 설명", "state": "needs_review"}
-{"id": "swat.strtbl/BOOK_SHER70", "src": "Ugly Streetfight", "ko": "못난이와의 시가전", "state": "needs_review"}
+{"id": "swat.strtbl/BOOK_SHER70", "src": "Ugly Streetfight", "ko": "못난이 시가전", "state": "needs_review"}
 {"id": "swat.strtbl/BOOK_SHER70_DESC", "src": "  This little town has fallen on hard times and is on it's last legs.\n  The only thing keeping the town alive is the O'Gradys.", "ko": "  이 작은 마을은 어려운 시절을 맞아 숨이 넘어가기 직전이다.\n  마을을 지탱하는 것은 오그레이디 부녀뿐이다.", "state": "needs_review"}
 {"id": "swat.strtbl/BOOK_SHERNITE", "src": "Freak Show", "ko": "괴물 쇼", "state": "needs_review"}
 {"id": "swat.strtbl/BOOK_SHERNITE_DESC", "src": "  Once upon a time, Widow's Patch had all the right features.\n  Nowadays, the few honest folk left, lock their doors at night.", "ko": "  한때 위도스 패치는 모든 것을 갖춘 마을이었다.\n  지금은 몇 안 남은 정직한 이들이 밤마다 문을 걸어 잠근다.", "state": "needs_review"}
@@ -1226,7 +1226,7 @@
 {"id": "swat.strtbl/lvl_mans", "src": "Mansion Grounds", "ko": "저택 정원", "state": "needs_review"}
 {"id": "swat.strtbl/lvl_perfnew", "src": "Broken Creek", "ko": "브로큰 크리크", "state": "needs_review"}
 {"id": "swat.strtbl/lvl_ranch", "src": "The Ranch", "ko": "목장", "state": "needs_review"}
-{"id": "swat.strtbl/lvl_sher70", "src": "Ugly\nStreetfight", "ko": "못난이와의\n시가전", "state": "needs_review"}
+{"id": "swat.strtbl/lvl_sher70", "src": "Ugly\nStreetfight", "ko": "못난이\n시가전", "state": "needs_review"}
 {"id": "swat.strtbl/lvl_shernite", "src": "Widow's Patch", "ko": "위도스 패치", "state": "needs_review"}
 {"id": "swat.strtbl/lvlmap_back", "src": "Back to menu", "ko": "메뉴로 돌아가기", "state": "needs_review"}
 {"id": "swat.strtbl/lvlmap_objective", "src": "Target =", "ko": "목표 =", "state": "needs_review"}

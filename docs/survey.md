@@ -218,3 +218,11 @@
   - 에뮬레이터 예외(unaligned/unmapped) 0건.
 - 로딩 화면 그림 추가 도달: 프로필과 설정(gen_02), 멀티플레이 게임 모드(gen_03), 조작법(gen_01), 카드 색깔, 스터드 vs 홀덤이 한글로 표시됨.
 - 남은 것: 2인용 맵은 1번 맵만 RAM으로 변형을 확인했고, 나머지 12개는 화면으로만 확인함(같은 경로). 사람 2명은 미확인.
+
+## 베타 공개 (2026-11-06)
+- **사람 결정 (2026-11-06)**: 검수 전 번역으로 베타를 공개(사용자: "베타로 배포합시다", 배포처 dongolpack). 정식 배포 기준(`distribution_eligible`)은 그대로 둠. 상태 일괄 승격은 하지 않음.
+- 빌드: `--policy beta` 추가 — `needs_review` 이상만 허용, 작업 중 상태 거부, `text/`·`tools/` 미커밋 변경 거부, 매니페스트에 `source_commit`·`distributable: "beta"` 기록.
+- v0.9.0-beta.1: source_commit bca4ccf, 결과 SHA1 `2ea61e20f8d25f22d96d59467904378059d17ccd`(직접 플레이용 play.iso와 같음), zip 8,110,265B, SHA-256 `dc2a06e0275315a56b8f3cd606a36e2b320ce590d461fefc7cbb9238fd07e4e0`.
+- 배포 묶음 검증: zip을 새 폴더에 풀어 CHECKSUMS 통과 → 실제 원본으로 apply.sh, 한글패치_적용.bat(wine: 끌어다 놓기·같은 폴더 자동 찾기) 모두 결과 SHA1 일치. 틀린 원본·ISO 없음·결과 이미 있음은 오류로 멈추고 파일을 남기지 않음.
+- 발견·수정: wine의 cmd는 `for %%F in ("<전체경로>\*.iso")`에서 와일드카드를 펼치지 않음 → `pushd` 후 상대 패턴으로 바꿈(실제 Windows에서도 동작하는 형식). 회귀 테스트는 wine이 있을 때 도는 `test_windows_bat_under_wine`.
+- 남은 확인: 실제 Windows에서 .bat(한글 출력 `chcp 65001`, SmartScreen 경고), PS2 실기.

@@ -16,7 +16,7 @@ PS2 북미판 **Red Dead Revolver (SLUS-20500)** 를 한국어로 옮기는 팬 
 | 번역 검수 | 번역 2,201개(문자열 1,630 · 자막 417 · 레이아웃 143 · 그림 글자 11) 모두 `needs_review`. 배포 빌드(`--policy release`)는 검수를 마친(`distribution_eligible`) 번역만 받도록 되어 있어, 지금은 빌드가 의도대로 중단됨 |
 | 진행을 막는 결함 | 알려진 결함 없음. 21장 크래시(아카이브 이름표 인코딩)는 수정했고, 현상금 사냥꾼 모드 20개 장과 멀티플레이 맵 26종(2인용 13 · 4인용 13)을 모두 로딩·경기 진입까지 확인 (에뮬레이터 예외 0) |
 | 범위 결정 | 영어로 남는 화면 일부(아래 표)는 아직 결정이 필요함 |
-| 배포 형식 | 원본 ISO에 적용하는 패치 파일과 적용 안내가 아직 없음 |
+| 배포 형식 | xdelta 패치 생성·적용 절차와 안내는 준비됨(아래 [패치 적용 방법](#패치-적용-방법)). 배포용 패치는 검수 완료 후 생성 |
 | 실기 확인 | PCSX2에서만 확인. 실제 PS2 확인은 하지 않음 |
 
 ### 진행률 (대략)
@@ -27,8 +27,8 @@ PS2 북미판 **Red Dead Revolver (SLUS-20500)** 를 한국어로 옮기는 팬 
 | 기술 작업 | 약 90% | 문자열·자막·폰트·그림 글자 재삽입, 재현 가능한 빌드, 크래시 수정. 남은 것은 아래 미해결 항목 |
 | 런타임 확인 | 약 60% | 메뉴·설정·책, 1장, 현상금 사냥꾼 20개 장(레벨 진입·HUD·재도전·게임 오버), 자막 표시, 멀티플레이 맵 26종 확인. 스토리 모드 전체 진행은 아직 |
 | 번역 검수 | 약 2% | 검수 시트와 절차 준비 완료 (`docs/review.md`) |
-| 배포 준비 | 약 30% | 배포 빌드 검증 장치는 있음. 패치 파일·안내 없음 |
-| **전체** | **약 67%** | |
+| 배포 준비 | 약 50% | 배포 빌드 검증 장치, xdelta 패치 생성·적용 검증(개발 빌드로 SHA1 일치 확인), 적용 안내 |
+| **전체** | **약 68%** | |
 
 ### 남은 작업
 
@@ -43,8 +43,55 @@ PS2 북미판 **Red Dead Revolver (SLUS-20500)** 를 한국어로 옮기는 팬 
    | "COMPLETED" 도장, "Story Mode", 캐릭터 소개 이름 | 그림 글자 | 그림 교체 |
 
 3. **런타임 확인 마무리** — 스토리 모드 진행 중 컷신 자막, 실기(가능하면)
-4. **배포 형식** — 원본 ISO 기준 패치 파일(xdelta 등)과 적용 안내 작성
+4. **배포 패치** — 검수 완료 후 `--policy release` 빌드로 xdelta 패치를 만들고 결과 SHA1과 함께 공개
 5. 보류 중인 문구 결정: `Sher70_DuelTutorial_2c`
+
+## 패치 적용 방법
+
+> 아직 공개 배포한 패치는 없습니다. 아래는 패치 파일(`.xdelta`)이 공개되면 적용하는 방법과, 이 저장소로 패치를 직접 만드는 방법입니다.
+
+### 1. 원본 ISO 확인
+
+패치는 북미판 **SLUS-20500** ISO 한 가지에만 맞습니다. 적용 전에 SHA1이 아래와 같은지 확인하세요. 다르면 패치가 실패하거나 깨진 이미지가 나옵니다.
+
+```
+7bbe502a1b170f80e378a566ad8ec313dba78361  Red Dead Revolver (USA).iso
+```
+
+```bash
+sha1sum "Red Dead Revolver (USA).iso"                  # Linux
+shasum -a 1 "Red Dead Revolver (USA).iso"              # macOS
+certutil -hashfile "Red Dead Revolver (USA).iso" SHA1  # Windows
+```
+
+### 2. 패치 적용
+
+**Linux / macOS** (`xdelta3`, 예: `sudo apt install xdelta3`, `brew install xdelta`)
+
+```bash
+xdelta3 -d -s "Red Dead Revolver (USA).iso" RedDeadRevolver_KR.xdelta "Red Dead Revolver (Korean).iso"
+```
+
+**Windows**: [xdelta3 실행 파일](https://github.com/jmacd/xdelta-gpl/releases)로 위와 같은 명령을 쓰거나, Delta Patcher 같은 xdelta GUI 도구에서 원본 ISO와 패치 파일을 지정합니다.
+
+원본 ISO는 바뀌지 않고, 한글판 ISO가 새로 만들어집니다(약 2.4GB).
+
+### 3. 결과 확인과 실행
+
+- 패치와 함께 공개하는 결과 SHA1과 같은지 확인하면 적용이 제대로 됐는지 알 수 있습니다.
+- PCSX2 등 에뮬레이터에서 한글판 ISO를 엽니다.
+- 자막은 게임 안 **설정 → 소리 설정 → 자막**을 켜야 보입니다.
+- 기존 세이브(메모리 카드)는 그대로 쓸 수 있습니다.
+
+### 직접 패치 만들기 (개발자용)
+
+```bash
+python3 tools/build_patch.py work/build/kr.iso --policy release   # 검수 완료 번역만으로 빌드
+xdelta3 -e -9 -S djw -s "orig/Red Dead Revolver (USA).iso" work/build/kr.iso work/dist/RedDeadRevolver_KR.xdelta
+xdelta3 -d -s "orig/Red Dead Revolver (USA).iso" work/dist/RedDeadRevolver_KR.xdelta check.iso && sha1sum check.iso   # out_sha1(매니페스트)과 일치해야 함
+```
+
+개발 빌드(`--policy dev`, 검수 전 번역 포함)로 만든 패치는 테스트용이며 배포하지 않습니다.
 
 ## 이 저장소에 없는 것
 

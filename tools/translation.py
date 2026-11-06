@@ -8,6 +8,7 @@ from collections import Counter
 import textcodec
 
 STATES = ('untranslated', 'in_progress', 'needs_review', 'needs_human_review', 'distribution_eligible')
+BETA_STATES = ('needs_review', 'needs_human_review', 'distribution_eligible')  # finished drafts may ship as a beta
 NO_GLYPH = {'…': '...', '–': '-'}  # absent from every game font (dropped by the original)
 
 
@@ -52,10 +53,14 @@ def check(src_by_id, recs):
 
 
 def select(src_by_id, recs, policy):
-    """{id: raw text for the build}. dev: translation if present else source. release: all eligible."""
-    if policy not in ('dev', 'release'): raise ValueError(policy)
+    """{id: raw text for the build}. dev: translation if present else source.
+    beta: like dev, but every translation must be a finished draft (BETA_STATES). release: all eligible."""
+    if policy not in ('dev', 'beta', 'release'): raise ValueError(policy)
     errs = check(src_by_id, recs)
     if errs: raise ValueError('translation check failed:\n' + '\n'.join(errs[:20]))
+    if policy == 'beta':
+        unready = [r['id'] for r in recs if r['state'] not in BETA_STATES and ('ko' in r or 'same_as' in r)]
+        if unready: raise ValueError('%d translations not ready for beta, e.g. %s' % (len(unready), unready[:5]))
     by_id = {r['id']: r for r in recs}
 
     def ko_of(r):

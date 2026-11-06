@@ -83,3 +83,11 @@ def test_merge_refuses_to_overwrite_existing_translation():
         tr.merge(SRC, recs, {'swat.strtbl/b': '둘'}, state='needs_review')
     out = tr.merge(SRC, recs, {'swat.strtbl/b': '둘'}, state='needs_review', replace=True)
     assert {r['id']: r for r in out}['swat.strtbl/b']['ko'] == '둘'
+
+
+def test_select_beta_policy_falls_back_like_dev_but_rejects_unfinished_drafts():
+    recs = [rec('swat.strtbl/a', '{BTN_BD} 이동', state='needs_review')]
+    out = tr.select(SRC, recs, policy='beta')
+    assert out['swat.strtbl/a'] == '½ 이동' and out['swat.strtbl/b'] == 'Hello\nthere'
+    with pytest.raises(ValueError, match='not ready for beta'):
+        tr.select(SRC, [rec('swat.strtbl/a', '{BTN_BD} 이동', state='in_progress')], policy='beta')

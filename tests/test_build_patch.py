@@ -209,3 +209,19 @@ def test_swui_recenter_group_keeps_gaps_and_group_centre():
     out = bp.swui_recenter(text, rule, {'no': '아니요', 'yes': '예'}, widths, 14, english={'no': 'No', 'yes': 'Yes'})
     # English: yes 250..295, no 350..380 -> centre 315, gap 55. Korean 30 + 55 + 90 = 175 -> starts 227.5
     assert out == text.replace('BUTTON:350,', 'BUTTON:313,').replace('BUTTON:250,', 'BUTTON:228,')
+
+
+def test_gfx_plan_beta_rejects_unfinished_image():
+    src = small_ipu()
+    with pytest.raises(SystemExit, match='not ready for beta'):
+        bp.gfx_plan(gfx_spec(src, state='in_progress'), {'a.ipu': [src]}, 'beta')
+
+
+def test_require_clean_rejects_uncommitted_inputs_for_public_builds():
+    bp.require_clean('dev', ' M text/strtbl_ko.jsonl\n')            # dev builds may use a dirty tree
+    bp.require_clean('beta', '?? work/x.png\n M README.md\n')        # only build inputs matter
+    for policy in ('beta', 'release'):
+        with pytest.raises(SystemExit, match='text/strtbl_ko.jsonl'):
+            bp.require_clean(policy, ' M text/strtbl_ko.jsonl\n')
+        with pytest.raises(SystemExit, match='tools/new.py'):
+            bp.require_clean(policy, '?? tools/new.py\n')

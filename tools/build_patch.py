@@ -1,13 +1,13 @@
 """Product build: source ISO + strtbl translations -> patched ISO (+ manifest).
 
-usage: build_patch.py OUT.iso [--policy dev|release] [--tr text/strtbl_ko.jsonl] [--budget BYTES]
+usage: build_patch.py OUT.iso [--policy dev|beta|release] [--tr text/strtbl_ko.jsonl] [--budget BYTES]
 
 Every string table copy gets the selected text; every copy of berrylium/damaged/regulatorcondensed
 gets the Hangul glyphs the selected text needs, on new 4bpp 256x256 pages inserted by name.
 A character with neither a glyph nor a Hangul rendering fails the build (Unmapped), except glyph-less
 characters the original entry already contained (the game drops them, as in the original).
 """
-import sys, os, re, math, json, hashlib, argparse
+import sys, os, re, math, json, hashlib, argparse, subprocess
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from PIL import Image, ImageDraw, ImageFont
 import iso9660, dave, dave_patch, davename, strtbl, fontb, fontgen, translation, textcodec, pupshow, gfxtext
@@ -125,6 +125,8 @@ def gfx_plan(spec, copies, policy):
     for name, img in spec['images'].items():
         if policy == 'release' and img.get('state') != 'distribution_eligible':
             raise SystemExit('graphics text not distribution_eligible: %s' % name)
+        if policy == 'beta' and img.get('state') not in translation.BETA_STATES:
+            raise SystemExit('graphics text not ready for beta: %s' % name)
         names = [name] + list(img.get('aliases', []))
         for n in names:
             if n not in copies: raise ValueError('graphics image not found: %s' % n)
@@ -133,6 +135,16 @@ def gfx_plan(spec, copies, policy):
         data = gfxtext.apply(copies[name][0], img, spec['fonts'], spec['colors'])
         out.update({n: data for n in names})
     return out
+
+
+BUILD_INPUTS = ('text/', 'tools/')
+
+
+def require_clean(policy, porcelain):
+    """Beta and release builds are published, so their inputs must be committed (the manifest names the commit)."""
+    if policy == 'dev': return
+    dirty = [l[3:] for l in porcelain.splitlines() if l[3:].startswith(BUILD_INPUTS)]
+    if dirty: raise SystemExit('%s build needs committed inputs; uncommitted: %s' % (policy, ', '.join(dirty)))
 
 
 def text_width(text, widths, space, tracking=0):
@@ -289,13 +301,16 @@ def patch_archive(raw, texts_by_table, fonts, extra=None, gfx=None):
 
 def main(argv=None):
     ap = argparse.ArgumentParser()
-    ap.add_argument('out'); ap.add_argument('--policy', default='dev', choices=['dev', 'release'])
+    ap.add_argument('out'); ap.add_argument('--policy', default='dev', choices=['dev', 'beta', 'release'])
     ap.add_argument('--tr', default='text/strtbl_ko.jsonl'); ap.add_argument('--budget', type=int, default=DEFAULT_BUDGET)
     ap.add_argument('--pup-tr', default='text/pupshow_ko.jsonl', help='cutscene subtitle translations')
     ap.add_argument('--layout-tr', default='text/layout_ko.json',
                     help='layout literals translated by adding them as new keys to a string table')
     ap.add_argument('--gfx-tr', default=GFX_TR, help='Korean redraw of text baked into IPU images')
     a = ap.parse_args(argv)
+    git = lambda *args: subprocess.run(['git', *args], capture_output=True, text=True, check=True).stdout
+    require_clean(a.policy, git('status', '--porcelain'))
+    commit = git('rev-parse', 'HEAD').strip()
     src_by_id = {r['id']: r for r in translation.load_jsonl(BASELINE)}
     recs = translation.load_jsonl(a.tr) if os.path.exists(a.tr) else []
     selected = translation.select(src_by_id, recs, a.policy)
@@ -315,6 +330,8 @@ def main(argv=None):
             if lit not in refs['literals']: raise SystemExit('not a layout literal: %r' % lit)
             if a.policy == 'release' and ent.get('state') != 'distribution_eligible':
                 raise SystemExit('layout literal not distribution_eligible: %r' % lit)
+            if a.policy == 'beta' and ent.get('state') not in translation.BETA_STATES:
+                raise SystemExit('layout literal not ready for beta: %r' % lit)
             fonts = refs['literals'][lit]['fonts']
             rid = '%s/%s' % (lt['table'], lit)
             if rid in src_by_id: raise SystemExit('layout literal already a key: ' + rid)
@@ -360,8 +377,8 @@ def main(argv=None):
     open(a.out, 'wb').write(img)
     states = {}
     for r in recs: states[r['state']] = states.get(r['state'], 0) + 1
-    manifest = dict(policy=a.policy, distributable=False if a.policy == 'dev' else None,
-                    source_sha1=SRC_SHA1, out_sha1=hashlib.sha1(img).hexdigest(), states=states,
+    manifest = dict(policy=a.policy, distributable={'dev': False, 'beta': 'beta'}.get(a.policy),
+                    source_commit=commit, source_sha1=SRC_SHA1, out_sha1=hashlib.sha1(img).hexdigest(), states=states,
                     translated=sum(1 for r in recs if r.get('ko') is not None or 'same_as' in r),
                     entries=len(src_by_id), subtitles=dict(translated=sum(1 for r in pup_recs if r.get('ko')),
                                                            cues=len(pup_src), width_limit=limit),

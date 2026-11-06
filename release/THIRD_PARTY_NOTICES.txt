@@ -1,0 +1,18 @@
+Noto Serif KR, Noto Sans KR
+---------------------------
+Noto Serif KR: (c) 2017-2024 Adobe (http://www.adobe.com/).
+Noto Sans KR: (c) 2014-2021 Adobe (http://www.adobe.com/).
+Licensed under the SIL Open Font License, Version 1.1.
+The Korean glyphs added to the game fonts and the Korean text redrawn in images were rendered
+from these fonts; the font files themselves are not included.
+License: licenses/Noto-KR-OFL-1.1.txt
+
+
+xdelta3decode 3.2.2 (Windows x86_64)
+------------------------------------
+Copyright (C) Joshua MacDonald.
+This package includes the unmodified xdelta3decode.exe from the official release,
+licensed under the Apache License, Version 2.0.
+Source: https://github.com/jmacd/xdelta/tree/v3.2.2
+Release: https://github.com/jmacd/xdelta/releases/tag/v3.2.2
+License: licenses/xdelta3-Apache-2.0.txt

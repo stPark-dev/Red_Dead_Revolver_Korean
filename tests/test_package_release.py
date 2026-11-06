@@ -78,3 +78,40 @@ def test_zip_holds_package_under_its_name(tmp_path):
     with zipfile.ZipFile(archive) as z:
         assert 'pkg/apply.sh' in z.namelist()
         assert z.getinfo('pkg/apply.sh').external_attr >> 16 & 0o111   # executable bit kept
+
+
+DECODER = os.environ.get('XDELTA3DECODE_EXE', os.path.join(ROOT, '..', 'jojo', 'work', 'tools',
+                                                          'xdelta3-3.2.2-windows-x86_64', 'xdelta3decode.exe'))
+need_wine = pytest.mark.skipif(shutil.which('wine') is None or not os.path.exists(DECODER),
+                               reason='wine or xdelta3decode.exe missing')
+
+
+def run_bat(pkg, *args):
+    env = dict(os.environ, WINEDEBUG='-all')
+    return subprocess.run(['wine', 'cmd', '/c', '한글패치_적용.bat', *args], cwd=pkg, input=b'\n',
+                          capture_output=True, env=env, timeout=300)
+
+
+def winpath(p): return 'Z:' + str(p).replace('/', '\\')
+
+
+@need_xdelta
+@need_wine
+def test_windows_bat_under_wine(tmp_path):
+    src, out, manifest = fixture(tmp_path)
+    pkg = pr.make_package(tmp_path / 'pkg', str(tmp_path / 'src.iso'), str(tmp_path / 'out.iso'), manifest,
+                          version='0.9.0-beta.1', decoder=DECODER, licenses={})
+    result = pkg / 'RedDeadRevolver_KR_v0.9.0-beta.1.iso'
+    run_bat(pkg, winpath(tmp_path / 'src.iso'))                       # ISO dropped on the .bat
+    assert result.read_bytes() == out
+    before = result.stat().st_mtime_ns
+    run_bat(pkg, winpath(tmp_path / 'src.iso'))                       # existing output is never overwritten
+    assert result.stat().st_mtime_ns == before
+    result.unlink()
+    shutil.copy(tmp_path / 'src.iso', pkg / 'Red Dead Revolver (USA).iso')
+    run_bat(pkg)                                                      # double-click with the ISO in the folder
+    assert result.read_bytes() == out
+    result.unlink(); (pkg / 'Red Dead Revolver (USA).iso').unlink()
+    (tmp_path / 'wrong.iso').write_bytes(src[::-1])
+    run_bat(pkg, winpath(tmp_path / 'wrong.iso'))                     # wrong source: no output left behind
+    assert not result.exists()

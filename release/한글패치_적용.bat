@@ -14,7 +14,9 @@ echo.
 if not exist "%DECODER%" goto nozip
 if not exist "%PAYLOAD%" goto nozip
 if defined SRC goto havesrc
-for %%F in ("%HERE%*.iso") do if /i not "%%~nxF"=="{{OUT_NAME}}" set "SRC=%%~fF"
+pushd "%HERE%"
+for %%F in (*.iso) do if /i not "%%~nxF"=="{{OUT_NAME}}" set "SRC=%%~fF"
+popd
 if not defined SRC goto nosrc
 :havesrc
 if not exist "%SRC%" goto nosrc

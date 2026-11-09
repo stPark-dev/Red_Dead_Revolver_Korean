@@ -235,3 +235,4 @@
 - **사람 결정 (2026-11-09)**: 정식판 승격(사용자: "정식판 승격 가야지"). 문자열·자막·레이아웃·그림 글자 전체를 `distribution_eligible`로. 사람의 문장별 검수는 하지 않았고 GPT 검수만 거침.
 - 범위: `lvl_tng.strtbl` 60줄(옛 훈련 프로토타입, 미도달)과 공백뿐인 `swat.strtbl/CLEAR`는 `keep_source`(이유 필수, 원문 유지)로 명시. 빈 원문은 기록 없이 통과. 정식 빌드는 그 밖의 미번역 항목이 하나라도 있으면 멈춤.
 - 매니페스트: release 빌드의 `distributable`이 None으로 기록되던 것을 `true`로 수정.
+- v1.0.0: source_commit 72efc21, 결과 SHA1 `98719f47ee4dcac333f25a42a52f195bbbef0f45`(dev 빌드와 같음), zip 7,994,453B, SHA-256 `4ed79fe409b54fd8d2d5be5caf7c03718b0866b8a46d2e5f6504e8c290fd01b9`. zip을 새 폴더에 풀어 CHECKSUMS 통과 → 실제 원본으로 apply.sh 결과 SHA1 일치. release.iso 헤드리스 부팅 → 메인 메뉴 한글 표시 확인. .bat은 템플릿이 베타와 같아 wine 재확인 생략(테스트 `test_windows_bat_under_wine`는 통과).

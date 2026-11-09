@@ -40,7 +40,7 @@
  "images": {
   "mpload_gen_01.ipu": {
    "aliases": [],
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "src_sha1": "fd49247a7fa4fde497c72aca5bc01062e451e986",
    "q": 2,
    "items": [
@@ -54,7 +54,7 @@
      ],
      "mask": "dark",
      "lines": [
-      "조작법"
+      "조작 안내"
      ],
      "x": 267,
      "align": "c",
@@ -112,7 +112,7 @@
      ],
      "mask": "dark_gray",
      "lines": [
-      "잠입"
+      "은신"
      ],
      "x": 336,
      "align": "c",
@@ -319,7 +319,7 @@
   },
   "mpload_gen_02.ipu": {
    "aliases": [],
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "src_sha1": "7709bb05aff59d1f847fb77e13fb415bdc1514c6",
    "q": 2,
    "items": [
@@ -333,7 +333,7 @@
      ],
      "mask": "dark",
      "lines": [
-      "프로필과 설정"
+      "프로필 및 설정"
      ],
      "x": 265,
      "align": "c",
@@ -395,7 +395,7 @@
      ],
      "mask": "dark",
      "lines": [
-      "간단히"
+      "누르면"
      ],
      "x": 144,
      "align": "r",
@@ -414,7 +414,7 @@
      ],
      "mask": "dark",
      "lines": [
-      "버튼을 눌러 캐릭터 선택 화면의"
+      "캐릭터 선택 화면의 설정 창에서"
      ],
      "x": 168,
      "align": "l",
@@ -433,7 +433,7 @@
      ],
      "mask": "dark",
      "lines": [
-      "설정 창을 열고 플레이어를 고르세요."
+      "플레이어를 선택하세요."
      ],
      "x": 80,
      "align": "l",
@@ -446,7 +446,7 @@
   },
   "mpload_gen_03.ipu": {
    "aliases": [],
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "src_sha1": "511867bd3fd50654fe50b9f14ca9d80c5b26804a",
    "q": 2,
    "items": [
@@ -500,7 +500,7 @@
      ],
      "mask": "dark",
      "lines": [
-      "현상금 한도를 가장 먼저 모으세요."
+      "현상금 목표액을 먼저 모으세요."
      ],
      "x": 119,
      "align": "l",
@@ -597,7 +597,7 @@
     "mpload_stud_01.ipu",
     "mpload_sun_01.ipu"
    ],
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "src_sha1": "d43e385e9ca07897ab5cc42b4aec20d68b2acba7",
    "q": 2,
    "items": [
@@ -712,7 +712,7 @@
      ],
      "mask": "dark",
      "lines": [
-      "(SELECT 버튼으로 카드 확인)."
+      "(SELECT 버튼으로 카드 확인)"
      ],
      "x": 108,
      "align": "l",
@@ -752,7 +752,7 @@
      ],
      "mask": "dark",
      "lines": [
-      "플레이어가 판돈을 가져갑니다."
+      "최고의 패가 판돈을 차지합니다."
      ],
      "x": 108,
      "align": "l",
@@ -788,7 +788,7 @@
     "mpload_stud_02.ipu",
     "mpload_sun_02.ipu"
    ],
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "src_sha1": "558328dcc109ee3abb67fd61a4e9b786d8783b38",
    "q": 2,
    "items": [
@@ -802,7 +802,7 @@
      ],
      "mask": "dark",
      "lines": [
-      "카드 색깔"
+      "카드 색상"
      ],
      "x": 278,
      "align": "c",
@@ -859,7 +859,7 @@
      ],
      "mask": "dark",
      "lines": [
-      "데드아이 증가"
+      "데드아이 강화"
      ],
      "x": 260,
      "align": "l",
@@ -878,7 +878,7 @@
      ],
      "mask": "dark",
      "lines": [
-      "무기 파워업"
+      "무기 강화"
      ],
      "x": 260,
      "align": "l",
@@ -893,7 +893,7 @@
    "aliases": [
     "mpload_noon_01.ipu"
    ],
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "src_sha1": "22fbbbf0f255332173b7c2cc66d8a0a3deefcb02",
    "q": 2,
    "items": [
@@ -947,7 +947,7 @@
      ],
      "mask": "dark_gray",
      "lines": [
-      "• 슬로 모션"
+      "• 취소"
      ],
      "x": 334,
      "align": "l",
@@ -966,7 +966,7 @@
      ],
      "mask": "dark_gray",
      "lines": [
-      "취소"
+      "슬로 모션"
      ],
      "x": 342,
      "align": "l",
@@ -985,7 +985,7 @@
      ],
      "mask": "dark_gray",
      "lines": [
-      "• 상대"
+      "• 선택"
      ],
      "x": 64,
      "align": "l",
@@ -1044,7 +1044,7 @@
    "aliases": [
     "mpload_noon_02.ipu"
    ],
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "src_sha1": "64b1b030ad2c275efc4b43793d367cce40ea87f7",
    "q": 2,
    "items": [
@@ -1195,7 +1195,7 @@
   },
   "mpload_none_01.ipu": {
    "aliases": [],
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "src_sha1": "c3604acd1ce8d5a5b963c571fe4017a423637a22",
    "q": 2,
    "items": [
@@ -1228,7 +1228,7 @@
      ],
      "mask": "dark",
      "lines": [
-      "• 공유하는 것은 없습니다."
+      "• 아무것도 공유하지 않습니다."
      ],
      "x": 86,
      "align": "l",
@@ -1247,7 +1247,7 @@
      ],
      "mask": "dark",
      "lines": [
-      "• 현상금은 모은 사람이 모두 가져갑니다."
+      "• 현상금은 획득한 사람이 차지합니다."
      ],
      "x": 86,
      "align": "l",
@@ -1260,7 +1260,7 @@
   },
   "coolscreen.ipu": {
    "aliases": [],
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "src_sha1": "5c6abb0ea28c6d7dadfd1d81cc63b02fc6e04109",
    "q": 2,
    "items": [
@@ -1287,7 +1287,7 @@
   },
   "gameover.ipu": {
    "aliases": [],
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "src_sha1": "dd04f8b2047393b776d64a71c5eeee0a9941a7a3",
    "q": 2,
    "items": [
@@ -1316,7 +1316,7 @@
   },
   "lvl_core_map.ipu": {
    "aliases": [],
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "src_sha1": "4d3f02ea98b61f77ddc5ef549a0cd5cc4026b7f8",
    "q": 2,
    "items": [

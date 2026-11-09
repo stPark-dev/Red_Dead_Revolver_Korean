@@ -225,3 +225,7 @@ def test_require_clean_rejects_uncommitted_inputs_for_public_builds():
             bp.require_clean(policy, ' M text/strtbl_ko.jsonl\n')
         with pytest.raises(SystemExit, match='tools/new.py'):
             bp.require_clean(policy, '?? tools/new.py\n')
+
+
+def test_manifest_distributable_by_policy():
+    assert [bp.distributable(p) for p in ('dev', 'beta', 'release')] == [False, 'beta', True]

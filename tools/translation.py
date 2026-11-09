@@ -1,7 +1,9 @@
 """Translation records for the strtbl baseline: mechanical checks and product-build selection.
 
-Record: {id, src (copy of the baseline at translation time), ko | same_as, state, note?}.
-'src'/'id' are protected; only ko/same_as/state/note are authored.
+Record: {id, src (copy of the baseline at translation time), ko | same_as | keep_source, state, note?}.
+'src'/'id' are protected; only ko/same_as/keep_source/state/note are authored.
+keep_source: '<reason>' declares that the English stays (out of scope); a release still needs it eligible.
+Empty source strings need no record.
 """
 import json
 from collections import Counter
@@ -41,7 +43,10 @@ def check(src_by_id, recs):
         if seen[rid] > 1: errs.append('%s: duplicate record' % rid)
         if r.get('src') != base['src']: errs.append('%s: source changed since translation' % rid)
         if r.get('state') not in STATES: errs.append('%s: bad state %r' % (rid, r.get('state')))
-        if 'same_as' in r:
+        if 'keep_source' in r:
+            if not r['keep_source'] or 'ko' in r and r['ko'] is not None or 'same_as' in r:
+                errs.append('%s: keep_source needs a reason and no ko/same_as' % rid)
+        elif 'same_as' in r:
             t = by_id.get(r['same_as'])
             if t is None or 'ko' not in t or t['id'] not in src_by_id:
                 errs.append('%s: same_as target %s missing' % (rid, r['same_as']))
@@ -70,7 +75,10 @@ def select(src_by_id, recs, policy):
     for rid, base in src_by_id.items():
         r = by_id.get(rid)
         ko = ko_of(r) if r else None
-        if policy == 'release' and (r is None or r['state'] != 'distribution_eligible' or ko is None):
+        if policy == 'release' and not base['src'] and r is None: ko = base['src']
+        elif policy == 'release' and r is not None and r.get('keep_source') and r['state'] == 'distribution_eligible':
+            ko = base['src']
+        if policy == 'release' and (ko is None or r is not None and r['state'] != 'distribution_eligible'):
             missing.append(rid); continue
         out[rid] = textcodec.from_tokens(ko if ko is not None else base['src'])
     if missing: raise ValueError('%d entries not distribution_eligible, e.g. %s' % (len(missing), missing[:5]))

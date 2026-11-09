@@ -147,6 +147,11 @@ def require_clean(policy, porcelain):
     if dirty: raise SystemExit('%s build needs committed inputs; uncommitted: %s' % (policy, ', '.join(dirty)))
 
 
+def distributable(policy):
+    """Manifest flag: dev builds are never published, beta ones only as a beta."""
+    return {'dev': False, 'beta': 'beta', 'release': True}[policy]
+
+
 def text_width(text, widths, space, tracking=0):
     """Unscaled advance of one line: glyph width + tracking per glyph, the font's space width per space."""
     w = 0
@@ -377,7 +382,7 @@ def main(argv=None):
     open(a.out, 'wb').write(img)
     states = {}
     for r in recs: states[r['state']] = states.get(r['state'], 0) + 1
-    manifest = dict(policy=a.policy, distributable={'dev': False, 'beta': 'beta'}.get(a.policy),
+    manifest = dict(policy=a.policy, distributable=distributable(a.policy),
                     source_commit=commit, source_sha1=SRC_SHA1, out_sha1=hashlib.sha1(img).hexdigest(), states=states,
                     translated=sum(1 for r in recs if r.get('ko') is not None or 'same_as' in r),
                     entries=len(src_by_id), subtitles=dict(translated=sum(1 for r in pup_recs if r.get('ko')),

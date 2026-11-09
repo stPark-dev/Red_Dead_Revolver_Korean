@@ -91,3 +91,21 @@ def test_select_beta_policy_falls_back_like_dev_but_rejects_unfinished_drafts():
     assert out['swat.strtbl/a'] == '½ 이동' and out['swat.strtbl/b'] == 'Hello\nthere'
     with pytest.raises(ValueError, match='not ready for beta'):
         tr.select(SRC, [rec('swat.strtbl/a', '{BTN_BD} 이동', state='in_progress')], policy='beta')
+
+
+def test_release_needs_no_record_for_empty_source():
+    recs = [rec(i, 'x' if i != 'swat.strtbl/a' else '{BTN_BD} x', state='distribution_eligible')
+            for i in SRC if SRC[i]['src']]
+    assert tr.select(SRC, recs, policy='release')['swat.strtbl/e'] == ''
+
+
+def test_release_keeps_source_only_when_declared_with_a_reason():
+    keep = dict(id='lvl_x.strtbl/b', src='Hello\nthere', state='distribution_eligible', keep_source='unreached prototype')
+    recs = [rec('swat.strtbl/a', '{BTN_BD} x', state='distribution_eligible'),
+            rec('swat.strtbl/b', '안녕', state='distribution_eligible'), keep]
+    assert tr.select(SRC, recs, policy='release')['lvl_x.strtbl/b'] == 'Hello\nthere'
+    assert tr.check(SRC, recs) == []
+    with pytest.raises(ValueError):   # a keep_source record still needs the human release decision
+        tr.select(SRC, recs[:2] + [dict(keep, state='needs_review')], policy='release')
+    assert any('keep_source' in e for e in tr.check(SRC, [dict(keep, keep_source='')]))
+    assert any('keep_source' in e for e in tr.check(SRC, [dict(rec('swat.strtbl/b', '안녕'), keep_source='x')]))

@@ -4,575 +4,575 @@
  "entries": {
   "Accept": {
    "ko": "확인",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Back": {
    "ko": "뒤로",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Begin": {
    "ko": "시작",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Brightness": {
    "ko": "밝기",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Cancel": {
    "ko": "취소",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Cheats": {
    "ko": "치트",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Contents": {
    "ko": "목차",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Controls": {
    "ko": "조작",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Enter": {
    "ko": "선택",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Favorite": {
-   "ko": "주 캐릭터",
-   "state": "needs_review"
+   "ko": "선호 캐릭터",
+   "state": "distribution_eligible"
   },
   "Horizontal Position": {
    "ko": "가로 위치",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Leave": {
    "ko": "나가기",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "OK": {
    "ko": "확인",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Picture Options": {
    "ko": "화면 설정",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Player Options": {
    "ko": "플레이어 설정",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "RETRY": {
    "ko": "재도전",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Random": {
    "ko": "무작위",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Select": {
    "ko": "선택",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Sensitivity": {
    "ko": "감도",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Showdown": {
    "ko": "쇼다운",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Sound Options": {
    "ko": "소리 설정",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Teams": {
    "ko": "팀",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Vertical Position": {
    "ko": "세로 위치",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "X-Axis": {
    "ko": "X축",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Y-Axis": {
    "ko": "Y축",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "right analog stick to zoom": {
    "ko": "오른쪽 아날로그 스틱으로 확대",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Chapter 1": {
    "ko": "제1장",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Chapter 10": {
    "ko": "제10장",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Chapter 11": {
    "ko": "제11장",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Chapter 12": {
    "ko": "제12장",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Chapter 13": {
    "ko": "제13장",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Chapter 14": {
    "ko": "제14장",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Chapter 15": {
    "ko": "제15장",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Chapter 16": {
    "ko": "제16장",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Chapter 17": {
    "ko": "제17장",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Chapter 18": {
    "ko": "제18장",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Chapter 19": {
    "ko": "제19장",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Chapter 2": {
    "ko": "제2장",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Chapter 20": {
    "ko": "제20장",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Chapter 21": {
    "ko": "제21장",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Chapter 22": {
    "ko": "제22장",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Chapter 23": {
    "ko": "제23장",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Chapter 24": {
    "ko": "제24장",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Chapter 25": {
    "ko": "제25장",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Chapter 26": {
    "ko": "제26장",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Chapter 27": {
    "ko": "제27장",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Chapter 3": {
    "ko": "제3장",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Chapter 4": {
    "ko": "제4장",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Chapter 5": {
    "ko": "제5장",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Chapter 6": {
    "ko": "제6장",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Chapter 7": {
    "ko": "제7장",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Chapter 8": {
    "ko": "제8장",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Chapter 9": {
    "ko": "제9장",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "1 minute": {
    "ko": "1분",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "10 minutes": {
    "ko": "10분",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "15 minutes": {
    "ko": "15분",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "3 minutes": {
    "ko": "3분",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "5 minutes": {
    "ko": "5분",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Audio Mode": {
    "ko": "오디오 모드",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Big Money": {
-   "ko": "큰돈",
-   "state": "needs_review"
+   "ko": "거액",
+   "state": "distribution_eligible"
   },
   "Bounty Hunter": {
    "ko": "현상금 사냥꾼",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Bounty Limit": {
    "ko": "현상금 한도",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Broken Creek": {
    "ko": "브로큰 크리크",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Coffin Gun": {
    "ko": "관짝 총",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Desert Fortress": {
    "ko": "사막 요새",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Duel Rules": {
    "ko": "결투 규칙",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Dueling": {
    "ko": "결투",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Fairground": {
-   "ko": "축제 마당",
-   "state": "needs_review"
+   "ko": "축제장",
+   "state": "distribution_eligible"
   },
   "Fallen Creek": {
    "ko": "폴른 크리크",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Fight Time": {
    "ko": "대결 시간",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "First Hit": {
    "ko": "첫 명중",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Game Modes": {
    "ko": "게임 모드",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Ghost Town": {
    "ko": "유령 마을",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "High Noon": {
    "ko": "한낮",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Hold": {
    "ko": "누르기",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Hold 'Em": {
    "ko": "홀덤",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Lock Blast": {
    "ko": "락블래스트",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Mansion Grounds": {
    "ko": "저택 정원",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Music Volume": {
    "ko": "음악 음량",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Number of Wins": {
    "ko": "승리 횟수",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Player": {
    "ko": "플레이어",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Power ups": {
    "ko": "파워업",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Restart Level": {
-   "ko": "레벨 다시 시작",
-   "state": "needs_review"
+   "ko": "레벨 재시작",
+   "state": "distribution_eligible"
   },
   "Sfx Volume": {
    "ko": "효과음 음량",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Show AI Info": {
-   "ko": "AI 정보 표시",
-   "state": "needs_review"
+   "ko": "AI 정보 보기",
+   "state": "distribution_eligible"
   },
   "Show Player Position": {
-   "ko": "플레이어 위치 표시",
-   "state": "needs_review"
+   "ko": "플레이어 위치 보기",
+   "state": "distribution_eligible"
   },
   "Showstopper": {
    "ko": "쇼스토퍼",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Stud": {
    "ko": "스터드",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Subtitles": {
    "ko": "자막",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Sundown": {
    "ko": "해 질 녘",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Sunset Canyon": {
    "ko": "선셋 캐니언",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Super Dodge": {
    "ko": "슈퍼 회피",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Surround": {
    "ko": "서라운드",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Target Mode": {
-   "ko": "조준 방식",
-   "state": "needs_review"
+   "ko": "조준 모드",
+   "state": "distribution_eligible"
   },
   "Targeting Style": {
    "ko": "조준 방식",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "The Bridge": {
    "ko": "다리",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "The Coliseum": {
    "ko": "원형 경기장",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "The Mansion": {
    "ko": "저택",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "The Mine": {
    "ko": "광산",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "The Ranch": {
    "ko": "목장",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "To the Death": {
-   "ko": "죽을 때까지",
-   "state": "needs_review"
+   "ko": "목숨 건 대결",
+   "state": "distribution_eligible"
   },
   "Toggle": {
    "ko": "전환",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Twin Rocks": {
    "ko": "트윈 록스",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Wall Pierce": {
    "ko": "벽 관통",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Widescreen": {
    "ko": "와이드스크린",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Widows Patch": {
    "ko": "위도스 패치",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "X-Axis Sensitivity": {
    "ko": "X축 감도",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Y-Axis Sensitivity": {
    "ko": "Y축 감도",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "abandoned settlement": {
    "ko": "버려진 정착지",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "ancient monoliths": {
    "ko": "고대의 거석",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "boyhood home": {
    "ko": "어린 시절의 집",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "contested structure": {
    "ko": "쟁탈 건물",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "desert badlands": {
    "ko": "사막 황무지",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "fertile land": {
    "ko": "비옥한 땅",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "giant fortress": {
    "ko": "거대한 요새",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "lost inheritance": {
    "ko": "잃어버린 유산",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "opulent palace": {
-   "ko": "호화 저택",
-   "state": "needs_review"
+   "ko": "호화 궁전",
+   "state": "distribution_eligible"
   },
   "ruined homestead": {
    "ko": "폐허가 된 농가",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "snow-topped mountain": {
    "ko": "눈 덮인 산",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "tended gardens": {
    "ko": "가꾼 정원",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "terrified town": {
    "ko": "겁에 질린 마을",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "training ground": {
    "ko": "훈련장",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "yes": {
    "ko": "예",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "no": {
    "ko": "아니요",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Player 1 Paused": {
    "ko": "플레이어 1 일시정지",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Player 2 Paused": {
    "ko": "플레이어 2 일시정지",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Player 3 Paused": {
    "ko": "플레이어 3 일시정지",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "Player 4 Paused": {
    "ko": "플레이어 4 일시정지",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "First One to $3000 Wins!": {
    "ko": "$3000 먼저 모으면 승리!",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "First Team to $3000 Wins!": {
    "ko": "$3000 먼저 모은 팀이 승리!",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "First One to $5000 Wins!": {
    "ko": "$5000 먼저 모으면 승리!",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "First Team to $5000 Wins!": {
    "ko": "$5000 먼저 모은 팀이 승리!",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "First One to $10000 Wins!": {
    "ko": "$10000 먼저 모으면 승리!",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "First Team to $10000 Wins!": {
    "ko": "$10000 먼저 모은 팀이 승리!",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "First One to $15000 Wins!": {
    "ko": "$15000 먼저 모으면 승리!",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "First Team to $15000 Wins!": {
    "ko": "$15000 먼저 모은 팀이 승리!",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "First One to $20000 Wins!": {
    "ko": "$20000 먼저 모으면 승리!",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "First Team to $20000 Wins!": {
    "ko": "$20000 먼저 모은 팀이 승리!",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "1 Minute Timed Battle!": {
    "ko": "1분 제한 대결!",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "3 Minute Timed Battle!": {
    "ko": "3분 제한 대결!",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "5 Minute Timed Battle!": {
    "ko": "5분 제한 대결!",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "10 Minute Timed Battle!": {
    "ko": "10분 제한 대결!",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   },
   "15 Minute Timed Battle!": {
    "ko": "15분 제한 대결!",
-   "state": "needs_review"
+   "state": "distribution_eligible"
   }
  }
 }

@@ -97,3 +97,18 @@ def test_english_mismatch_catches_shifted_rows():
 def test_english_mismatch_ignores_tsv_whitespace_escaping():
     # to_tsv turns tabs into spaces and newlines into \n; the check compares the escaped form
     assert ra.english_mismatch([('t/a', 'A\\nB', '가')], {'t/a': 'A\nB'}) == []
+
+
+def test_csv_round_tripped_sheet_is_read_back():
+    # a sheet re-saved by a CSV-aware tool: quoted fields with doubled quotes, or a leading quoted word stripped
+    en_by_id = {'a': 'Book: "Moby Dick"', 'b': '"Sold" Sign', 'c': 'Plain'}
+    rows = [('a', '"Book: ""Moby Dick"""', '"책: ""모비 딕"""'), ('b', 'Sold Sign', '“팔림” 간판'), ('c', 'Plain', '보통')]
+    assert ra.unquote_csv(rows, en_by_id) == [('a', 'Book: "Moby Dick"', '책: "모비 딕"'),
+                                              ('b', '"Sold" Sign', '“팔림” 간판'), ('c', 'Plain', '보통')]
+    assert ra.english_mismatch(ra.unquote_csv(rows, en_by_id), en_by_id) == []
+
+
+def test_csv_unquote_leaves_real_english_edits_to_the_mismatch_check():
+    en_by_id = {'a': 'Book: "Moby Dick"'}
+    rows = [('a', '"Book: ""Moby"""', '책')]
+    assert ra.english_mismatch(ra.unquote_csv(rows, en_by_id), en_by_id) != []

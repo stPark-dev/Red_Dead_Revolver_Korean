@@ -4,11 +4,12 @@ Rows are routed by id: 'pupshow/...' -> text/pupshow_ko.jsonl, 'layout/<literal>
 'gfx/<image>/<item>' -> text/gfx_ko.json, anything else -> text/strtbl_ko.jsonl.
 Only rows whose Korean differs from the current translation are applied; they become needs_review
 (an image becomes needs_review when any of its labels changes). Unchanged rows keep their state.
+A sheet re-saved with CSV quoting is read back (unquote_csv).
 Nothing is written if any row fails: unknown id, edited/shifted English column, token or glyph errors.
 
 usage: review_apply.py SHEET.tsv [SHEET.tsv ...] [--dry-run]
 """
-import sys, os, json, copy, argparse
+import sys, os, json, copy, csv, argparse
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import translation, review_export as rx
 
@@ -24,6 +25,23 @@ def route(rows):
         elif rid.startswith('layout/'): out['layout'][rid[len('layout/'):]] = ko
         elif rid.startswith('gfx/'): out['gfx'][rid[len('gfx/'):]] = ko
         else: out['strtbl'][rid] = ko
+    return out
+
+
+def _csv_cell(s):
+    """What a CSV-aware tool (tab-delimited) reads from a raw sheet cell."""
+    return next(csv.reader([s], delimiter='\t'))[0] if s else s
+
+
+def unquote_csv(rows, en_by_id):
+    """Undo a CSV round trip (GPT/spreadsheet re-save): a row whose English column is not the raw source but
+    reads back to what a CSV reader made of the source gets the source English and its Korean cell CSV-read."""
+    out = []
+    for rid, en, ko in rows:
+        src = rx._esc(en_by_id[rid]) if rid in en_by_id else None
+        if src is not None and en != src and _csv_cell(en) == _csv_cell(src):
+            en, ko = src, rx._unesc(_csv_cell(rx._esc(ko)))   # ko arrives unescaped
+        out.append((rid, en, ko))
     return out
 
 
@@ -83,12 +101,12 @@ def main(argv=None):
     ap = argparse.ArgumentParser(); ap.add_argument('sheets', nargs='+'); ap.add_argument('--dry-run', action='store_true')
     a = ap.parse_args(argv)
     rows = [r for s in a.sheets for r in rx.from_tsv_rows(open(s, encoding='utf-8').read())]
-    by = route(rows)
     srcs = {k: _jsonl_src(k) for k in ('strtbl', 'pupshow')}
     lt = json.load(open(PATHS['layout'], encoding='utf-8')); spec = json.load(open(PATHS['gfx'], encoding='utf-8'))
     en = {rid: r['src'] for k in srcs for rid, r in srcs[k].items()}
     en.update({'layout/' + lit: lit for lit in lt['entries']})
     en.update({'gfx/%s/%d' % (n, i): it['en'] for n, img in spec['images'].items() for i, it in enumerate(img['items'])})
+    rows = unquote_csv(rows, en); by = route(rows)
     errs = english_mismatch(rows, en)
     results = {}
     for k in ('strtbl', 'pupshow'):

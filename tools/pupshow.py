@@ -3,7 +3,12 @@
 UTF-16LE with BOM, CRLF lines of `time<TAB>line1<TAB>line2<TAB>duration`. Fields holding a comma are
 quoted spreadsheet-style; the game strips the quotes (checked in the opening cutscene). Some files end
 with one stray byte, kept as-is. Rendered in berrylium.
+Key-based level files (lvl_*_subtitles_en.txt) put a key line `key<TAB><TAB><TAB>` before the cues of
+one utterance; key lines are kept verbatim and label the cues after them (cue_keys).
 """
+import re
+
+TIME = re.compile(r'\d+:\d+(\.\d+)?$')
 BOM = b'\xff\xfe'
 FONT = 'berrylium'
 
@@ -18,13 +23,28 @@ def parse(b):
     out = []
     for line in lines[:-1]:
         f = line.split('\t')
-        if len(f) == 4 and f[0].strip():
-            out.append(dict(time=f[0], l1=f[1], l2=f[2], dur=f[3]))
-        elif line.strip():
-            raise ValueError('unexpected line %r' % line)
-        else:
+        if len(f) >= 4 and TIME.match(f[0].strip()) and not any(x.strip() for x in f[4:]):
+            out.append(dict(time=f[0], l1=f[1], l2=f[2], dur=f[3], rest=''.join('\t' + x for x in f[4:])))
+        elif _key(line) or not line.strip():
             out.append(line)
+        else:
+            raise ValueError('unexpected line %r' % line)
     return dict(lines=out, tail=tail)
+
+
+def _key(line):
+    """The key of a key line (key, then three empty fields), else None."""
+    f = line.split('\t')
+    return f[0].strip() if len(f) >= 4 and f[0].strip() and not any(x.strip() for x in f[1:]) else None
+
+
+def cue_keys(doc):
+    """Key of each cue (the last key line before it), None in files without key lines."""
+    out, key = [], None
+    for x in doc['lines']:
+        if isinstance(x, dict): out.append(key)
+        else: key = _key(x) or key
+    return out
 
 
 def cues(doc):
@@ -32,7 +52,8 @@ def cues(doc):
 
 
 def build(doc):
-    text = ''.join(('%s\t%s\t%s\t%s' % (x['time'], x['l1'], x['l2'], x['dur']) if isinstance(x, dict) else x)
+    text = ''.join(('%s\t%s\t%s\t%s%s' % (x['time'], x['l1'], x['l2'], x['dur'], x.get('rest', ''))
+                    if isinstance(x, dict) else x)
                    + '\r\n' for x in doc['lines'])
     return BOM + text.encode('utf-16-le') + doc['tail']
 
@@ -80,7 +101,9 @@ def records(files, copies):
     """Baseline records, one per cue, in the strtbl baseline shape (table = file name, key = cue index)."""
     out = []
     for name in sorted(files):
-        for i, c in enumerate(cues(parse(files[name]))):
+        doc = parse(files[name])
+        for i, (c, k) in enumerate(zip(cues(doc), cue_keys(doc))):
             out.append(dict(id='pupshow/%s/%d' % (name, i), table=name, key=str(i), font=FONT, src=display(c),
                             time=c['time'], copies=copies[name], reach='game'))
+            if k is not None: out[-1]['cue_key'] = k
     return out

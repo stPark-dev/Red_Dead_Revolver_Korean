@@ -100,10 +100,13 @@ def pupshow_patch(orig, texts):
     return pupshow.build(pupshow.with_text(doc, new)) if new else orig
 
 
+SUB_WIDTH_CAP = 600  # widest cutscene line seen fully on screen; some lvl_tomb English lines run past the edge
+
+
 def subtitle_width_limit(recs, widths):
-    """Widest display line of the reachable source subtitles: translations may not exceed it."""
-    return max(pupshow.line_width(line, widths, SUB_SPACE)
-               for r in recs if r['reach'] == 'game' for line in textcodec.from_tokens(r['src']).split('\n'))
+    """Widest display line of the reachable source subtitles, at most SUB_WIDTH_CAP: translations may not exceed it."""
+    return min(SUB_WIDTH_CAP, max(pupshow.line_width(line, widths, SUB_SPACE) for r in recs if r['reach'] == 'game'
+                                  for line in textcodec.from_tokens(r['src']).split('\n')))
 
 
 def merge_code_literals(refs, code):

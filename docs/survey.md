@@ -236,3 +236,11 @@
 - 범위: `lvl_tng.strtbl` 60줄(옛 훈련 프로토타입, 미도달)과 공백뿐인 `swat.strtbl/CLEAR`는 `keep_source`(이유 필수, 원문 유지)로 명시. 빈 원문은 기록 없이 통과. 정식 빌드는 그 밖의 미번역 항목이 하나라도 있으면 멈춤.
 - 매니페스트: release 빌드의 `distributable`이 None으로 기록되던 것을 `true`로 수정.
 - v1.0.0: source_commit 72efc21, 결과 SHA1 `98719f47ee4dcac333f25a42a52f195bbbef0f45`(dev 빌드와 같음), zip 7,994,453B, SHA-256 `4ed79fe409b54fd8d2d5be5caf7c03718b0866b8a46d2e5f6504e8c290fd01b9`. zip을 새 폴더에 풀어 CHECKSUMS 통과 → 실제 원본으로 apply.sh 결과 SHA1 일치. release.iso 헤드리스 부팅 → 메인 메뉴 한글 표시 확인. .bat은 템플릿이 베타와 같아 wine 재확인 생략(테스트 `test_windows_bat_under_wine`는 통과).
+
+## 키 기반 레벨 대사 자막 누락 (2026-11-23, 사용자 제보)
+- 제보(ARMSX2): "열차강도부터 사람들의 대화가 영어로 나온다". 사진의 자막 "Then there's the old fairground near Widow's Patch, / Mind you that bunch of no good circus folk hang"은 추출본 어디에도 없음 → 디스크 전수 검색으로 `lvl_tomb_subtitles_en.txt`(TOMB·TOMB2~5·SWAT) 확인.
+- 원인: `lvl_*_subtitles_en.txt`를 "strtbl로 대체됨"으로 일괄 제외했으나, 근거는 튜토리얼 파일(키가 모두 strtbl에 있음) 하나였음. 키별로 보면 barfight·bridge·core·perfnew·traingoodcopy는 키가 전부 strtbl에 있고, tomb(브림스톤 주민 대화 209키)·roydusk(20)·traincar(23, 열차 강도)·train(2)·traincopy(1)는 하나도 없음, traingood는 12키 중 2키 없음.
+- 형식: pupshow와 같은 큐 줄 앞에 키 줄(`key\t\t\t`, 칸 수 4~6)이 붙고, 일부 큐 줄 끝에 빈 칸이 더 있음. `pupshow.parse`가 키 줄을 그대로 보존하고 `cue_keys`로 큐마다 키를 붙임(바이트 왕복 일치).
+- 추출: strtbl에 키가 있는 큐는 제외(`drop_strtbl_keys`). 기준선 417 → 807큐(+390, 27,773자, 기존 417큐 기록 변경 0). AI 초벌 번역 390큐(`needs_review`).
+- 자막 폭: 새 영어 원문 최대 726은 제보 사진 비율로 화면 밖 → 한계를 `SUB_WIDTH_CAP=600`(기존 컷신에서 화면 안 확인)으로 고정. 한국어 전부 600 이내.
+- 확인: dev 빌드에서 모든 사본(TOMB~TOMB5·ROYDUSK6·TRAINCAR·TRAINGOO·TRAIN·SWAT)의 파일이 한국어로 바뀜. berrylium 페이지 7 → 8. 콜드부트 1장 진입·한글 자막·HUD 정상, 에뮬레이터 예외 0. 브림스톤 마을·열차 장은 장 선택에 없어(스토리 진행 중에만 방문) 런타임 화면 확인 못 함.

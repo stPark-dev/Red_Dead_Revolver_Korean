@@ -229,3 +229,11 @@ def test_require_clean_rejects_uncommitted_inputs_for_public_builds():
 
 def test_manifest_distributable_by_policy():
     assert [bp.distributable(p) for p in ('dev', 'beta', 'release')] == [False, 'beta', True]
+
+
+def test_subtitle_width_limit_is_capped_at_the_screen_safe_width():
+    # some townsfolk lines (lvl_tomb) are wider than the screen in English; the cap keeps Korean on screen
+    widths = {ord('A'): 10}
+    recs = [dict(src='A' * 30, reach='game'), dict(src='A' * 99, reach='swat-only')]
+    assert bp.subtitle_width_limit(recs, widths) == 300
+    assert bp.subtitle_width_limit([dict(src='A' * 80, reach='game')], widths) == bp.SUB_WIDTH_CAP == 600

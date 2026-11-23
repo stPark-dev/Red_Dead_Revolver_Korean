@@ -67,3 +67,34 @@ def test_records_from_files():
     assert recs[0] == dict(id='pupshow/lvl_a_pupshow_01_en.txt/0', table='lvl_a_pupshow_01_en.txt', key='0',
                            font='berrylium', src='Darlin!\nPa!', time='00:14.0', copies=['A.DAT'], reach='game')
     assert [r['key'] for r in recs] == ['0', '1', '2']
+
+
+KEYED = ('Sandy_Brim1_02\t\t\t\r\n00:00.2\t"Well, hi"\t there.\t5\r\n00:05.2\tBye.\t\t5\r\n'
+         'Sandy_Brim1_03\t\t\t\r\n00:00.2\tAgain.\t\t5\r\n')
+
+
+def test_key_lines_are_kept_and_label_their_cues():
+    # lvl_*_subtitles_en.txt: a key line (key, three empty fields) precedes the cues of one utterance
+    doc = pupshow.parse(enc(KEYED))
+    assert [pupshow.display(c) for c in pupshow.cues(doc)] == ['Well, hi\nthere.', 'Bye.', 'Again.']
+    assert pupshow.cue_keys(doc) == ['Sandy_Brim1_02', 'Sandy_Brim1_02', 'Sandy_Brim1_03']
+    assert pupshow.build(doc) == enc(KEYED)
+    out = pupshow.build(pupshow.with_text(doc, {2: '또.'})).decode('utf-16')
+    assert out.endswith('Sandy_Brim1_03\t\t\t\r\n00:00.2\t또.\t\t5\r\n')
+    assert pupshow.cue_keys(pupshow.parse(enc(SAMPLE))) == [None, None, None]
+
+
+def test_records_carry_the_cue_key():
+    recs = pupshow.records({'lvl_t_subtitles_en.txt': enc(KEYED)}, copies={'lvl_t_subtitles_en.txt': ['T.DAT']})
+    assert [r.get('cue_key') for r in recs] == ['Sandy_Brim1_02', 'Sandy_Brim1_02', 'Sandy_Brim1_03']
+    assert 'cue_key' not in pupshow.records({'a_en.txt': enc(SAMPLE)}, copies={'a_en.txt': ['A']})[0]
+
+
+def test_trailing_empty_fields_survive_round_trip_and_edits():
+    text = 'K_01\t\t\t\t\r\n00:00.2\tA Charge has been set!\t\t5\t\r\n00:02.0\tFarm\t for sale?\t5\t\t\r\n'
+    doc = pupshow.parse(enc(text))
+    assert pupshow.build(doc) == enc(text)
+    assert [pupshow.display(c) for c in pupshow.cues(doc)] == ['A Charge has been set!', 'Farm\nfor sale?']
+    out = pupshow.build(pupshow.with_text(doc, {0: '폭약 설치!', 1: '농장\n팔아요'})).decode('utf-16')
+    assert out.split('\r\n')[1:3] == ['00:00.2\t폭약 설치!\t\t5\t', '00:02.0\t농장\t팔아요\t5\t\t']
+    assert pupshow.cue_keys(doc) == ['K_01', 'K_01']

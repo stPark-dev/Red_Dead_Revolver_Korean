@@ -1,5 +1,7 @@
 """Extract every cutscene subtitle file into a translation baseline: level cutscenes
-(lvl_*_pupshow_*_en.txt) and FMV movies (PSS/<NAME>.PSS shows '<name>_en.txt' from SWAT.DAT).
+(lvl_*_pupshow_*_en.txt), FMV movies (PSS/<NAME>.PSS shows '<name>_en.txt' from SWAT.DAT) and
+key-based level dialogue (lvl_*_subtitles_en.txt; cues whose key a string table holds are left out,
+the game draws those from the string table).
 
 usage: extract_pupshow.py SOURCE.iso OUT.jsonl
 One record per cue (see pupshow.records); src is the displayed text (quotes stripped, two lines joined
@@ -20,9 +22,15 @@ def movie_names(img):
 
 def is_subtitle(name, movies):
     """Subtitle files the game shows: level cutscenes and '<movie>_en.txt' of an existing movie.
-    Key-based lvl_*_subtitles_en.txt (superseded by the string table) and orphan/test files are not."""
+    Orphan/test files are not."""
     if not name.endswith('_en.txt'): return False
+    if name.startswith('lvl_') and name.endswith('_subtitles_en.txt'): return True
     return '_pupshow_' in name or name[:-len('_en.txt')] in movies
+
+
+def drop_strtbl_keys(recs, strtbl_keys):
+    """Records minus key-based cues whose key a string table holds."""
+    return [r for r in recs if r.get('cue_key') not in strtbl_keys]
 
 
 def reach(name, copies, movies):
@@ -31,7 +39,7 @@ def reach(name, copies, movies):
     return 'game' if any(not c.startswith('SWAT.DAT#') for c in copies) else 'swat-only'
 
 
-def main(iso, out):
+def main(iso, out, strtbl_baseline='text/strtbl_src.jsonl'):
     img = open(iso, 'rb').read()
     if hashlib.sha1(img).hexdigest() != SRC_SHA1: raise SystemExit('source ISO SHA1 mismatch')
     files, copies, movies = {}, {}, movie_names(img)
@@ -45,7 +53,8 @@ def main(iso, out):
             b = dave.entry_data(d, e)
             if files.setdefault(name, b) != b: raise ValueError('copies of %s differ' % name)
             copies.setdefault(name, []).append('%s#%d' % (path, e['idx']))
-    recs = pupshow.records(files, copies)
+    keys = {json.loads(l)['key'] for l in open(strtbl_baseline, encoding='utf-8') if l.strip()}
+    recs = drop_strtbl_keys(pupshow.records(files, copies), keys)
     for r in recs:
         r['src'] = textcodec.to_tokens(r['src'])
         r['reach'] = reach(r['table'], r['copies'], movies)
